@@ -1,0 +1,13 @@
+id: fondo-garanzia-prima-casa
+titolo: Fondo di garanzia per i mutui prima casa
+tipo: diritto
+descrizione: >
+  Lo Stato può garantire una parte del mutuo per l'acquisto della prima casa,
+  rendendolo più facile da ottenere. Per alcune categorie, ad esempio i giovani, la garanzia è maggiore.
+ente: Consap
+livello_territoriale: nazionale
+fonti:
+  - titolo: Consap
+    url: https://www.consap.it
+verificato_il: null
+maturita: bozza

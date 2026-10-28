@@ -1,0 +1,13 @@
+id: imposte-acquisto-casa
+titolo: Imposte sull'acquisto della casa
+tipo: dovere
+descrizione: >
+  Comprando casa paghi imposte diverse se il venditore è un privato o un'impresa
+  (imposta di registro oppure IVA, più ipotecaria e catastale). Di solito le versa il notaio al rogito.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate
+    url: https://www.agenziaentrate.gov.it/portale/
+verificato_il: null
+maturita: bozza

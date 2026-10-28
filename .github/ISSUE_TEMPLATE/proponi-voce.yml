@@ -1,0 +1,25 @@
+name: Proponi una voce o un evento
+description: Un dovere, un diritto o un evento di vita che manca.
+labels: [nuova-voce]
+body:
+  - type: input
+    id: titolo
+    attributes:
+      label: Di cosa si tratta?
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo
+      options: [Dovere, Diritto, Evento di vita]
+    validations:
+      required: true
+  - type: textarea
+    id: quando
+    attributes:
+      label: A chi si applica e quando?
+  - type: input
+    id: fonte
+    attributes:
+      label: Fonte ufficiale

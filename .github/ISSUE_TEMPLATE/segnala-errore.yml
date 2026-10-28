@@ -1,0 +1,22 @@
+name: Segnala un errore
+description: Un'informazione è sbagliata, superata o la fonte non dice quello che scriviamo.
+labels: [errore-contenuto]
+body:
+  - type: input
+    id: voce
+    attributes:
+      label: Quale voce?
+      description: Il titolo che vedi sul sito, o l'id se lo conosci.
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Cosa non va
+    validations:
+      required: true
+  - type: input
+    id: fonte
+    attributes:
+      label: Fonte ufficiale che lo dimostra
+      description: Link a un ente pubblico, Normattiva o Gazzetta Ufficiale.

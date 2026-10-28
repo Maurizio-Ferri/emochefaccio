@@ -1,0 +1,153 @@
+/* E mo' che faccio? — palette "modulo pubblico": carta fredda, inchiostro, timbro rosso per i doveri, verde per i diritti */
+:root {
+  --carta: #f6f7f9;
+  --foglio: #ffffff;
+  --inchiostro: #17202b;
+  --tenue: #566170;
+  --linea: #d6dce4;
+  --dovere: #9e2b25;
+  --dovere-fondo: #fbefee;
+  --diritto: #1f6e4a;
+  --diritto-fondo: #ecf6f0;
+  --accento: #234e8c;
+  --avviso-fondo: #fff6dd;
+  --avviso-bordo: #c9a227;
+  color-scheme: light;
+
+  --testo: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --base: 1.0625rem;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --carta: #12161c;
+    --foglio: #1a2028;
+    --inchiostro: #e6eaf0;
+    --tenue: #a3adba;
+    --linea: #2f3845;
+    --dovere: #f08a82;
+    --dovere-fondo: #2b1918;
+    --diritto: #7fd1a6;
+    --diritto-fondo: #15271e;
+    --accento: #8fb4ec;
+    --avviso-fondo: #2b2512;
+    --avviso-bordo: #9c7f22;
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+  margin: 0;
+  background: var(--carta);
+  color: var(--inchiostro);
+  font-family: var(--testo);
+  font-size: var(--base);
+  line-height: 1.55;
+}
+
+a { color: var(--accento); text-underline-offset: 0.15em; }
+:focus-visible { outline: 3px solid var(--accento); outline-offset: 2px; border-radius: 2px; }
+
+.testata, main, .piede { max-width: 70rem; margin: 0 auto; padding: 0 1.25rem; }
+
+.testata { padding-top: 2.5rem; }
+.testata h1 { font-size: clamp(2rem, 6vw, 3.25rem); line-height: 1.05; margin: 0; letter-spacing: -0.01em; }
+.sottotitolo { color: var(--tenue); margin: 0.5rem 0 1.5rem; max-width: 36rem; }
+
+.schede { display: flex; gap: 0.25rem; border-bottom: 2px solid var(--linea); }
+.schede a {
+  padding: 0.6rem 1rem; text-decoration: none; color: var(--tenue); font-weight: 700;
+  border-bottom: 3px solid transparent; margin-bottom: -2px;
+}
+.schede a[aria-current] { color: var(--inchiostro); border-bottom-color: var(--inchiostro); }
+
+main { padding-top: 2rem; padding-bottom: 3rem; outline: none; }
+h2 { font-size: 1.5rem; margin: 0 0 1rem; }
+h3 { font-size: 1.2rem; margin: 0 0 0.25rem; }
+.spiegazione, .aiuto { color: var(--tenue); margin: 0 0 1rem; }
+.aiuto { font-size: 0.95rem; }
+
+/* questionario + risultati affiancati su schermi larghi */
+.due-colonne { display: grid; gap: 2.5rem; }
+@media (min-width: 52rem) {
+  .due-colonne { grid-template-columns: minmax(18rem, 24rem) 1fr; align-items: start; }
+  .questionario { position: sticky; top: calc(1rem + env(safe-area-inset-top, 0px)); }
+}
+
+fieldset { border: 0; padding: 0; margin: 0 0 1.25rem; }
+legend { font-weight: 700; padding: 0; margin-bottom: 0.4rem; }
+.luogo { padding-bottom: 1.25rem; border-bottom: 1px solid var(--linea); }
+.campo { display: grid; gap: 0.25rem; margin-bottom: 0.75rem; }
+.campo label { font-size: 0.95rem; color: var(--tenue); }
+select {
+  font: inherit; color: inherit; background: var(--foglio);
+  border: 1px solid var(--linea); border-radius: 6px; padding: 0.5rem 0.6rem; max-width: 100%;
+}
+.opzioni { display: flex; gap: 0.5rem; }
+.opzione {
+  display: inline-flex; align-items: center; gap: 0.4rem; cursor: pointer;
+  border: 1px solid var(--linea); background: var(--foglio); border-radius: 6px; padding: 0.35rem 0.9rem;
+}
+.opzione:has(input:checked) { border-color: var(--inchiostro); box-shadow: inset 0 0 0 1px var(--inchiostro); }
+
+/* gruppi Devi / Puoi */
+.gruppo { margin-bottom: 2.25rem; }
+.gruppo > h3 { font-size: 1.35rem; }
+.doveri > h3 { color: var(--dovere); }
+.diritti > h3 { color: var(--diritto); }
+
+.voci { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+.voce {
+  background: var(--foglio); border: 1px solid var(--linea); border-left: 5px solid var(--linea);
+  padding: 1rem 1.1rem; border-radius: 0 6px 6px 0;
+}
+.voce.dovere { border-left-color: var(--dovere); }
+.voce.diritto { border-left-color: var(--diritto); }
+.voce.fatta { opacity: 0.6; }
+.voce.fatta .titolo-voce { text-decoration: line-through; }
+
+.riga-titolo { display: flex; gap: 0.6rem; align-items: flex-start; }
+.riga-titolo input { width: 1.2rem; height: 1.2rem; margin-top: 0.2rem; flex: none; accent-color: var(--inchiostro); }
+.titolo-voce { font-weight: 700; font-size: 1.08rem; cursor: pointer; }
+.descrizione { margin: 0.4rem 0 0.6rem; max-width: 42rem; }
+
+.nota-locale { margin: 0 0 0.6rem; padding: 0.5rem 0.75rem; background: var(--diritto-fondo); border-radius: 4px; }
+.voce.dovere .nota-locale { background: var(--dovere-fondo); }
+.avviso { margin: 0 0 0.6rem; padding: 0.5rem 0.75rem; background: var(--avviso-fondo); border-left: 3px solid var(--avviso-bordo); }
+
+.meta { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; color: var(--tenue); font-size: 0.92rem; margin: 0 0 0.4rem; }
+.maturita { border: 1px solid currentColor; border-radius: 999px; padding: 0 0.6rem; }
+.maturita.completa { color: var(--diritto); }
+
+.fonti { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; font-size: 0.95rem; }
+
+/* eventi */
+.categoria { margin-bottom: 1.5rem; }
+.categoria ul { padding-left: 1.1rem; margin: 0.25rem 0 0; }
+.categoria li { margin-bottom: 0.3rem; }
+.categoria a { font-weight: 700; }
+.evento { max-width: 48rem; }
+.fasi { list-style: none; padding: 0; margin: 1.5rem 0 0; counter-reset: fase; }
+.fase { position: relative; padding-left: 2.5rem; padding-bottom: 1.75rem; border-left: 2px solid var(--linea); margin-left: 0.9rem; }
+.fase::before {
+  counter-increment: fase; content: counter(fase);
+  position: absolute; left: -0.95rem; top: 0; width: 1.8rem; height: 1.8rem; border-radius: 50%;
+  display: grid; place-items: center; font-weight: 700; background: var(--inchiostro); color: var(--carta);
+}
+@media (max-width: 40rem) {
+  .fase { padding-left: 1.4rem; margin-left: 0.9rem; }
+  .voce { padding: 0.85rem 0.9rem; }
+}
+.fase:last-child { border-left-color: transparent; }
+.fase > h3 { margin-bottom: 0.75rem; }
+
+.piede { border-top: 1px solid var(--linea); padding-top: 1.5rem; padding-bottom: 2.5rem; color: var(--tenue); font-size: 0.92rem; }
+.piede p { max-width: 46rem; }
+.collegamento { font: inherit; color: var(--accento); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

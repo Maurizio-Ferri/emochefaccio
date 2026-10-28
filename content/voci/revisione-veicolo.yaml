@@ -1,0 +1,14 @@
+id: revisione-veicolo
+titolo: Revisione periodica del veicolo
+tipo: dovere
+descrizione: >
+  Auto e moto devono passare la revisione a intervalli fissati dalla legge.
+  Puoi controllare la data dell'ultima revisione sul Portale dell'Automobilista.
+ente: Motorizzazione civile
+livello_territoriale: nazionale
+quando: [possiede_veicolo]
+fonti:
+  - titolo: Portale dell'Automobilista
+    url: https://www.ilportaledellautomobilista.it
+verificato_il: null
+maturita: bozza

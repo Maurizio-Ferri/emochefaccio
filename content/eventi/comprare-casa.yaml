@@ -1,0 +1,15 @@
+id: comprare-casa
+titolo: Comprare casa
+categoria: casa
+descrizione: Cosa sapere prima del rogito, cosa si paga e cosa fare una volta entrati.
+fasi:
+  prima:
+    - agevolazioni-prima-casa
+    - fondo-garanzia-prima-casa
+  durante:
+    - imposte-acquisto-casa
+  dopo:
+    - residenza-anagrafica
+    - tributo-rifiuti
+    - imu-abitazione-principale
+    - detrazione-interessi-mutuo

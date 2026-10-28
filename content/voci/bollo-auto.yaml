@@ -1,0 +1,14 @@
+id: bollo-auto
+titolo: Bollo auto e moto
+tipo: dovere
+descrizione: >
+  Chi ha un veicolo intestato paga ogni anno la tassa automobilistica alla propria Regione,
+  anche se il veicolo non circola. Scadenze ed esenzioni dipendono dalla Regione.
+ente: Regione di residenza
+livello_territoriale: regionale
+quando: [possiede_veicolo]
+fonti:
+  - titolo: ACI
+    url: https://www.aci.it
+verificato_il: null
+maturita: bozza

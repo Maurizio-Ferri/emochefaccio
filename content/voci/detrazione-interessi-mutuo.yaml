@@ -1,0 +1,14 @@
+id: detrazione-interessi-mutuo
+titolo: Detrazione degli interessi del mutuo
+tipo: diritto
+descrizione: >
+  Gli interessi pagati sul mutuo per l'acquisto dell'abitazione principale
+  si possono detrarre in dichiarazione dei redditi, entro certi limiti.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+quando: [proprietario_abitazione, ha_mutuo]
+fonti:
+  - titolo: Agenzia delle Entrate
+    url: https://www.agenziaentrate.gov.it/portale/
+verificato_il: null
+maturita: bozza

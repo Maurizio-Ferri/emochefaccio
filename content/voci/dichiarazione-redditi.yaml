@@ -1,0 +1,15 @@
+id: dichiarazione-redditi
+titolo: Dichiarazione dei redditi precompilata (730)
+tipo: diritto
+descrizione: >
+  Se hai solo il reddito da lavoro dipendente spesso non sei obbligato a presentarla,
+  ma farlo ti permette di recuperare le spese detraibili. In alcuni casi è obbligatoria:
+  verifica sulla fonte.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+quando: [lavoratore_dipendente]
+fonti:
+  - titolo: Agenzia delle Entrate
+    url: https://www.agenziaentrate.gov.it/portale/
+verificato_il: null
+maturita: bozza

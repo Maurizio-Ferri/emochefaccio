@@ -1,0 +1,14 @@
+id: residenza-anagrafica
+titolo: Trasferire la residenza
+tipo: dovere
+descrizione: >
+  Se vai a vivere stabilmente in un'altra casa devi dichiarare il cambio di residenza
+  al Comune. Alcune agevolazioni, come quelle per la prima casa, possono richiederlo entro un termine.
+ente: Comune (anagrafe)
+livello_territoriale: comunale
+quando: [occupa_immobile]
+fonti:
+  - titolo: ANPR – Anagrafe nazionale
+    url: https://www.anagrafenazionale.interno.it
+verificato_il: null
+maturita: bozza

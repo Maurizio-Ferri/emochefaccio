@@ -1,0 +1,14 @@
+id: imu-abitazione-principale
+titolo: Esenzione IMU per l'abitazione principale
+tipo: diritto
+descrizione: >
+  Sulla casa in cui hai residenza e dimora abituale di norma non paghi l'IMU,
+  salvo le abitazioni di lusso. Sulle altre case di proprietà l'IMU è dovuta al Comune.
+ente: Comune
+livello_territoriale: comunale
+quando: [proprietario_abitazione]
+fonti:
+  - titolo: MEF – Dipartimento delle Finanze
+    url: https://www.finanze.gov.it
+verificato_il: null
+maturita: bozza

@@ -1,0 +1,14 @@
+id: spese-detraibili
+titolo: Conservare le spese detraibili
+tipo: diritto
+descrizione: >
+  Alcune spese (sanitarie, di istruzione, per l'affitto e altre) riducono le tasse
+  da pagare. Spesso devono essere pagate con mezzi tracciabili: conserva ricevute e documenti.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+quando: [lavoratore_dipendente]
+fonti:
+  - titolo: Agenzia delle Entrate
+    url: https://www.agenziaentrate.gov.it/portale/
+verificato_il: null
+maturita: bozza

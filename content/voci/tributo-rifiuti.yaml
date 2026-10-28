@@ -1,0 +1,15 @@
+id: tributo-rifiuti
+titolo: Dichiarare la casa per la tassa sui rifiuti
+tipo: dovere
+descrizione: >
+  Quando inizi a occupare un immobile devi dichiararlo e pagare il prelievo sui rifiuti.
+  A seconda del comune è la TARI (al Comune) o una tariffa corrispettiva (al gestore).
+  Esistono riduzioni previste dai regolamenti comunali.
+ente: Comune o gestore del servizio rifiuti
+livello_territoriale: comunale
+quando: [occupa_immobile]
+fonti:
+  - titolo: MEF – Dipartimento delle Finanze
+    url: https://www.finanze.gov.it
+verificato_il: null
+maturita: bozza

@@ -1,0 +1,13 @@
+id: agevolazioni-prima-casa
+titolo: Agevolazioni "prima casa"
+tipo: diritto
+descrizione: >
+  Se hai i requisiti, all'acquisto della prima casa paghi imposte ridotte.
+  I requisiti riguardano te, l'immobile e la residenza: verificali prima del rogito.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate
+    url: https://www.agenziaentrate.gov.it/portale/
+verificato_il: null
+maturita: bozza

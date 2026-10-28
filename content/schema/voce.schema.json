@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "voce.schema.json",
+  "title": "Voce: un singolo dovere o diritto",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "titolo", "tipo", "descrizione", "ente", "livello_territoriale", "fonti", "maturita"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "titolo": { "type": "string", "minLength": 3, "maxLength": 90 },
+    "tipo": { "enum": ["dovere", "diritto"] },
+    "descrizione": { "type": "string", "minLength": 10, "description": "1-2 frasi in linguaggio semplice. Al livello 1 niente importi, soglie o percentuali." },
+    "dettagli": { "type": "string", "description": "Solo livello 2: passi e spiegazione completa." },
+    "ente": { "type": "string" },
+    "livello_territoriale": { "enum": ["nazionale", "regionale", "comunale"] },
+    "quando": {
+      "type": "array",
+      "description": "Flag del profilo che devono essere tutti veri perché la voce compaia in 'La mia situazione'. Se assente, la voce compare solo dentro gli eventi.",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "fonti": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/fonte" }
+    },
+    "verificato_il": { "type": ["string", "null"], "format": "date" },
+    "maturita": { "enum": ["bozza", "verificata", "completa"] }
+  },
+  "if": { "properties": { "maturita": { "enum": ["verificata", "completa"] } } },
+  "then": { "required": ["verificato_il"], "properties": { "verificato_il": { "type": "string" } } },
+  "definitions": {
+    "fonte": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["titolo", "url"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" }
+      }
+    }
+  }
+}

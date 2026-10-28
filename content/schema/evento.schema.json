@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "evento.schema.json",
+  "title": "Evento di vita",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "titolo", "categoria", "descrizione", "fasi"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "titolo": { "type": "string" },
+    "categoria": { "enum": ["lavoro", "casa", "famiglia", "mobilita", "patrimonio", "previdenza", "salute", "cittadinanza", "fisco", "lutto"] },
+    "descrizione": { "type": "string" },
+    "fasi": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "prima": { "$ref": "#/definitions/elenco" },
+        "durante": { "$ref": "#/definitions/elenco" },
+        "dopo": { "$ref": "#/definitions/elenco" }
+      }
+    }
+  },
+  "definitions": {
+    "elenco": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string" } }
+  }
+}

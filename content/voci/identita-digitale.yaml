@@ -1,0 +1,16 @@
+id: identita-digitale
+titolo: Identità digitale (SPID o CIE)
+tipo: diritto
+descrizione: >
+  Con SPID o con la Carta d'Identità Elettronica accedi ai servizi online
+  di Agenzia delle Entrate, INPS, Comune e App IO senza andare allo sportello.
+ente: Dipartimento per la trasformazione digitale / Ministero dell'Interno
+livello_territoriale: nazionale
+quando: []
+fonti:
+  - titolo: SPID
+    url: https://www.spid.gov.it
+  - titolo: Carta d'Identità Elettronica
+    url: https://www.cartaidentita.interno.it
+verificato_il: null
+maturita: bozza

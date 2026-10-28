@@ -1,0 +1,14 @@
+livello: comune
+id: reggio-emilia
+nome: Reggio Emilia
+regione: emilia-romagna
+override:
+  - voce: tributo-rifiuti
+    ente: Iren (gestore del servizio)
+    nota_locale: >
+      Qui non si paga la TARI ma la tariffa corrispettiva puntuale,
+      fatturata direttamente dal gestore e calcolata anche sui conferimenti di indifferenziato.
+    fonti:
+      - titolo: Comune di Reggio Emilia
+        url: https://www.comune.re.it
+    verificato_il: null

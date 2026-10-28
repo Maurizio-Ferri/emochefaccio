@@ -1,0 +1,125 @@
+// Legge i contenuti YAML, li valida e genera src/generated/catalogo.json.
+// Uso: node scripts/build-content.mjs [--check]
+//   --check  valida soltanto, senza scrivere il catalogo (usato in CI sulle PR)
+
+import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { join, basename, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import yaml from "js-yaml";
+import Ajv from "ajv";
+import addFormats from "ajv-formats";
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const content = join(root, "content");
+const soloControllo = process.argv.includes("--check");
+
+const ajv = new Ajv({ allErrors: true });
+addFormats(ajv);
+for (const f of readdirSync(join(content, "schema"))) {
+  ajv.addSchema(JSON.parse(readFileSync(join(content, "schema", f), "utf8")));
+}
+
+const errori = [];
+const errore = (file, msg) => errori.push(`${file}: ${msg}`);
+
+function leggi(file) {
+  try {
+    // JSON_SCHEMA evita conversioni implicite di YAML (date, "no" → false, ecc.)
+    return yaml.load(readFileSync(file, "utf8"), { schema: yaml.JSON_SCHEMA });
+  } catch (e) {
+    errore(file, `YAML non valido: ${e.message}`);
+    return null;
+  }
+}
+
+function caricaCartella(cartella, schemaId) {
+  const dir = join(content, cartella);
+  if (!existsSync(dir)) return [];
+  const valida = ajv.getSchema(schemaId);
+  return readdirSync(dir)
+    .filter((f) => f.endsWith(".yaml"))
+    .sort()
+    .map((f) => {
+      const file = join(cartella, f);
+      const dato = leggi(join(dir, f));
+      if (!dato) return null;
+      if (!valida(dato)) {
+        for (const e of valida.errors) errore(file, `${e.instancePath || "/"} ${e.message}`);
+        return null;
+      }
+      if (dato.id !== basename(f, ".yaml")) errore(file, `l'id "${dato.id}" deve coincidere con il nome del file`);
+      return dato;
+    })
+    .filter(Boolean);
+}
+
+// --- caricamento e validazione con JSON Schema ---
+const profilo = leggi(join(content, "profilo.yaml"));
+const validaProfilo = ajv.getSchema("profilo.schema.json");
+if (profilo && !validaProfilo(profilo)) {
+  for (const e of validaProfilo.errors) errore("profilo.yaml", `${e.instancePath || "/"} ${e.message}`);
+}
+const voci = caricaCartella("voci", "voce.schema.json");
+const eventi = caricaCartella("eventi", "evento.schema.json");
+const regioni = caricaCartella("locale/regioni", "override.schema.json");
+const comuni = caricaCartella("locale/comuni", "override.schema.json");
+
+// --- controlli incrociati ---
+const idVoci = new Set(voci.map((v) => v.id));
+const flag = new Set((profilo?.domande ?? []).map((d) => d.id));
+const idRegioni = new Set((profilo?.regioni ?? []).map((r) => r.id));
+
+for (const d of profilo?.domande ?? []) {
+  for (const f of d.mostra_se ?? []) {
+    if (!flag.has(f)) errore("profilo.yaml", `la domanda "${d.id}" dipende dal flag sconosciuto "${f}"`);
+  }
+}
+for (const v of voci) {
+  for (const f of v.quando ?? []) {
+    if (!flag.has(f)) errore(`voci/${v.id}.yaml`, `flag sconosciuto in "quando": "${f}"`);
+  }
+}
+for (const e of eventi) {
+  for (const [fase, elenco] of Object.entries(e.fasi)) {
+    for (const id of elenco) {
+      if (!idVoci.has(id)) errore(`eventi/${e.id}.yaml`, `fase "${fase}": voce inesistente "${id}"`);
+    }
+  }
+}
+for (const r of regioni) {
+  if (r.livello !== "regione") errore(`locale/regioni/${r.id}.yaml`, `livello deve essere "regione"`);
+  if (!idRegioni.has(r.id)) errore(`locale/regioni/${r.id}.yaml`, `regione non presente in profilo.yaml`);
+}
+for (const c of comuni) {
+  if (c.livello !== "comune") errore(`locale/comuni/${c.id}.yaml`, `livello deve essere "comune"`);
+  if (!idRegioni.has(c.regione)) errore(`locale/comuni/${c.id}.yaml`, `regione sconosciuta "${c.regione}"`);
+}
+for (const o of [...regioni, ...comuni]) {
+  for (const ov of o.override) {
+    if (!idVoci.has(ov.voce)) errore(`locale/${o.id}`, `override di una voce inesistente "${ov.voce}"`);
+  }
+}
+
+if (errori.length) {
+  console.error(`\n✗ ${errori.length} errori nei contenuti:\n`);
+  for (const e of errori) console.error("  - " + e);
+  process.exit(1);
+}
+
+const catalogo = {
+  generato_il: new Date().toISOString(),
+  domande: profilo.domande,
+  regioni: profilo.regioni,
+  voci,
+  eventi,
+  locale: { regioni, comuni },
+};
+
+const conteggio = `${voci.length} voci, ${eventi.length} eventi, ${regioni.length} regioni e ${comuni.length} comuni con override`;
+if (soloControllo) {
+  console.log(`✓ Contenuti validi: ${conteggio}`);
+} else {
+  mkdirSync(join(root, "src", "generated"), { recursive: true });
+  writeFileSync(join(root, "src", "generated", "catalogo.json"), JSON.stringify(catalogo, null, 2));
+  console.log(`✓ Catalogo generato: ${conteggio}`);
+}

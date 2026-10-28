@@ -1,0 +1,41 @@
+# Domande della modalità "La mia situazione".
+# Ogni id è un flag usato nel campo `quando` delle voci.
+domande:
+  - id: lavoratore_dipendente
+    testo: Lavori come dipendente?
+  - id: possiede_veicolo
+    testo: Hai un'auto o una moto intestata a te?
+  - id: occupa_immobile
+    testo: Vivi in una casa tua, in affitto o di proprietà?
+    aiuto: Rispondi no se vivi ancora con i tuoi genitori.
+  - id: in_affitto
+    testo: Sei in affitto?
+    mostra_se: [occupa_immobile]
+  - id: proprietario_abitazione
+    testo: La casa in cui vivi è di tua proprietà?
+    mostra_se: [occupa_immobile]
+  - id: ha_mutuo
+    testo: Stai pagando un mutuo per quella casa?
+    mostra_se: [proprietario_abitazione]
+
+regioni:
+  - { id: abruzzo, nome: Abruzzo }
+  - { id: basilicata, nome: Basilicata }
+  - { id: calabria, nome: Calabria }
+  - { id: campania, nome: Campania }
+  - { id: emilia-romagna, nome: Emilia-Romagna }
+  - { id: friuli-venezia-giulia, nome: Friuli-Venezia Giulia }
+  - { id: lazio, nome: Lazio }
+  - { id: liguria, nome: Liguria }
+  - { id: lombardia, nome: Lombardia }
+  - { id: marche, nome: Marche }
+  - { id: molise, nome: Molise }
+  - { id: piemonte, nome: Piemonte }
+  - { id: puglia, nome: Puglia }
+  - { id: sardegna, nome: Sardegna }
+  - { id: sicilia, nome: Sicilia }
+  - { id: toscana, nome: Toscana }
+  - { id: trentino-alto-adige, nome: Trentino-Alto Adige }
+  - { id: umbria, nome: Umbria }
+  - { id: valle-d-aosta, nome: Valle d'Aosta }
+  - { id: veneto, nome: Veneto }

@@ -1,0 +1,11 @@
+livello: regione
+id: emilia-romagna
+nome: Emilia-Romagna
+override:
+  - voce: bollo-auto
+    ente: Regione Emilia-Romagna
+    nota_locale: Il bollo è gestito direttamente dalla Regione, che ne indica scadenze, esenzioni e modalità di pagamento.
+    fonti:
+      - titolo: Regione Emilia-Romagna
+        url: https://www.regione.emilia-romagna.it
+    verificato_il: null

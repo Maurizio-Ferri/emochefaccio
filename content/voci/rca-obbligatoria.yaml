@@ -1,0 +1,14 @@
+id: rca-obbligatoria
+titolo: Assicurazione RCA obbligatoria
+tipo: dovere
+descrizione: >
+  Un veicolo che circola o è parcheggiato su strada pubblica deve essere assicurato.
+  Si stipula con una compagnia, ma l'obbligo è di legge e senza copertura scattano sanzioni.
+ente: Obbligo di legge (vigilanza IVASS)
+livello_territoriale: nazionale
+quando: [possiede_veicolo]
+fonti:
+  - titolo: IVASS
+    url: https://www.ivass.it
+verificato_il: null
+maturita: bozza
