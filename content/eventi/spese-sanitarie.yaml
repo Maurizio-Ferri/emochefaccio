@@ -1,0 +1,8 @@
+id: spese-sanitarie
+titolo: Spese mediche in dichiarazione
+categoria: salute
+descrizione: Quali spese sanitarie conservare per pagare meno tasse.
+fasi:
+  dopo:
+    - spese-detraibili
+    - dichiarazione-redditi

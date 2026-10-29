@@ -1,0 +1,19 @@
+id: invalidita-civile
+titolo: Riconoscimento dell'invalidità civile e della disabilità
+tipo: diritto
+descrizione: >
+  Per il riconoscimento dell'invalidità civile o della disabilità (legge 104) il medico invia online
+  all'INPS il certificato introduttivo; poi presenti la domanda, anche tramite patronato, e fai la visita.
+  Nelle province dove si sperimenta la riforma basta il certificato del medico; dal 2027 la nuova
+  procedura vale in tutta Italia.
+ente: INPS
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – Domanda di invalidità civile e accertamento sanitario
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.domanda-invalidita-civile-e-accertamento-sanitario-50004.accertamento-sanitario.html
+  - titolo: INPS – Certificato medico introduttivo
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.certificato-medico-introduttivo---invalidit--civile.html
+  - titolo: INPS – Terza fase sperimentale della riforma della disabilità
+    url: https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.avviata-la-terza-fase-sperimentale-della-riforma-della-disabilit.html
+verificato_il: null
+maturita: bozza

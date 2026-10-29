@@ -1,0 +1,14 @@
+id: assegno-mantenimento-fisco
+titolo: Assegno di mantenimento e tasse
+tipo: diritto
+descrizione: >
+  Dopo una separazione o un divorzio, l'assegno periodico che versi all'ex coniuge si deduce dal reddito,
+  nella misura fissata dal giudice o dall'accordo. Per chi lo riceve è reddito da dichiarare.
+  La parte destinata ai figli non si deduce e non è reddito; le somme una tantum non si deducono.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Altre spese (precompilata)
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/web/guest/semplificata-mod-altre-spese
+verificato_il: null
+maturita: bozza

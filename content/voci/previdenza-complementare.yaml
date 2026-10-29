@@ -1,0 +1,14 @@
+id: previdenza-complementare
+titolo: Fondo pensione e deduzione dei contributi
+tipo: diritto
+descrizione: >
+  Oltre al TFR puoi versare contributi tuoi a un fondo pensione, anche per i familiari a carico:
+  li deduci dal reddito entro un limite annuo, che dal 2026 è più alto. I contributi che non hai dedotto
+  vanno comunicati al fondo entro un termine, altrimenti saranno tassati quando li riceverai.
+ente: COVIP / Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Normattiva – D.Lgs. 252/2005, art. 8
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252~art8
+verificato_il: null
+maturita: bozza

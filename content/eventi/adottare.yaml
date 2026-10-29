@@ -1,0 +1,10 @@
+id: adottare
+titolo: Adottare un figlio
+categoria: famiglia
+descrizione: Da dove si parte e cosa ti spetta quando il bambino arriva in famiglia.
+fasi:
+  prima:
+    - adozione
+  dopo:
+    - congedi-genitoriali
+    - assegno-unico

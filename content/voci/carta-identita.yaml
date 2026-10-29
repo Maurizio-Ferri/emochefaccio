@@ -1,0 +1,19 @@
+id: carta-identita
+titolo: Rinnovare la carta d'identità
+tipo: dovere
+descrizione: >
+  La carta d'identità elettronica si chiede al Comune, prenotando anche online con l'Agenda CIE, e si può
+  rinnovare già prima della scadenza. Dal 3 agosto 2026 la vecchia carta di carta non vale più per
+  andare all'estero e in Italia vale solo per alcuni usi e per poco tempo ancora: conviene sostituirla.
+  Per chi l'ha chiesta da anziano la nuova carta può non scadere più.
+ente: Comune (rilascio) / Ministero dell'Interno
+livello_territoriale: nazionale
+fonti:
+  - titolo: Ministero dell'Interno – CIE, rilascio e rinnovo in Italia
+    url: https://www.cartaidentita.interno.gov.it/richiedi/rilascio-e-rinnovo-in-italia/
+  - titolo: Gazzetta Ufficiale – D.L. 108/2026 (efficacia del documento di identità)
+    url: https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.dataPubblicazioneGazzetta=2026-06-26&atto.codiceRedazionale=26G00133&tipoSerie=serie_generale&tipoVigenza=originario
+  - titolo: Ministero dell'Interno – Circolare DAIT n. 60/2026
+    url: https://dait.interno.gov.it/documenti/circ-dait-060-servdemo-24-07-2026.pdf
+verificato_il: null
+maturita: bozza

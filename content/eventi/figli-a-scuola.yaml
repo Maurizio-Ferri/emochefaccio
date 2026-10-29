@@ -1,0 +1,9 @@
+id: figli-a-scuola
+titolo: Figli a scuola
+categoria: famiglia
+descrizione: Come e quando iscriverli e quali spese puoi detrarre.
+fasi:
+  durante:
+    - iscrizione-scuola
+  dopo:
+    - detrazioni-spese-istruzione

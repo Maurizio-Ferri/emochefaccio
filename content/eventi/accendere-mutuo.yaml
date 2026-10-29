@@ -1,0 +1,9 @@
+id: accendere-mutuo
+titolo: Accendere un mutuo per la casa
+categoria: casa
+descrizione: Gli aiuti pubblici per ottenere il mutuo e cosa puoi detrarre dopo.
+fasi:
+  prima:
+    - fondo-garanzia-prima-casa
+  dopo:
+    - detrazione-interessi-mutuo

@@ -1,0 +1,17 @@
+id: passaporto
+titolo: Richiedere o rinnovare il passaporto
+tipo: dovere
+descrizione: >
+  Il passaporto si chiede alla Questura, prenotando online con SPID o CIE; in alcuni piccoli Comuni
+  si può fare la domanda all'ufficio postale. Ha una validità limitata, più breve per i minori.
+  Per il passaporto di un figlio minorenne serve l'assenso di entrambi i genitori o, in mancanza,
+  del giudice tutelare.
+ente: Polizia di Stato (Questura)
+livello_territoriale: nazionale
+fonti:
+  - titolo: Polizia di Stato – Il rilascio del passaporto
+    url: https://www.poliziadistato.it/articolo/10301
+  - titolo: Polizia di Stato – Passaporto per i minori ed espatrio
+    url: https://www.poliziadistato.it/articolo/passaporto-per-i-minori-e-espatrio
+verificato_il: null
+maturita: bozza

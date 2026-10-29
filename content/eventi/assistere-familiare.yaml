@@ -1,0 +1,8 @@
+id: assistere-familiare
+titolo: Assistere un familiare con disabilità
+categoria: famiglia
+descrizione: Permessi e congedi per chi lavora e si prende cura di un familiare.
+fasi:
+  durante:
+    - permessi-legge-104
+    - isee

@@ -1,0 +1,10 @@
+id: votare
+titolo: Votare
+categoria: cittadinanza
+descrizione: Cosa ti serve per votare, anche se vivi lontano da casa, e come lavorare al seggio.
+fasi:
+  prima:
+    - tessera-elettorale
+    - voto-fuori-sede
+  dopo:
+    - albo-scrutatori

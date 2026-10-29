@@ -1,0 +1,19 @@
+id: adozione
+titolo: Dare la disponibilità all'adozione
+tipo: diritto
+descrizione: >
+  Per adottare un bambino si presenta la dichiarazione di disponibilità al Tribunale per i minorenni.
+  L'adozione nazionale è riservata alle coppie sposate. Per quella internazionale, aperta anche alle
+  persone single, dopo l'idoneità bisogna affidarsi a un ente autorizzato dalla Commissione per le
+  adozioni internazionali. I genitori adottivi hanno gli stessi congedi dei genitori biologici.
+ente: Tribunale per i minorenni / Commissione per le adozioni internazionali
+livello_territoriale: nazionale
+fonti:
+  - titolo: Ministero della Giustizia – Adozione nazionale
+    url: https://www.giustizia.it/giustizia/page/it/adozione_nazionale
+  - titolo: Ministero della Giustizia – Adozione internazionale
+    url: https://www.giustizia.it/giustizia/page/it/adozione_internazionale
+  - titolo: Commissione per le adozioni internazionali – Per adottare
+    url: https://www.commissioneadozioni.it/per-una-famiglia-adottiva/per-adottare/
+verificato_il: null
+maturita: bozza

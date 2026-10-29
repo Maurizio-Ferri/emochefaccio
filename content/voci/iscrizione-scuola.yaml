@@ -1,0 +1,17 @@
+id: iscrizione-scuola
+titolo: Iscrivere i figli a scuola
+tipo: dovere
+descrizione: >
+  L'istruzione è obbligatoria e ne rispondono i genitori. Per la prima classe di primaria e di secondaria
+  di primo e secondo grado nelle scuole statali l'iscrizione si fa online su Unica, con SPID o CIE,
+  nel periodo fissato ogni anno dal Ministero. Per la scuola dell'infanzia si fa domanda alla segreteria
+  della scuola. Alle classi successive si passa senza nuova iscrizione.
+ente: Ministero dell'Istruzione e del Merito
+livello_territoriale: nazionale
+fonti:
+  - titolo: Unica (Ministero dell'Istruzione e del Merito) – Iscrizioni on line
+    url: https://unica.istruzione.gov.it/it/orientamento/iscrizioni
+  - titolo: Ministero dell'Istruzione e del Merito – Sistema educativo di istruzione e formazione
+    url: https://www.mim.gov.it/sistema-educativo-di-istruzione-e-formazione
+verificato_il: null
+maturita: bozza

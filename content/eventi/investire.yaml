@@ -1,0 +1,10 @@
+id: investire
+titolo: Investire i risparmi
+categoria: patrimonio
+descrizione: Chi paga le tasse sui guadagni e cosa dichiarare se investi all'estero o in cripto.
+fasi:
+  prima:
+    - regime-amministrato
+  dopo:
+    - quadro-rw
+    - cripto-attivita

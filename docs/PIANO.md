@@ -319,34 +319,34 @@ Tempo disponibile: **~4 ore a settimana**, budget zero.
 
 ### Fase 0 — Fondamenta (settimane 1-2)
 
-- [ ] Repo GitHub pubblico, licenze, README con scopo, perimetro, criterio d'ingresso e disclaimer
-- [ ] Scelta del framework e scaffold
-- [ ] Deploy automatico su GitHub Pages
+- [x] Repo GitHub pubblico, licenze, README con scopo, perimetro, criterio d'ingresso e disclaimer
+- [x] Scelta del framework e scaffold (Vite + TypeScript, senza framework UI)
+- [ ] Deploy automatico su GitHub Pages (workflow presente, pubblicazione da verificare)
 
 **Fatto quando**: un push su `main` pubblica il sito.
 
 ### Fase 1 — Modello dati (settimane 3-4)
 
-- [ ] Schema per profilo, eventi (con fasi), voci, override locali e maturità
-- [ ] JSON Schema + validazione in CI
-- [ ] Prova sul campo con l'evento "comprare casa"
+- [x] Schema per profilo, eventi (con fasi), voci, override locali e maturità
+- [x] JSON Schema + validazione in CI
+- [x] Prova sul campo con l'evento "comprare casa"
 
 **Fatto quando**: "comprare casa" passa la validazione senza forzature nello schema.
 
 ### Fase 2 — Motore e interfaccia (settimane 5-7)
 
-- [ ] Questionario generato dai dati, non scritto a mano
-- [ ] Motore che valuta le condizioni e applica gli override
-- [ ] Pagina risultati "devi / puoi" con fonti ed etichette di maturità
-- [ ] Modalità "La mia situazione" e "Sto per…"
-- [ ] Salvataggio in localStorage e "cancella i miei dati"
-- [ ] Test unitari del motore
+- [x] Questionario generato dai dati, non scritto a mano
+- [x] Motore che valuta le condizioni e applica gli override
+- [x] Pagina risultati "devi / puoi" con fonti ed etichette di maturità
+- [x] Modalità "La mia situazione" e "Sto per…"
+- [x] Salvataggio in localStorage e "cancella i miei dati"
+- [x] Test unitari del motore
 
 **Fatto quando**: l'evento di prova produce l'elenco atteso, per un comune mappato e per uno non mappato.
 
 ### Fase 3 — Catalogo (settimane 8-16)
 
-- [ ] 20-25 eventi e il profilo ricorrente al livello 1
+- [x] 20-25 eventi e il profilo ricorrente al livello 1 (tutte le voci ancora in `bozza`, da verificare)
 - [ ] 3 eventi al livello 2
 - [ ] Override per Emilia-Romagna e comuni di prova
 - [ ] Flusso di lavoro: bozza YAML preparata con l'AI → verifica della fonte → `verificata`
@@ -358,7 +358,7 @@ Tempo disponibile: **~4 ore a settimana**, budget zero.
 - [ ] Export `.ics`
 - [ ] PWA installabile e offline
 - [ ] Controllo da mobile e accessibilità di base
-- [ ] Template issue: "segnala un errore", "proponi una voce"
+- [x] Template issue: "segnala un errore", "proponi una voce"
 
 **Fatto quando**: una persona esterna lo usa da telefono e importa le scadenze senza aiuto.
 
@@ -398,7 +398,7 @@ Tempo disponibile: **~4 ore a settimana**, budget zero.
 
 ## 14. Decisioni aperte
 
-- [ ] Framework front-end
+- [x] Framework front-end: Vite + TypeScript senza framework UI
 - [x] Nome: "E mo' che faccio?" (repo `emochefaccio`)
 - [ ] Dominio proprio (per ora `maurizio-ferri.github.io/emochefaccio`)
 - [ ] Conferma dei tre eventi di livello 2

@@ -1,0 +1,9 @@
+id: andare-in-pensione
+titolo: Andare in pensione
+categoria: previdenza
+descrizione: Cosa controllare prima e come fare domanda.
+fasi:
+  prima:
+    - estratto-conto-contributivo
+  durante:
+    - domanda-pensione

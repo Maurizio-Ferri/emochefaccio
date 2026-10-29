@@ -1,0 +1,8 @@
+id: rinnovare-documenti
+titolo: Rinnovare carta d'identità o passaporto
+categoria: cittadinanza
+descrizione: Dove chiederli, quando rinnovarli e cosa cambia per la vecchia carta d'identità cartacea.
+fasi:
+  durante:
+    - carta-identita
+    - passaporto

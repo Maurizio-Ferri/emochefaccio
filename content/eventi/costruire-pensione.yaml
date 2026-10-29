@@ -1,0 +1,9 @@
+id: costruire-pensione
+titolo: Pensare alla pensione
+categoria: previdenza
+descrizione: Come controllare i contributi e cosa puoi fare per avere una pensione più alta.
+fasi:
+  durante:
+    - estratto-conto-contributivo
+    - previdenza-complementare
+    - riscatto-laurea

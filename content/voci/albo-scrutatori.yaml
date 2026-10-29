@@ -1,0 +1,18 @@
+id: albo-scrutatori
+titolo: Iscriversi all'albo degli scrutatori e dei presidenti di seggio
+tipo: diritto
+descrizione: >
+  Se voti nel tuo Comune puoi chiedere di entrare nell'albo degli scrutatori, e con il diploma anche
+  in quello dei presidenti di seggio, entro le date fissate ogni anno in autunno. Chi lavora al seggio
+  riceve un compenso e può assentarsi dal lavoro per tutta la durata delle operazioni.
+ente: Comune / Corte d'appello
+livello_territoriale: nazionale
+fonti:
+  - titolo: Normattiva – Legge 95/1989, art. 3 (albo degli scrutatori)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1989-03-08;95~art3
+  - titolo: Normattiva – Legge 53/1990, art. 1 (albo dei presidenti di seggio)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-03-21;53~art1
+  - titolo: Normattiva – Legge 53/1990, art. 11 (assenza dal lavoro)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-03-21;53~art11
+verificato_il: null
+maturita: bozza

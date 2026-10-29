@@ -1,0 +1,19 @@
+id: esenzione-ticket
+titolo: Esenzione dal ticket sanitario
+tipo: diritto
+descrizione: >
+  Puoi non pagare il ticket per reddito, per una malattia cronica, invalidante o rara, o per invalidità.
+  Per patologia o invalidità l'attestato lo rilascia la ASL. Per reddito il medico verifica il diritto
+  negli elenchi del Sistema Tessera Sanitaria e lo indica sulla ricetta; se non risulti, chiedi alla ASL.
+  Come funziona nel dettaglio dipende dalla Regione.
+ente: ASL / Sistema Tessera Sanitaria
+livello_territoriale: regionale
+fonti:
+  - titolo: Sistema Tessera Sanitaria – Esenzioni da reddito
+    url: https://sistemats1.sanita.finanze.it/portale/esenzioni-da-reddito-cittadini
+  - titolo: Normattiva – DM 329/1999 (esenzioni per malattie croniche e invalidanti)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.sanita:decreto:1999-05-28;329
+  - titolo: Gazzetta Ufficiale – DPCM 12 gennaio 2017 (Livelli essenziali di assistenza)
+    url: https://www.gazzettaufficiale.it/eli/id/2017/03/18/17A02015/sg
+verificato_il: null
+maturita: bozza

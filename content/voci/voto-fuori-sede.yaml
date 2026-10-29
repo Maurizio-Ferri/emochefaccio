@@ -1,0 +1,14 @@
+id: voto-fuori-sede
+titolo: Votare fuori sede
+tipo: diritto
+descrizione: >
+  Se per studio, lavoro o cure vivi per un periodo in un'altra Regione, puoi votare lì alle elezioni
+  politiche, europee e ai referendum nazionali, non alle amministrative e regionali. Fai domanda
+  al Comune dove sei domiciliato, anche online, entro la scadenza fissata; l'iscrizione vale un anno.
+ente: Comune di domicilio / Ministero dell'Interno
+livello_territoriale: nazionale
+fonti:
+  - titolo: Ministero dell'Interno – Circolare DAIT n. 65 del 15 ottobre 2026 (voto fuori sede)
+    url: https://dait.interno.gov.it/elezioni/circolari/circolare-dait-n65-del-15-ottobre-2026
+verificato_il: null
+maturita: bozza

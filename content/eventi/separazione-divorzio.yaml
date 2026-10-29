@@ -1,0 +1,8 @@
+id: separazione-divorzio
+titolo: Separazione o divorzio
+categoria: famiglia
+descrizione: Cosa cambia per tasse e residenza quando una coppia si separa.
+fasi:
+  dopo:
+    - assegno-mantenimento-fisco
+    - residenza-anagrafica

@@ -1,0 +1,9 @@
+id: rientrare-italia
+titolo: Rientrare in Italia
+categoria: mobilita
+descrizione: Le agevolazioni per chi torna a vivere e lavorare in Italia e cosa aggiornare.
+fasi:
+  durante:
+    - residenza-anagrafica
+  dopo:
+    - regime-impatriati

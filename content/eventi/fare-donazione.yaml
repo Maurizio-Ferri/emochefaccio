@@ -1,0 +1,7 @@
+id: fare-donazione
+titolo: Fare o ricevere una donazione
+categoria: patrimonio
+descrizione: Come si fa una donazione e quali imposte paga chi riceve.
+fasi:
+  durante:
+    - imposta-donazioni

@@ -1,0 +1,16 @@
+id: tessera-elettorale
+titolo: Tessera elettorale
+tipo: diritto
+descrizione: >
+  Per votare ti serve la tessera elettorale. Se gli spazi sono finiti, se è rovinata o se l'hai persa
+  chiedi al Comune una nuova tessera o un duplicato: l'ufficio elettorale resta aperto anche nei giorni
+  delle elezioni. Una versione digitale è prevista dalla legge ma non è ancora disponibile.
+ente: Comune (ufficio elettorale)
+livello_territoriale: nazionale
+fonti:
+  - titolo: Gazzetta Ufficiale – DPR 299/2000, art. 4 (aggiornamento e sostituzione della tessera)
+    url: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=1&art.flagTipoArticolo=0&art.codiceRedazionale=000G0349&art.idArticolo=4&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2000-10-24&art.progressivo=0
+  - titolo: Gazzetta Ufficiale – D.L. 19/2026 (art. 6, tessera elettorale digitale)
+    url: https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.dataPubblicazioneGazzetta=2026-02-19&atto.codiceRedazionale=26G00039&tipoSerie=serie_generale&tipoVigenza=originario
+verificato_il: null
+maturita: bozza

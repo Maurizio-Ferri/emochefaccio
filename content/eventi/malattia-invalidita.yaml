@@ -1,0 +1,10 @@
+id: malattia-invalidita
+titolo: Una malattia cronica o un'invalidità
+categoria: salute
+descrizione: Come farla riconoscere, quali esenzioni chiedere e quali permessi hanno i familiari.
+fasi:
+  durante:
+    - invalidita-civile
+    - esenzione-ticket
+  dopo:
+    - permessi-legge-104

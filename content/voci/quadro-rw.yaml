@@ -1,0 +1,17 @@
+id: quadro-rw
+titolo: Conti, investimenti e case all'estero in dichiarazione
+tipo: dovere
+descrizione: >
+  Se hai conti, investimenti, immobili o cripto-attività all'estero devi indicarli nel quadro RW
+  della dichiarazione dei redditi, anche se li hai chiusi durante l'anno, e pagare le imposte
+  sul loro valore (IVIE e IVAFE). Se ometti il quadro rischi sanzioni. Ci sono esoneri, ad esempio
+  per i conti esteri con saldi bassi.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Quadro RW, investimenti e attività finanziarie all'estero
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-rw
+  - titolo: Normattiva – D.L. 167/1990, art. 4 (monitoraggio fiscale)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:1990-06-28;167~art4
+verificato_il: null
+maturita: bozza

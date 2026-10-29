@@ -1,0 +1,18 @@
+id: domanda-pensione
+titolo: Chiedere la pensione
+tipo: dovere
+descrizione: >
+  La pensione non arriva da sola: quando hai i requisiti devi fare domanda all'INPS, online, al contact
+  center o tramite patronato. Ci sono diversi tipi, come vecchiaia e anticipata. Se sei dipendente
+  devi aver cessato il rapporto di lavoro. I requisiti cambiano nel tempo: verificali sulla fonte.
+ente: INPS
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – Domanda di pensione
+    url: https://www.inps.it/it/it/previdenza/domanda-di-pensione.html
+  - titolo: INPS – Pensione di vecchiaia
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-vecchiaia.html
+  - titolo: INPS – Pensione anticipata
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-anticipata-50308.pensione-anticipata.html
+verificato_il: null
+maturita: bozza

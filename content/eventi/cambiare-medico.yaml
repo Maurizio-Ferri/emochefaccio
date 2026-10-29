@@ -1,0 +1,9 @@
+id: cambiare-medico
+titolo: Scegliere o cambiare il medico di base
+categoria: salute
+descrizione: Come scegliere il medico o il pediatra e dove trovare i tuoi documenti sanitari.
+fasi:
+  durante:
+    - scelta-medico
+  dopo:
+    - fascicolo-sanitario-elettronico

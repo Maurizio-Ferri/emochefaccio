@@ -1,0 +1,16 @@
+id: detrazioni-spese-istruzione
+titolo: Detrarre le spese per scuola e università
+tipo: diritto
+descrizione: >
+  Le spese per frequentare la scuola, dall'infanzia alle superiori, e l'università si possono detrarre
+  nella dichiarazione dei redditi, entro dei limiti, anche per i figli a carico. Vanno pagate con mezzi
+  tracciabili, come bonifico o carta, altrimenti la detrazione non spetta.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Spese per istruzione e sport (precompilata)
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-istruzione-e-sport
+  - titolo: Agenzia delle Entrate – Dati utilizzati per la dichiarazione precompilata
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/web/guest/oneri-e-spese1
+verificato_il: null
+maturita: bozza
