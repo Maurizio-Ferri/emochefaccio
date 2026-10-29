@@ -2,11 +2,12 @@ id: tfr-fine-rapporto
 titolo: TFR alla fine del rapporto di lavoro
 tipo: diritto
 descrizione: >
-  Quando il rapporto di lavoro finisce il datore deve pagarti il TFR. Se è fallito o non può pagare,
-  puoi chiedere l'intervento del Fondo di garanzia dell'INPS, con una domanda online.
+  Quando il rapporto di lavoro finisce il datore deve pagarti il TFR. Se è fallito, o se hai provato
+  senza successo a farti pagare per vie legali, puoi chiedere l'intervento del Fondo di garanzia
+  dell'INPS, con una domanda online.
 passi:
   - Nell'ultima busta paga, o nel prospetto di liquidazione, controlla quanto TFR ti spetta e quante tasse ti hanno trattenuto.
-  - "Se il TFR andava a un fondo pensione, quella parte non te la paga il datore: resta nel fondo, dove puoi lasciarla o trasferirla."
+  - "Se il TFR andava a un fondo pensione, quella parte non te la paga il datore: resta nel fondo, dove puoi lasciarla, trasferirla o, in alcuni casi, riscattarla."
   - Se il datore non paga, chiedilo per iscritto e fatti aiutare da un sindacato, un patronato o l'Ispettorato del lavoro.
   - Se il datore è fallito o in una procedura simile, chiedi l'intervento del Fondo di garanzia dell'INPS con la domanda online, da solo, tramite patronato o tramite avvocato.
   - "Non lasciar passare troppo tempo: anche il diritto al TFR si prescrive."
@@ -15,5 +16,10 @@ livello_territoriale: nazionale
 fonti:
   - titolo: INPS – Fondo di garanzia del TFR e dei crediti di lavoro
     url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50186.fondo-di-garanzia-del-tfr-e-dei-crediti-di-lavoro.html
+  - titolo: Normattiva – D.Lgs. 252/2005, art. 14
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252~art14
+  - titolo: Normattiva – Codice civile, art. 2948 (prescrizione)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art2948
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

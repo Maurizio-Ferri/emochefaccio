@@ -1,8 +1,8 @@
 import "./style.css";
 import catalogoJson from "./generated/catalogo.json";
-import type { Catalogo, Evento, Fase, Profilo, VoceRisolta } from "./types";
+import type { Catalogo, ElencoComuni, Evento, Fase, Profilo, VoceRisolta } from "./types";
 import {
-  FASI, calendarioIcs, comuniDellaRegione, dateRichieste, descriviScadenza, domandeVisibili,
+  FASI, calendarioIcs, comuneDelProfilo, comuniDellaRegione, dateRichieste, descriviScadenza, domandeVisibili,
   scadenzeEvento, scadenzeVisibili, situazione, vociEvento,
 } from "./engine";
 import { cancellaTutto, caricaDate, caricaFatti, caricaProfilo, salvaDate, salvaFatti, salvaProfilo } from "./storage";
@@ -13,6 +13,8 @@ const app = document.getElementById("app")!;
 let profilo: Profilo = caricaProfilo();
 let fatti = new Set(caricaFatti());
 let date = caricaDate();
+/** elenco ISTAT dei comuni: arriva dopo il primo disegno (vedi in fondo) */
+let elencoComuni: ElencoComuni | null = null;
 
 // --- piccolo helper per creare elementi senza innerHTML ---
 type Figlio = Node | string | null | undefined | false;
@@ -32,6 +34,7 @@ function h<K extends keyof HTMLElementTagNameMap>(
 
 const ETICHETTE_MATURITA: Record<string, string> = {
   bozza: "Bozza da verificare",
+  controllata: "Controllata sulle fonti (AI)",
   verificata: "Verificata",
   completa: "Guida completa",
 };
@@ -51,12 +54,17 @@ function schedaVoce(v: VoceRisolta, evento?: Evento): HTMLElement {
     voce.classList.toggle("fatta", casella.checked);
   });
 
+  const comune = elencoComuni ? comuneDelProfilo(elencoComuni, profilo) : undefined;
   const luogoMancante =
     v.dettaglio_locale_mancante &&
-    h("p", { class: "avviso" },
-      v.livello_territoriale === "regionale"
-        ? "Scadenze e modalità cambiano da regione a regione: verifica sul sito della tua Regione."
-        : "Modalità e scadenze cambiano da comune a comune: verifica sul sito del tuo Comune.");
+    (v.livello_territoriale === "regionale"
+      ? h("p", { class: "avviso" }, "Scadenze e modalità cambiano da regione a regione: verifica sul sito della tua Regione.")
+      : comune?.[2]
+        ? h("p", { class: "avviso" },
+            "Modalità e scadenze cambiano da comune a comune: verifica sul ",
+            h("a", { href: comune[2], target: "_blank", rel: "noopener" }, `sito del Comune di ${comune[1]}`),
+            ".")
+        : h("p", { class: "avviso" }, "Modalità e scadenze cambiano da comune a comune: verifica sul sito del tuo Comune."));
 
   const scadenze = scadenzeVisibili(v, evento);
 
@@ -113,12 +121,16 @@ function selettoreLuogo(): HTMLElement {
   );
   regione.addEventListener("change", () => aggiornaProfilo((p) => { p.regione = regione.value || undefined; p.comune = undefined; }));
 
-  const comuniMappati = comuniDellaRegione(catalogo, profilo.regione);
-  const comune = comuniMappati.length
+  // con l'elenco completo si sceglie qualsiasi comune; finché non arriva, solo quelli con dettagli locali
+  const mappati = new Set(comuniDellaRegione(catalogo, profilo.regione).map((c) => c.id));
+  const comuni: [string, string][] = elencoComuni
+    ? (elencoComuni[profilo.regione ?? ""] ?? []).map(([id, nome]) => [id, mappati.has(id) ? `${nome} (con dettagli locali)` : nome])
+    : comuniDellaRegione(catalogo, profilo.regione).map((c) => [c.id, c.nome]);
+  const comune = comuni.length
     ? (() => {
         const sel = h("select", { id: "comune" },
-          h("option", { value: "" }, "Un altro comune"),
-          ...comuniMappati.map((c) => h("option", { value: c.id, selected: c.id === profilo.comune }, c.nome)),
+          h("option", { value: "" }, elencoComuni ? "Scegli il comune" : "Un altro comune"),
+          ...comuni.map(([id, nome]) => h("option", { value: id, selected: id === profilo.comune }, nome)),
         );
         sel.addEventListener("change", () => aggiornaProfilo((p) => { p.comune = sel.value || undefined; }));
         return h("div", { class: "campo" }, h("label", { for: "comune" }, "Comune"), sel);
@@ -290,3 +302,13 @@ document.getElementById("cancella")!.addEventListener("click", () => {
 });
 
 render();
+
+// l'elenco dei comuni pesa: arriva in un file a parte, sempre intero, così nessuno sa quale regione interessa
+import("./generated/comuni.json")
+  .then((m) => {
+    elencoComuni = m.default as unknown as ElencoComuni;
+    render();
+  })
+  .catch(() => {
+    /* restano i comuni con dettagli locali */
+  });

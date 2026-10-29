@@ -16,6 +16,7 @@ override:
         url: "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF656833&pagina=4"
       - titolo: AMA – TARI, attivazione, variazione, cessazione
         url: https://www.amaroma.it/it/tari/attivazione-variazione-cessazione
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: residenza-anagrafica
     ente: Roma Capitale (ufficio anagrafico del Municipio)
@@ -32,6 +33,7 @@ override:
         url: https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF141216
       - titolo: Roma Capitale – Cambio di Residenza-Abitazione Online
         url: https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF879978
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: imu-abitazione-principale
     ente: Roma Capitale
@@ -45,6 +47,7 @@ override:
         url: "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF737103&pagina=3"
       - titolo: Roma Capitale – Servizi Tributari
         url: https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF87037
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: imu-altri-immobili
     ente: Roma Capitale
@@ -59,4 +62,5 @@ override:
         url: "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF737103&pagina=3"
       - titolo: Roma Capitale – Servizi Tributari
         url: https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF87037
+    controllato_il: 2026-10-29
     verificato_il: null

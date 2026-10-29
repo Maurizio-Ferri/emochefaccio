@@ -2,14 +2,15 @@ id: riscatto-laurea
 titolo: Riscatto della laurea
 tipo: diritto
 descrizione: >
-  Puoi far contare per la pensione gli anni dell'università, esclusi i fuori corso, pagando un contributo
-  all'INPS, anche a rate. Esiste una forma agevolata per i periodi nel sistema contributivo, e possono
-  chiederla anche i laureati che non hanno mai lavorato. La domanda si fa online; una volta pagato
-  il riscatto non si può revocare.
+  Se ti sei laureato puoi far contare per la pensione gli anni dell'università, esclusi i fuori corso,
+  pagando un contributo all'INPS, anche a rate. Esiste una forma agevolata per i periodi nel sistema
+  contributivo, e possono chiederla anche i laureati che non hanno mai lavorato né versato contributi.
+  La domanda si fa online; una volta pagato il riscatto non si può revocare.
 ente: INPS
 livello_territoriale: nazionale
 fonti:
   - titolo: INPS – Riscatto della laurea ai fini pensionistici
     url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.riscatto-della-laurea-ai-fini-pensionistici-gestioni-dipendenti-privati-50145.riscatto-della-laurea-ai-fini-pensionistici-gestioni-dipendenti-privati.html
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

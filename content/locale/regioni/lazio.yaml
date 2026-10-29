@@ -16,6 +16,7 @@ override:
         url: https://www.regione.lazio.it/tributi-regionali/tassa-automobilistica/pagamenti
       - titolo: Regione Lazio – Domiciliazione bancaria tassa automobilistica
         url: https://www.regione.lazio.it/notizie/tributi-regionali/domiciliazione-bancaria-tassa-automobilistica
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: scelta-medico
     ente: ASL di residenza
@@ -29,6 +30,7 @@ override:
     fonti:
       - titolo: Salute Lazio – Medico di famiglia e pediatra
         url: https://salutelazio.it/it/servizi/medico-di-famiglia
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: esenzione-ticket
     ente: ASL di residenza
@@ -42,4 +44,5 @@ override:
     fonti:
       - titolo: Salute Lazio – Esenzioni
         url: https://salutelazio.it/it/servizi/esenzioni
+    controllato_il: 2026-10-29
     verificato_il: null

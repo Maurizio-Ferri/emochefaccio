@@ -2,14 +2,15 @@ id: congedi-genitoriali
 titolo: Congedi di maternità, paternità e parentale
 tipo: diritto
 descrizione: >
-  Se sei dipendente, la madre ha un congedo di maternità obbligatorio e il padre un congedo di paternità
-  obbligatorio, da comunicare al datore di lavoro. Poi entrambi possono usare il congedo parentale facoltativo,
-  chiedendolo all'INPS prima di iniziare. Le regole sono diverse per autonomi e dipendenti pubblici.
+  Se sei dipendente, la madre ha un congedo di maternità obbligatorio, da chiedere all'INPS, e il
+  padre un congedo di paternità obbligatorio, da comunicare al datore di lavoro. Poi entrambi possono
+  usare il congedo parentale facoltativo, chiedendolo all'INPS prima di iniziare. Le regole sono
+  diverse per autonomi e dipendenti pubblici.
 passi:
-  - In gravidanza chiedi al ginecologo del Servizio sanitario nazionale, o convenzionato, di inviare online all'INPS il certificato di gravidanza con la data presunta del parto.
+  - In gravidanza chiedi al medico del Servizio sanitario nazionale, o convenzionato, di inviare online all'INPS il certificato di gravidanza con la data presunta del parto.
   - "Se sei la madre e lavori come dipendente, fai la domanda di congedo di maternità all'INPS prima che il congedo cominci: online con SPID o CIE, tramite patronato o con il Contact Center."
-  - Se vuoi lavorare più a lungo prima del parto, o fare tutto il congedo dopo, ti serve il via libera del medico del Servizio sanitario e del medico competente dell'azienda. I certificati li consegni al datore di lavoro.
-  - Dopo il parto comunica all'INPS online la data di nascita e i dati del bambino.
+  - Se vuoi lavorare più a lungo prima del parto, o fare tutto il congedo dopo, ti serve il via libera del medico specialista del Servizio sanitario, o convenzionato, e del medico competente dell'azienda. I certificati li consegni al datore di lavoro.
+  - Dopo il parto comunica all'INPS la data di nascita e i dati del bambino.
   - Se sei il padre, o la madre intenzionale, e lavori come dipendente, comunica per iscritto al datore di lavoro i giorni di congedo di paternità obbligatorio, con un po' di anticipo. Di solito non serve una domanda all'INPS, perché paga il datore.
   - "Per il congedo parentale facoltativo avvisa il datore come prevede il tuo contratto e fai la domanda all'INPS prima di iniziare: i giorni precedenti alla domanda non vengono pagati."
 ente: INPS
@@ -34,5 +35,6 @@ scadenze:
     fonte:
       titolo: Normattiva – D.Lgs. 151/2001, art. 27-bis
       url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2001-03-26;151~art27bis
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

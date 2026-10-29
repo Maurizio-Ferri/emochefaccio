@@ -3,8 +3,8 @@ titolo: Imposta sulle donazioni
 tipo: dovere
 descrizione: >
   Una donazione di valore si fa con atto pubblico dal notaio, alla presenza di due testimoni.
-  Chi riceve paga l'imposta sulle donazioni solo sulla parte che supera una franchigia, più alta per coniuge
-  e figli, più bassa o assente per gli altri. Se si donano immobili si pagano anche le imposte ipotecaria
+  Chi riceve paga l'imposta sulle donazioni solo sulla parte che supera una franchigia, più alta per il coniuge
+  e i parenti in linea retta, come figli e genitori, più bassa per fratelli e sorelle, assente per gli altri. Se si donano immobili si pagano anche le imposte ipotecaria
   e catastale. Le imposte le versa il notaio.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
@@ -15,5 +15,8 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/schede/pagamenti/imposta-di-donazione/aliquote
   - titolo: Normattiva – Legge notarile (L. 89/1913), art. 48
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1913-02-16;89~art48
+  - titolo: Agenzia delle Entrate – Imposta di donazione, donazione di beni immobili
+    url: https://www.agenziaentrate.gov.it/portale/schede/pagamenti/imposta-di-donazione/donazione-di-beni-immobili
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

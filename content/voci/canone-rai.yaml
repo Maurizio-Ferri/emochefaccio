@@ -2,9 +2,10 @@ id: canone-rai
 titolo: Canone TV
 tipo: dovere
 descrizione: >
-  Se in casa hai un televisore paghi il canone, una volta per famiglia, di solito a rate nella bolletta
-  della luce. Se non hai la TV devi dichiararlo all'Agenzia delle Entrate ogni anno.
-  Alcune persone, ad esempio gli anziani con reddito basso, ne sono esenti.
+  Se in casa hai un televisore paghi il canone, una volta per famiglia, di solito a rate nella
+  bolletta della luce. Se hai il contratto della luce di casa ma non hai la TV, devi dichiararlo ogni
+  anno all'Agenzia delle Entrate, altrimenti il canone ti viene addebitato. Alcune persone, ad esempio
+  gli anziani con reddito basso, ne sono esenti.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 quando: [occupa_immobile]
@@ -13,5 +14,8 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/canone-tv/faq-canone-tv
   - titolo: Agenzia delle Entrate – Canone TV, dichiarazione sostitutiva
     url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/canone-tv/dichiarazione-sostitutiva-canone-tv
+  - titolo: Agenzia delle Entrate – Canone TV, come si paga
+    url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/canone-tv/come-si-paga-canone-tv
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

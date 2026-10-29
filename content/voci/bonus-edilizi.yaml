@@ -3,9 +3,10 @@ titolo: Detrazioni per ristrutturazione e risparmio energetico
 tipo: diritto
 descrizione: >
   Per i lavori di ristrutturazione, risparmio energetico e antisismici puoi detrarre parte della spesa
-  dalle tasse, di più se si tratta dell'abitazione principale. Devi pagare con un bonifico apposito,
-  che riporti causale e codici fiscali, e conservare fatture e titoli edilizi; per il risparmio energetico
-  serve anche la comunicazione all'ENEA.
+  dalle tasse; oggi la detrazione è più alta per l'abitazione principale, ma la misura cambia di anno
+  in anno. Devi pagare con un bonifico apposito, che riporti causale e codici fiscali, e conservare
+  fatture e titoli edilizi. Per alcuni lavori devi avvisare l'ASL prima di iniziare; per il risparmio
+  energetico serve anche la comunicazione all'ENEA.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
@@ -15,5 +16,8 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/detrristredil36/comequando-detrristredil36
   - titolo: Agenzia delle Entrate – Riqualificazione energetica (ecobonus)
     url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/detrazione-riqualificazione-energetica-55-2016/cosa-riqualificazione-55-2016-cittadini
+  - titolo: Normattiva – TUIR (DPR 917/1986), art. 16-bis (in vigore fino a fine 2026)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art16bis!vig=2026-10-29
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

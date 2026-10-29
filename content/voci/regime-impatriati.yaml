@@ -2,15 +2,20 @@ id: regime-impatriati
 titolo: Agevolazione per chi torna a lavorare in Italia
 tipo: diritto
 descrizione: >
-  Se trasferisci la residenza fiscale in Italia dopo un periodo all'estero e sei altamente qualificato,
-  per alcuni anni paghi le tasse solo su una parte del reddito da lavoro, ancora meno se hai figli minori.
-  Devi impegnarti a restare in Italia per un periodo minimo: se te ne vai prima restituisci il beneficio.
+  Se trasferisci la residenza fiscale in Italia dopo un periodo all'estero, sei altamente qualificato
+  o hai fatto ricerca sull'intelligenza artificiale e lavori in Italia per la maggior parte dell'anno,
+  per alcuni anni paghi le tasse solo su una parte del reddito da lavoro. Paghi ancora meno se arrivi
+  con un figlio minore o ne hai uno durante l'agevolazione, e il figlio vive in Italia. Devi
+  impegnarti a restare in Italia per un periodo minimo: se te ne vai prima restituisci il beneficio.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
   - titolo: Agenzia delle Entrate – Lavoratori impatriati, nuovo regime
     url: https://www.agenziaentrate.gov.it/portale/lavoratori-impatriati-209-2023/infogen-lavoratori-impatriati-209-2023-cittadini
   - titolo: Normattiva – D.Lgs. 209/2023, art. 5
-    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-12-27;209~art5
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-12-27;209~art5!vig=2026-10-29
+  - titolo: Normattiva – D.Lgs. 117/2026 (Testo unico imposte sui redditi), art. 225 (dal 2027)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-06-19;117:1~art225
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

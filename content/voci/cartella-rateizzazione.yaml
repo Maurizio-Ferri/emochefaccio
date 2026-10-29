@@ -2,10 +2,12 @@ id: cartella-rateizzazione
 titolo: Cartella di pagamento e rateizzazione
 tipo: diritto
 descrizione: >
-  La cartella arriva da Agenzia delle entrate-Riscossione. Puoi pagarla, chiedere di rateizzarla
-  (sotto una certa cifra basta una richiesta online), chiedere la sospensione se è già pagata o prescritta,
-  oppure fare ricorso contro l'ente creditore. Se non fai nulla possono seguire fermo dell'auto,
-  ipoteca o pignoramento.
+  La cartella arriva da Agenzia delle entrate-Riscossione. Puoi pagarla o chiedere di rateizzarla
+  (sotto una certa cifra basta una richiesta online). Entro un termine dalla notifica puoi chiedere la
+  sospensione se l'avevi già pagata prima che arrivasse la cartella, se il debito era già prescritto o
+  se l'ente l'ha annullato. Puoi anche chiedere all'ente creditore di annullare il debito, oppure fare
+  ricorso al giudice competente entro i termini indicati nella cartella. Se non fai nulla possono
+  seguire fermo dell'auto, ipoteca o pignoramento.
 ente: Agenzia delle entrate-Riscossione
 livello_territoriale: nazionale
 fonti:
@@ -13,5 +15,6 @@ fonti:
     url: https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/cosa-succede-dopo-la-notifica/
   - titolo: Agenzia delle entrate-Riscossione – La rateizzazione
     url: https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

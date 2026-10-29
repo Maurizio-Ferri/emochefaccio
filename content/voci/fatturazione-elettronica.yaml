@@ -2,9 +2,10 @@ id: fatturazione-elettronica
 titolo: Fattura elettronica
 tipo: dovere
 descrizione: >
-  Con la partita IVA, anche nel regime forfettario, le fatture vanno emesse in formato elettronico
-  tramite il Sistema di Interscambio. L'Agenzia delle Entrate offre gratis gli strumenti per prepararle,
-  inviarle e conservarle. Fanno eccezione le prestazioni sanitarie ai privati.
+  Con la partita IVA, anche nel regime forfettario, le fatture ai clienti in Italia vanno emesse in
+  formato elettronico tramite il Sistema di Interscambio. L'Agenzia delle Entrate offre gratis gli
+  strumenti per prepararle, inviarle e conservarle. Per le prestazioni sanitarie ai privati, invece,
+  non puoi usare il Sistema di Interscambio.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
@@ -14,5 +15,8 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/fattura-elettronica-per-i-forfettari
   - titolo: Agenzia delle Entrate – Servizi gratuiti per le fatture elettroniche
     url: https://www.agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica/fatturazione-elettronica-site-area/servizi-consultazione-e-conservaz-fatture-elettroniche
+  - titolo: Normattiva – D.Lgs. 127/2015, art. 1
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-08-05;127~art1
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

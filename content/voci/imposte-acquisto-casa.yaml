@@ -3,12 +3,13 @@ titolo: Imposte sull'acquisto della casa
 tipo: dovere
 descrizione: >
   Comprando casa paghi imposte diverse se il venditore è un privato o un'impresa
-  (imposta di registro oppure IVA, più ipotecaria e catastale). Di solito le versa il notaio al rogito.
+  (imposta di registro, ipotecaria e catastale e, se la vendita è con IVA,
+  anche l'IVA). Di solito le versa il notaio al rogito.
 passi:
   - "Prima di firmare controlla la casa con i servizi dell'Agenzia delle Entrate, consultazione catastale e ispezione ipotecaria: servono a sapere chi è il proprietario e se ci sono ipoteche."
-  - Se firmi un compromesso, va registrato all'Agenzia delle Entrate entro un termine breve. Se c'è un'agenzia immobiliare lo fa lei, altrimenti lo fate voi, anche online con SPID, CIE o CNS.
+  - Se firmi un compromesso, va registrato all'Agenzia delle Entrate entro un termine breve. Se lo firmi dal notaio lo registra lui, se c'è un'agenzia immobiliare lo fa lei, altrimenti lo fate voi, anche online con il servizio RAP.
   - "Chiedi se il venditore è un privato o un'impresa e se la vendita è con IVA: le imposte cambiano."
-  - "Se compri da un privato puoi chiedere al notaio il sistema del \"prezzo-valore\": paghi le imposte sul valore catastale e non sul prezzo."
+  - "Se la vendita è senza IVA e compri come privato, chiedi al notaio di scrivere nell'atto che vuoi il sistema del \"prezzo-valore\": paghi le imposte sul valore catastale e non sul prezzo. Dopo il rogito non si può più chiedere."
   - Al rogito il notaio calcola e versa imposta di registro, ipotecaria e catastale. Se la vendita è con IVA, l'IVA la paghi al venditore, che ti fa fattura.
   - Le imposte già pagate sulla caparra del compromesso vengono scalate al rogito. Conserva atto, fatture e ricevute.
 ente: Agenzia delle Entrate
@@ -18,5 +19,8 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/acquisto-di-una-casa-le-imposte
   - titolo: Agenzia delle Entrate – Prima dell'acquisto è bene
     url: https://www.agenziaentrate.gov.it/portale/prima-dell-acquisto-e-bene
+  - titolo: Agenzia delle Entrate – Modello RAP, registrazione del contratto preliminare
+    url: https://www.agenziaentrate.gov.it/portale/compilazione-e-invio-via-web-rap-web1-cittadini
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

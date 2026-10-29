@@ -16,6 +16,7 @@ override:
         url: https://www.comune.modena.it/servizi/tributi-finanze-e-contravvenzioni/rifiuti-tariffa-corrispettiva-puntuale-tcp
       - titolo: Gruppo Hera – Tariffa puntuale Modena
         url: https://www.gruppohera.it/assistenza/casa/ambiente/la-raccolta-nel-tuo-comune/tariffa-puntuale?comune=modena
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: residenza-anagrafica
     ente: Comune di Modena (anagrafe)
@@ -27,16 +28,18 @@ override:
     fonti:
       - titolo: Comune di Modena – Cambio di residenza o indirizzo
         url: https://www.comune.modena.it/servizi/anagrafe-e-stato-civile/cambio-di-residenza-o-indirizzo
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: imu-abitazione-principale
     ente: Comune di Modena (Ufficio IMU)
     nota_locale: >
       Se la tua abitazione principale è di lusso e quindi paghi l'IMU, l'aliquota di Modena
-      la trovi nella guida IMU e nel prospetto aliquote sulla pagina IMU del Comune.
+      la trovi nella guida IMU e nella guida al prospetto aliquote, sulla pagina IMU del Comune.
       Lì trovi anche il codice del Comune e i codici tributo per l'F24.
     fonti:
       - titolo: Comune di Modena – IMU, informazioni generali
         url: https://www.comune.modena.it/servizi/tributi-finanze-e-contravvenzioni/imu-imposta-municipale-propria-informazioni-generali
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: imu-altri-immobili
     ente: Comune di Modena (Ufficio IMU)
@@ -51,4 +54,5 @@ override:
         url: https://www.comune.modena.it/servizi/tributi-finanze-e-contravvenzioni/imu-imposta-municipale-propria-informazioni-generali
       - titolo: MEF – IMU, regolamenti e aliquote (ricerca per comune)
         url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/Regolamenti-e-aliquote-ricerca/
+    controllato_il: 2026-10-29
     verificato_il: null

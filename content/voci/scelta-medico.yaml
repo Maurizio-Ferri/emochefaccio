@@ -6,11 +6,11 @@ descrizione: >
   tra quelli della ASL della zona in cui vive, e può cambiarlo quando vuole. Se ti trasferisci in un'altra
   zona devi sceglierne uno nuovo. Come si fa, anche online, dipende dalla Regione.
 passi:
-  - Aspetta che arrivino il codice fiscale e la prima tessera sanitaria del bambino.
+  - Aspetta che il bambino abbia il codice fiscale.
   - Iscrivi il bambino al Servizio sanitario nella tua ASL e scegli un pediatra tra quelli della tua zona, allo sportello o online se la tua Regione lo consente.
   - Dopo l'iscrizione ricevi a casa una nuova tessera sanitaria.
   - Puoi cambiare pediatra o medico quando vuoi; se ti trasferisci in un'altra zona devi sceglierne uno nuovo.
-  - "Quando il bambino cresce passa al medico di base: l'ASL ti dice quando."
+  - "Quando il bambino cresce passa al medico di base: chiedi all'ASL da quale età."
 ente: ASL
 livello_territoriale: regionale
 fonti:
@@ -18,5 +18,8 @@ fonti:
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-12-23;833~art25
   - titolo: Agenzia delle Entrate – La tessera sanitaria per i neonati
     url: https://www.agenziaentrate.gov.it/portale/la-tessera-sanitaria-per-i-neonati
+  - titolo: Normattiva – Legge 833/1978, art. 19
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-12-23;833~art19
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

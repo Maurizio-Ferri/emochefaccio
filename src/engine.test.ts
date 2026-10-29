@@ -1,12 +1,14 @@
 import { describe, expect, it } from "vitest";
 import catalogoJson from "./generated/catalogo.json";
-import type { Catalogo, Evento, Voce } from "./types";
+import comuniJson from "./generated/comuni.json";
+import type { Catalogo, ElencoComuni, Evento, Voce } from "./types";
 import {
-  aggiungi, calendarioIcs, dateRichieste, descriviScadenza, domandeVisibili, flagAttivi,
+  aggiungi, calendarioIcs, comuneDelProfilo, dateRichieste, descriviScadenza, domandeVisibili, flagAttivi,
   scadenzeEvento, scadenzeVisibili, situazione, vociEvento,
 } from "./engine";
 
 const catalogo = catalogoJson as Catalogo;
+const elencoComuni = comuniJson as unknown as ElencoComuni;
 const ids = (vs: { id: string }[]) => vs.map((v) => v.id);
 
 describe("domande", () => {
@@ -74,13 +76,13 @@ describe("override locali", () => {
   const risposte = { possiede_veicolo: true, occupa_immobile: true };
 
   it("applica regione e comune quando sono mappati", () => {
-    const s = situazione(catalogo, { risposte, regione: "emilia-romagna", comune: "reggio-emilia" });
+    const s = situazione(catalogo, { risposte, regione: "emilia-romagna", comune: "reggio-nell-emilia" });
     const bollo = s.devi.find((v) => v.id === "bollo-auto")!;
     const rifiuti = s.devi.find((v) => v.id === "tributo-rifiuti")!;
     expect(bollo.ente).toBe("Regione Emilia-Romagna");
     expect(bollo.dettaglio_locale_mancante).toBe(false);
     expect(rifiuti.ente).toMatch(/Iren/);
-    expect(rifiuti.note_locali[0].luogo).toBe("Reggio Emilia");
+    expect(rifiuti.note_locali[0].luogo).toBe("Reggio nell'Emilia");
     expect(rifiuti.fonti[0].url).toContain("comune.reggioemilia.it");
   });
 
@@ -102,9 +104,27 @@ describe("override locali", () => {
   });
 
   it("ignora un comune che non appartiene alla regione scelta", () => {
-    const s = situazione(catalogo, { risposte, regione: "toscana", comune: "reggio-emilia" });
+    const s = situazione(catalogo, { risposte, regione: "toscana", comune: "reggio-nell-emilia" });
     const rifiuti = s.devi.find((v) => v.id === "tributo-rifiuti")!;
     expect(rifiuti.note_locali).toEqual([]);
+  });
+});
+
+describe("elenco dei comuni", () => {
+  it("contiene tutte le regioni del profilo e i comuni con dettagli locali", () => {
+    expect(Object.keys(elencoComuni).sort()).toEqual(catalogo.regioni.map((r) => r.id).sort());
+    expect(Object.values(elencoComuni).flat().length).toBeGreaterThan(7000);
+    for (const c of catalogo.locale.comuni) {
+      expect(elencoComuni[c.regione!].some(([id]) => id === c.id)).toBe(true);
+    }
+  });
+
+  it("trova il comune del profilo, ma solo nella sua regione", () => {
+    const [, nome, sito] = comuneDelProfilo(elencoComuni, { risposte: {}, regione: "emilia-romagna", comune: "reggio-nell-emilia" })!;
+    expect(nome).toBe("Reggio nell'Emilia");
+    expect(sito).toMatch(/^https:\/\//);
+    expect(comuneDelProfilo(elencoComuni, { risposte: {}, regione: "lazio", comune: "reggio-nell-emilia" })).toBeUndefined();
+    expect(comuneDelProfilo(elencoComuni, { risposte: {}, regione: "lazio" })).toBeUndefined();
   });
 });
 
@@ -129,7 +149,7 @@ describe("eventi", () => {
     const rifiuti = (profilo: { regione?: string; comune?: string }) =>
       vociEvento(catalogo, evento, { risposte: {}, ...profilo }).dopo!.find((v) => v.id === "tributo-rifiuti")!;
 
-    const mappato = rifiuti({ regione: "emilia-romagna", comune: "reggio-emilia" });
+    const mappato = rifiuti({ regione: "emilia-romagna", comune: "reggio-nell-emilia" });
     expect(mappato.ente).toMatch(/Iren/);
     expect(mappato.dettaglio_locale_mancante).toBe(false);
 
@@ -158,10 +178,15 @@ describe("scadenze", () => {
 
   it("in bozza restano nascoste, anche nel catalogo vero", () => {
     expect(scadenzeVisibili(voce("x", "bozza"), evento)).toEqual([]);
+    const inBozza = new Set(catalogo.voci.filter((v) => v.maturita === "bozza").map((v) => v.titolo));
     for (const e of catalogo.eventi) {
-      expect(scadenzeEvento(catalogo, e, { nascita: "2026-11-03", rogito: "2026-11-03" }, "2026-10-29")).toEqual([]);
-      expect(dateRichieste(catalogo, e)).toEqual([]);
+      const scadenze = scadenzeEvento(catalogo, e, { nascita: "2026-11-03", rogito: "2026-11-03" }, "2026-10-29");
+      expect(scadenze.filter((s) => inBozza.has(s.voce))).toEqual([]);
     }
+  });
+
+  it("compaiono anche dopo il solo controllo automatico sulle fonti", () => {
+    expect(scadenzeVisibili({ ...voce("x", "bozza"), maturita: "controllata", controllato_il: "2026-10-29" }, evento)).toHaveLength(2);
   });
 
   it("quelle contate da una data valgono solo negli eventi che la chiedono", () => {

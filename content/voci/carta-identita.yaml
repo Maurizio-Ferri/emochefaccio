@@ -2,18 +2,22 @@ id: carta-identita
 titolo: Rinnovare la carta d'identità
 tipo: dovere
 descrizione: >
-  La carta d'identità elettronica si chiede al Comune, prenotando anche online con l'Agenda CIE, e si può
-  rinnovare già prima della scadenza. Dal 3 agosto 2026 la vecchia carta di carta non vale più per
-  andare all'estero e in Italia vale solo per alcuni usi e per poco tempo ancora: conviene sostituirla.
-  Per chi l'ha chiesta da anziano la nuova carta può non scadere più.
+  La carta d'identità elettronica si chiede al Comune, prenotando anche online con l'Agenda CIE, e si
+  può rinnovare già prima della scadenza. Dal 3 agosto 2026 la vecchia carta di carta non vale più per
+  andare all'estero e in Italia vale solo per alcuni usi e per poco tempo ancora: conviene
+  sostituirla. Se la chiedi dopo una certa età la nuova carta non ha scadenza, ma per continuare a
+  usarla per i servizi online dopo alcuni anni devi comunque rifarla.
 ente: Comune (rilascio) / Ministero dell'Interno
 livello_territoriale: nazionale
 fonti:
   - titolo: Ministero dell'Interno – CIE, rilascio e rinnovo in Italia
     url: https://www.cartaidentita.interno.gov.it/richiedi/rilascio-e-rinnovo-in-italia/
-  - titolo: Gazzetta Ufficiale – D.L. 108/2026 (efficacia del documento di identità)
-    url: https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.dataPubblicazioneGazzetta=2026-06-26&atto.codiceRedazionale=26G00133&tipoSerie=serie_generale&tipoVigenza=originario
+  - titolo: Normattiva – D.L. 108/2026, art. 11 (efficacia del documento di identità)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-06-26;108~art11!vig=2026-10-29
   - titolo: Ministero dell'Interno – Circolare DAIT n. 60/2026
     url: https://dait.interno.gov.it/documenti/circ-dait-060-servdemo-24-07-2026.pdf
+  - titolo: Ministero dell'Interno – Circolare DAIT n. 58/2026 (carta cartacea ed espatrio)
+    url: https://dait.interno.gov.it/documenti/circ-dait-058-servdemo-30-06-2026.pdf
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

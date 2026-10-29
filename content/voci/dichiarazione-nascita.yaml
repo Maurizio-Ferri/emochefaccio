@@ -7,7 +7,7 @@ descrizione: >
   attribuisce il codice fiscale; la prima tessera sanitaria arriva poi a casa.
 passi:
   - "Scegli dove dichiarare la nascita: in ospedale, alla direzione sanitaria, oppure al Comune dove è nato il bambino o a quello dove risiedete. In ospedale il termine è più breve."
-  - Porta l'attestazione di nascita rilasciata dall'ospedale o dall'ostetrica e un documento d'identità.
+  - Porta l'attestazione di nascita rilasciata dall'ospedale o dall'ostetrica.
   - Se i genitori vivono in Comuni diversi, salvo accordo tra loro si dichiara nel Comune della madre.
   - "Se non siete sposati, il padre può riconoscere il figlio nello stesso momento: chiedi prima all'ufficio cosa serve."
   - Con la dichiarazione il bambino riceve il codice fiscale; la prima tessera sanitaria arriva a casa da sola.
@@ -26,5 +26,6 @@ scadenze:
     fonte:
       titolo: Normattiva – DPR 396/2000, art. 30
       url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2000-11-03;396~art30
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

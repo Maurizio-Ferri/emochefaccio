@@ -2,10 +2,11 @@ id: dichiarazione-successione
 titolo: Dichiarazione di successione
 tipo: dovere
 descrizione: >
-  Gli eredi devono presentare la dichiarazione di successione all'Agenzia delle Entrate entro un termine
-  dal decesso, online anche in versione precompilata o tramite CAF e professionisti; basta una dichiarazione
-  per tutti. Aggiorna anche il catasto degli immobili. Le imposte si calcolano e si pagano da sé.
-  È esonerato solo chi rientra insieme in tutte le condizioni previste.
+  Gli eredi, i chiamati all'eredità e i legatari devono presentare la dichiarazione di successione
+  all'Agenzia delle Entrate entro un termine dal decesso, online anche in versione precompilata o
+  tramite CAF e professionisti; basta una dichiarazione per tutti. Aggiorna anche il catasto degli
+  immobili. Per i decessi dal 2025 le imposte si calcolano e si pagano da sé; per quelli precedenti le
+  calcola l'ufficio. È esonerato solo chi rientra insieme in tutte le condizioni previste.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
@@ -15,5 +16,6 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/schede/dichiarazioni/dichiarazione-di-successione/chi-deve-presentare-la-dichiarazione-di-successione
   - titolo: Agenzia delle Entrate – Dichiarazione di successione precompilata
     url: https://www.agenziaentrate.gov.it/portale/successione-precompilata-web
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

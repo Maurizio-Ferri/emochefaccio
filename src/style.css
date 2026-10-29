@@ -124,6 +124,7 @@ select {
 
 .meta { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; color: var(--tenue); font-size: 0.92rem; margin: 0 0 0.4rem; }
 .maturita { border: 1px solid currentColor; border-radius: 999px; padding: 0 0.6rem; }
+.maturita.controllata { color: var(--accento); }
 .maturita.completa { color: var(--diritto); }
 
 .passi { margin: 0 0 0.6rem; max-width: 42rem; }

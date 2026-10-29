@@ -2,10 +2,11 @@ id: codice-fiscale-tessera-sanitaria
 titolo: Codice fiscale e tessera sanitaria
 tipo: diritto
 descrizione: >
-  Il codice fiscale ti identifica in tutti i rapporti con lo Stato. La tessera sanitaria lo riporta
-  e sul retro vale come tessera europea per le cure all'estero. Quando sta per scadere ti arriva
-  una nuova tessera a casa; se la perdi puoi chiederne la riemissione online o in ufficio.
-ente: Agenzia delle Entrate
+  Il codice fiscale ti identifica in tutti i rapporti con lo Stato. La tessera sanitaria lo riporta e
+  sul retro vale come tessera europea per le cure nei Paesi dell'Unione europea e in Norvegia,
+  Islanda, Liechtenstein e Svizzera. Quando sta per scadere ti arriva una nuova tessera a casa; se la
+  perdi puoi chiederne la riemissione online o in ufficio.
+ente: Agenzia delle Entrate / Ministero dell'Economia e delle Finanze (Sistema Tessera Sanitaria)
 livello_territoriale: nazionale
 quando: []
 fonti:
@@ -13,5 +14,6 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/codice-fiscale-tessera-sanitaria-partita-iva
   - titolo: Agenzia delle Entrate – Riemissione della tessera sanitaria
     url: https://www.agenziaentrate.gov.it/portale/richiesta-del-duplicato-della-tessera-sanitaria
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

@@ -4,13 +4,16 @@ tipo: diritto
 descrizione: >
   Con SPID o con la Carta d'Identità Elettronica accedi ai servizi online
   di Agenzia delle Entrate, INPS, Comune e App IO senza andare allo sportello.
-ente: Dipartimento per la trasformazione digitale / Ministero dell'Interno
+ente: AgID (SPID) / Ministero dell'Interno (CIE)
 livello_territoriale: nazionale
 quando: []
 fonti:
   - titolo: SPID
     url: https://www.spid.gov.it
   - titolo: Carta d'Identità Elettronica
-    url: https://www.cartaidentita.interno.it
+    url: https://www.cartaidentita.interno.gov.it/
+  - titolo: Normattiva – D.Lgs. 82/2005 (CAD), art. 64
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82~art64
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

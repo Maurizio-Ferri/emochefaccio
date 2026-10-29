@@ -1,5 +1,6 @@
 export type TipoVoce = "dovere" | "diritto";
-export type Maturita = "bozza" | "verificata" | "completa";
+/** `controllata`: fonti ricontrollate da un controllo automatico (AI); `verificata` e `completa` le assegna una persona. */
+export type Maturita = "bozza" | "controllata" | "verificata" | "completa";
 export type Fase = "prima" | "durante" | "dopo";
 
 export interface Fonte {
@@ -28,6 +29,7 @@ export interface Voce {
   quando?: string[];
   fonti: Fonte[];
   scadenze?: Scadenza[];
+  controllato_il?: string | null;
   verificato_il?: string | null;
   maturita: Maturita;
 }
@@ -71,6 +73,11 @@ export interface FileLocale {
   regione?: string;
   override: OverrideVoce[];
 }
+
+/** Un comune dell'elenco ISTAT: id, nome e sito istituzionale (da IndicePA) se noto. */
+export type ComuneElenco = [id: string, nome: string, sito?: string];
+/** Comuni per regione */
+export type ElencoComuni = Record<string, ComuneElenco[]>;
 
 export interface Catalogo {
   generato_il: string;

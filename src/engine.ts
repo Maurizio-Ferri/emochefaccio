@@ -1,4 +1,6 @@
-import type { Catalogo, DataEvento, Domanda, Evento, Fase, FileLocale, Fonte, Profilo, Scadenza, Voce, VoceRisolta } from "./types";
+import type {
+  Catalogo, ComuneElenco, DataEvento, Domanda, ElencoComuni, Evento, Fase, FileLocale, Fonte, Profilo, Scadenza, Voce, VoceRisolta,
+} from "./types";
 
 /** Domande da mostrare, date le risposte già date. */
 export function domandeVisibili(domande: Domanda[], risposte: Profilo["risposte"]): Domanda[] {
@@ -81,6 +83,12 @@ export function vociEvento(catalogo: Catalogo, evento: Evento, profilo: Profilo)
 
 export function comuniDellaRegione(catalogo: Catalogo, regione?: string): FileLocale[] {
   return catalogo.locale.comuni.filter((c) => c.regione === regione);
+}
+
+/** Il comune del profilo nell'elenco ufficiale, se c'è. */
+export function comuneDelProfilo(elenco: ElencoComuni, profilo: Profilo): ComuneElenco | undefined {
+  if (!profilo.regione || !profilo.comune) return undefined;
+  return elenco[profilo.regione]?.find(([id]) => id === profilo.comune);
 }
 
 // --- scadenze e calendario ---

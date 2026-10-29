@@ -22,6 +22,7 @@
           "ente": { "type": "string" },
           "nota_locale": { "type": "string", "description": "Cosa cambia qui rispetto alla regola generale." },
           "fonti": { "type": "array", "items": { "$ref": "voce.schema.json#/definitions/fonte" } },
+          "controllato_il": { "type": ["string", "null"], "format": "date", "description": "Data del controllo automatico (AI) sulle fonti." },
           "verificato_il": { "type": ["string", "null"], "format": "date" }
         }
       }

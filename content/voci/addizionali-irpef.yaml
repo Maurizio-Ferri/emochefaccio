@@ -2,8 +2,10 @@ id: addizionali-irpef
 titolo: Addizionali regionale e comunale all'IRPEF
 tipo: dovere
 descrizione: >
-  Oltre all'IRPEF paghi un'addizionale alla Regione e una al Comune, con aliquote decise da ciascun ente.
-  Se sei dipendente te le trattiene il datore di lavoro in busta paga, a rate nell'anno successivo.
+  Se devi pagare l'IRPEF, paghi anche un'addizionale alla Regione e una al Comune. Ciascun ente decide
+  le aliquote entro i limiti di legge, e il Comune può prevedere un'esenzione per i redditi bassi. Se
+  sei dipendente te le trattiene il datore di lavoro in busta paga, a rate: l'addizionale regionale e
+  il saldo di quella comunale nell'anno dopo, un acconto di quella comunale già nell'anno in corso.
 ente: Regione e Comune (disciplina MEF)
 livello_territoriale: nazionale
 quando: [lavoratore_dipendente]
@@ -12,5 +14,10 @@ fonti:
     url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Addizionale-comunale-allIRPEF/aliquote-applicabili/
   - titolo: MEF – Addizionale regionale all'IRPEF
     url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Addizionale-regionale-allIRPEF/disciplina-del-tributo/
+  - titolo: MEF – Addizionale comunale all'IRPEF, disciplina del tributo
+    url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Addizionale-comunale-allIRPEF/disciplina-del-tributo/
+  - titolo: Normattiva – D.Lgs. 360/1998, art. 1
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-09-28;360~art1
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

@@ -2,14 +2,18 @@ id: redditi-immobili-dichiarazione
 titolo: Immobili nella dichiarazione dei redditi
 tipo: dovere
 descrizione: >
-  Gli immobili che possiedi vanno indicati nella dichiarazione dei redditi. Se una casa non è affittata
-  di solito l'IMU sostituisce l'IRPEF, ma ci sono eccezioni, per esempio se è nello stesso Comune
-  della tua abitazione principale. Se è affittata, l'affitto è reddito da dichiarare.
+  Se presenti la dichiarazione dei redditi, devi indicare gli immobili che possiedi; in alcuni casi
+  non devi presentarla. Se una casa non è affittata di solito l'IMU sostituisce l'IRPEF, ma ci sono
+  eccezioni, per esempio se è nello stesso Comune della tua abitazione principale. Se è affittata,
+  l'affitto è reddito da dichiarare.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 quando: [possiede_altri_immobili]
 fonti:
   - titolo: Agenzia delle Entrate – Fabbricati nella dichiarazione precompilata
     url: https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-fabbricati
+  - titolo: Agenzia delle Entrate – Istruzioni modello 730/2026
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/documents/d/guest/730_istruzioni_2026.pdf
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

@@ -5,11 +5,11 @@ descrizione: >
   Se hai i requisiti, all'acquisto della prima casa paghi imposte ridotte.
   I requisiti riguardano te, l'immobile e la residenza: verificali prima del rogito.
 passi:
-  - "Prima del rogito controlla di avere i requisiti: la casa non deve essere di lusso, non devi avere un'altra casa nello stesso comune e non devi avere in tutta Italia un'altra casa comprata con le agevolazioni, a meno che ti impegni a venderla."
+  - "Prima del rogito controlla di avere i requisiti: la casa non deve essere accatastata come abitazione signorile, villa o castello; non devi avere un'altra casa nello stesso comune, nemmeno se ti impegni a venderla; non devi avere in tutta Italia un'altra casa comprata con le agevolazioni, a meno che ti impegni a venderla."
   - Controlla che la casa sia nel comune dove hai la residenza o dove lavori. Se non è così, dovrai spostarci la residenza dopo il rogito, entro il termine di legge.
-  - "Di' al notaio che vuoi le agevolazioni: la dichiarazione dei requisiti e l'impegno a spostare la residenza vanno scritti nell'atto di acquisto, altrimenti perdi il beneficio."
+  - "Di' al notaio che vuoi le agevolazioni e fai scrivere nell'atto che hai i requisiti. Se devi ancora spostare la residenza o vendere la casa che hai già, anche questi impegni vanno scritti nell'atto, altrimenti perdi il beneficio."
   - "Dopo il rogito dichiara al Comune il cambio di residenza: conta il giorno in cui presenti la dichiarazione."
-  - Se hai già una casa comprata con le agevolazioni, vendila entro il termine indicato nell'atto.
+  - Se hai già una casa comprata con le agevolazioni, vendila entro il termine di legge.
   - "Se capisci che non riuscirai a rispettare un impegno, presenta un'istanza all'ufficio dell'Agenzia delle Entrate dove è stato registrato l'atto, prima che il termine scada: pagherai la differenza di imposta e gli interessi, ma non la sanzione."
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
@@ -29,5 +29,6 @@ scadenze:
     fonte:
       titolo: Agenzia delle Entrate – L'acquisto con i benefici prima casa
       url: https://www.agenziaentrate.gov.it/portale/l-acquisto-con-i-benefici-prima-casa
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

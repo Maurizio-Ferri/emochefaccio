@@ -14,5 +14,8 @@ fonti:
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-03-21;53~art1
   - titolo: Normattiva – Legge 53/1990, art. 11 (assenza dal lavoro)
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-03-21;53~art11
+  - titolo: Normattiva – Legge 70/1980, art. 1 (compenso dei componenti del seggio)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1980-03-13;70~art1!vig=2026-10-29
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

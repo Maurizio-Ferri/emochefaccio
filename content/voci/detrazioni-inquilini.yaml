@@ -2,13 +2,20 @@ id: detrazioni-inquilini
 titolo: Detrazioni per chi è in affitto
 tipo: diritto
 descrizione: >
-  Chi vive in affitto nell'abitazione principale può avere diritto a una detrazione
-  in dichiarazione dei redditi, con condizioni diverse per giovani e altre categorie.
+  Se vivi in affitto nella tua abitazione principale puoi avere una detrazione nella dichiarazione dei
+  redditi. Spetta solo se il tuo reddito non supera certi limiti, e più il reddito è basso più la
+  detrazione è alta. Ci sono regole diverse per i contratti a canone concordato, per i giovani e per
+  chi si trasferisce per lavoro. Le detrazioni non si sommano: scegli quella più conveniente.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 quando: [occupa_immobile, in_affitto]
 fonti:
-  - titolo: Agenzia delle Entrate
-    url: https://www.agenziaentrate.gov.it/portale/
+  - titolo: Agenzia delle Entrate – Istruzioni modello 730/2026 (quadro E, sezione V)
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/documents/d/guest/730_istruzioni_2026.pdf
+  - titolo: Agenzia delle Entrate – Precompilata, canoni di locazione
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/web/guest/semplificata-mod-oneri-immobili
+  - titolo: Normattiva – TUIR (DPR 917/1986), art. 16 (in vigore fino a fine 2026)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art16!vig=2026-10-29
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

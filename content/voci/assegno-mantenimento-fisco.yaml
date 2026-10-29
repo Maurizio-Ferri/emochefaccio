@@ -10,5 +10,10 @@ livello_territoriale: nazionale
 fonti:
   - titolo: Agenzia delle Entrate – Altre spese (precompilata)
     url: https://infoprecompilata.agenziaentrate.gov.it/portale/web/guest/semplificata-mod-altre-spese
+  - titolo: Normattiva – TUIR, art. 10 (oneri deducibili; in vigore fino a fine 2026)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art10!vig=2026-10-29
+  - titolo: Normattiva – TUIR, art. 50 (assegni periodici come reddito; in vigore fino a fine 2026)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art50!vig=2026-10-29
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

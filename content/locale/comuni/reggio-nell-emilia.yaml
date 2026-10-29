@@ -1,6 +1,6 @@
 livello: comune
-id: reggio-emilia
-nome: Reggio Emilia
+id: reggio-nell-emilia
+nome: Reggio nell'Emilia
 regione: emilia-romagna
 override:
   - voce: tributo-rifiuti
@@ -17,6 +17,7 @@ override:
         url: https://www.comune.reggioemilia.it/servizi/tributi-e-pagamenti/tariffa-corrispettiva-puntuale
       - titolo: Iren – La TARI/TCP per il tuo comune (Reggio Emilia)
         url: https://www.gruppoiren.it/it/i-nostri-servizi/ambiente/tributi-e-tariffe/la-tari-tcp-per-il-tuo-comune.Reggio-Emilia.Reggio-Emilia.html
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: residenza-anagrafica
     ente: Comune di Reggio Emilia (Anagrafe, Ufficio Residenze)
@@ -32,6 +33,7 @@ override:
         url: https://www.comune.reggioemilia.it/servizi/anagrafe-e-stato-civile/dichiarazione-di-cambio-di-residenza-o-di-indirizzo
       - titolo: Comune di Reggio Emilia – Anagrafe, Ufficio Residenze
         url: https://www.comune.reggioemilia.it/amministrazione/uffici/anagrafe-ufficio-residenze
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: imu-abitazione-principale
     ente: Comune di Reggio Emilia (Ufficio IMU)
@@ -44,6 +46,7 @@ override:
         url: https://www.comune.reggioemilia.it/argomenti/imu/tutte-le-informazioni-imu/imu-chi-deve-e-chi-non-deve-pagarla
       - titolo: Comune di Reggio Emilia – IMU, aliquote e detrazioni, esclusioni ed esenzioni
         url: https://www.comune.reggioemilia.it/argomenti/imu/tutte-le-informazioni-imu/imu-aliquote-e-detrazioni-esclusioni-ed-esenzioni
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: imu-altri-immobili
     ente: Comune di Reggio Emilia (Ufficio IMU)
@@ -58,4 +61,5 @@ override:
         url: https://www.comune.reggioemilia.it/argomenti/imu/tutte-le-informazioni-imu/imu-aliquote-e-detrazioni-esclusioni-ed-esenzioni
       - titolo: Comune di Reggio Emilia – IMU
         url: https://www.comune.reggioemilia.it/argomenti/imu
+    controllato_il: 2026-10-29
     verificato_il: null

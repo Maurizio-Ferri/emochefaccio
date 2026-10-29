@@ -20,10 +20,11 @@ fonti:
   - titolo: Ministero del Lavoro – ISEE
     url: https://www.lavoro.gov.it/strumenti-e-servizi/isee/pagine/default
 scadenze:
-  - titolo: "Scade la DSU: rinnova l'ISEE per l'anno nuovo"
+  - titolo: "Scade la DSU di quest'anno: dal primo gennaio presentane una nuova"
     ogni_anno: "12-31"
     fonte:
       titolo: Normattiva – DPCM 159/2013, art. 10
       url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.consiglio.ministri:decreto:2013-12-05;159~art10
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

@@ -10,5 +10,8 @@ livello_territoriale: nazionale
 fonti:
   - titolo: Ministero dell'Interno – Circolare DAIT n. 65 del 15 ottobre 2026 (voto fuori sede)
     url: https://dait.interno.gov.it/elezioni/circolari/circolare-dait-n65-del-15-ottobre-2026
+  - titolo: Normattiva – Legge 180/2026, art. 8
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026-10-09;180~art8!vig=2026-10-29
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

@@ -2,9 +2,10 @@ id: chiusura-partita-iva
 titolo: Chiudere la partita IVA
 tipo: dovere
 descrizione: >
-  Quando smetti l'attività devi comunicare la chiusura della partita IVA entro un termine: i professionisti
-  con il modello AA9/12 all'Agenzia delle Entrate, le imprese con la Comunicazione Unica. Se resta inattiva
-  l'Agenzia può chiuderla d'ufficio, dopo averti avvisato nel cassetto fiscale.
+  Quando smetti l'attività devi comunicare la chiusura della partita IVA entro un termine: i
+  professionisti con il modello AA9/12 all'Agenzia delle Entrate, le imprese con la Comunicazione
+  Unica. Se resta inattiva, l'Agenzia può chiuderla d'ufficio. Prima ti manda un avviso, che trovi
+  anche nel cassetto fiscale: se l'attività continua, puoi rispondere e chiedere di non chiuderla.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
@@ -12,5 +13,8 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/schede/istanze/aa9_11-apertura-variazione-chiusura-pf/come-variare-o-chiudere-professionisti
   - titolo: Agenzia delle Entrate – La chiusura d'ufficio della partita Iva
     url: https://www.agenziaentrate.gov.it/portale/schede/istanze/aa9_11-apertura-variazione-chiusura-pf/la-chiusura-ufficio-della-partita-iva-professionisti
+  - titolo: Agenzia delle Entrate – Partita Iva persone fisiche, imprese
+    url: https://www.agenziaentrate.gov.it/portale/schede/istanze/aa9_11-apertura-variazione-chiusura-pf/scheda-informativa-aa9_11-imprese
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

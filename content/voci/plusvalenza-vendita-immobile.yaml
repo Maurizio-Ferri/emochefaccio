@@ -2,13 +2,16 @@ id: plusvalenza-vendita-immobile
 titolo: Tasse sul guadagno quando vendi una casa
 tipo: dovere
 descrizione: >
-  Se vendi un immobile poco tempo dopo averlo comprato o costruito, il guadagno (plusvalenza) può essere
-  tassato. Non lo è se la casa è stata per la maggior parte del tempo l'abitazione principale tua
-  o dei tuoi familiari, o se l'hai ereditata. Per le case con lavori Superbonus le regole sono più severe.
+  Se vendi un immobile poco tempo dopo averlo comprato o costruito, il guadagno (plusvalenza) può
+  essere tassato. Non lo è se la casa è stata per la maggior parte del tempo l'abitazione principale
+  tua o dei tuoi familiari, o se l'hai ereditata. Se l'hai ricevuta in dono, il tempo si conta da
+  quando l'aveva comprata chi te l'ha donata. Se vendi un terreno edificabile il guadagno è sempre
+  tassato. Per le case con lavori Superbonus le regole sono più severe.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
-  - titolo: Normattiva – TUIR (DPR 917/1986), art. 67
-    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art67
+  - titolo: Normattiva – TUIR (DPR 917/1986), art. 67 (in vigore fino a fine 2026)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art67!vig=2026-10-29
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

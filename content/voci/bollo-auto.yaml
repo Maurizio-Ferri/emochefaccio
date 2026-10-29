@@ -2,13 +2,19 @@ id: bollo-auto
 titolo: Bollo auto e moto
 tipo: dovere
 descrizione: >
-  Chi ha un veicolo intestato paga ogni anno la tassa automobilistica alla propria Regione,
-  anche se il veicolo non circola. Scadenze ed esenzioni dipendono dalla Regione.
+  Se un'auto o una moto è intestata a te al PRA, paghi ogni anno la tassa automobilistica alla Regione
+  dove risiedi, anche se il veicolo resta fermo. Per i ciclomotori si paga solo se li usi su strada.
+  Scadenze ed esenzioni dipendono dalla Regione. Per il 2027 un decreto nazionale esenta alcune auto e
+  moto, una sola per persona: controlla se la tua rientra, perché la norma può ancora cambiare.
 ente: Regione di residenza
 livello_territoriale: regionale
 quando: [possiede_veicolo]
 fonti:
-  - titolo: ACI
-    url: https://www.aci.it
+  - titolo: ACI – Guida al bollo auto
+    url: https://aci.gov.it/approfondimento/guida-al-bollo-auto/
+  - titolo: Normattiva – D.L. 953/1982, art. 5
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:1982-12-30;953~art5!vig=2026-10-29
+  - titolo: Normattiva – D.L. 162/2026, art. 2 (esenzione 2027)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-17;162~art2!vig=2026-10-29
 verificato_il: null
 maturita: bozza

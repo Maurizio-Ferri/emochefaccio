@@ -2,15 +2,22 @@ id: regime-amministrato
 titolo: Investire senza dichiarare i guadagni (regime amministrato)
 tipo: diritto
 descrizione: >
-  Se investi tramite una banca o un altro intermediario italiano puoi scegliere il regime amministrato:
-  è l'intermediario a pagare le imposte sui guadagni e tu non devi indicarli nella dichiarazione.
-  Senza questa scelta sei nel regime dichiarativo e i guadagni li dichiari tu.
+  Se investi tramite una banca o un altro intermediario italiano puoi scegliere il regime
+  amministrato: è l'intermediario a pagare le imposte sui guadagni e tu non devi indicarli nella
+  dichiarazione. La scelta si fa quando apri il conto o, per un conto che hai già, prima dell'inizio
+  dell'anno. Senza questa scelta sei nel regime dichiarativo e i guadagni li dichiari tu, ma per i
+  fondi comuni l'intermediario applica comunque le imposte.
 ente: Agenzia delle Entrate (tramite l'intermediario)
 livello_territoriale: nazionale
 fonti:
   - titolo: Normattiva – D.Lgs. 461/1997, art. 6 (regime amministrato)
-    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-11-21;461~art6
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-11-21;461~art6!vig=2026-10-29
   - titolo: Normattiva – D.Lgs. 461/1997, art. 5 (regime dichiarativo)
-    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-11-21;461~art5
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-11-21;461~art5!vig=2026-10-29
+  - titolo: Normattiva – D.Lgs. 117/2026 (Testo unico imposte sui redditi), art. 306 (dal 2027)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-06-19;117:1~art306
+  - titolo: Normattiva – D.Lgs. 117/2026 (Testo unico imposte sui redditi), art. 304 (dal 2027)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-06-19;117:1~art304
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

@@ -9,12 +9,17 @@ passi:
   - "Sposta la residenza e vai a vivere nella casa: l'esenzione vale solo se ci hai sia la residenza sia la dimora abituale."
   - "Se la casa non è ancora la tua abitazione principale, per esempio durante i lavori, per quei mesi l'IMU è dovuta: calcolala con le aliquote del Comune e pagala con F24 o bollettino postale."
   - Garage, cantina e tettoia sono esenti come la casa, ma solo una pertinenza per ciascun tipo.
-  - "Di solito non devi presentare la dichiarazione IMU: va presentata solo nei casi indicati dal Ministero."
+  - "Di solito non devi presentare la dichiarazione IMU: va presentata solo nei casi indicati dal Ministero, e solo online."
 ente: Comune
 livello_territoriale: comunale
 quando: [proprietario_abitazione]
 fonti:
   - titolo: MEF – IMU, abitazione principale
     url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/disciplina-del-tributo/abitazione-principale/
+  - titolo: MEF – IMU, versamenti
+    url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/disciplina-del-tributo/versamenti/
+  - titolo: Normattiva – D.Lgs. 147/2026, art. 26 (dichiarazione IMU solo online)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-08-07;147~art26
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

@@ -35,11 +35,20 @@
       "description": "Solo livello 2. Qui giorni e date sono ammessi anche in bozza: il sito li mostra solo quando la voce non è più in bozza.",
       "items": { "$ref": "#/definitions/scadenza" }
     },
-    "verificato_il": { "type": ["string", "null"], "format": "date" },
-    "maturita": { "enum": ["bozza", "verificata", "completa"] }
+    "controllato_il": { "type": ["string", "null"], "format": "date", "description": "Data del controllo automatico (AI) sulle fonti." },
+    "verificato_il": { "type": ["string", "null"], "format": "date", "description": "Data della verifica fatta da una persona." },
+    "maturita": { "enum": ["bozza", "controllata", "verificata", "completa"] }
   },
-  "if": { "properties": { "maturita": { "enum": ["verificata", "completa"] } } },
-  "then": { "required": ["verificato_il"], "properties": { "verificato_il": { "type": "string" } } },
+  "allOf": [
+    {
+      "if": { "properties": { "maturita": { "const": "controllata" } } },
+      "then": { "required": ["controllato_il"], "properties": { "controllato_il": { "type": "string" } } }
+    },
+    {
+      "if": { "properties": { "maturita": { "enum": ["verificata", "completa"] } } },
+      "then": { "required": ["verificato_il"], "properties": { "verificato_il": { "type": "string" } } }
+    }
+  ],
   "definitions": {
     "fonte": {
       "type": "object",

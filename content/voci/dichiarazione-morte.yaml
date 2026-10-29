@@ -10,5 +10,6 @@ livello_territoriale: nazionale
 fonti:
   - titolo: Normattiva – DPR 396/2000, art. 72 (dichiarazione di morte)
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:2000-11-03;396~art72
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

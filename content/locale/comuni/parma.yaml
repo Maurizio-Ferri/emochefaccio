@@ -13,10 +13,11 @@ override:
     fonti:
       - titolo: Comune di Parma – Tariffazione puntuale
         url: https://www.comune.parma.it/it/argomenti/ambiente/ambiente-agenti-fisici-ed-economia-circolare/rifiuti/tariffazione-puntuale
-      - titolo: Comune di Parma – Avviso agevolazione TARI/TCP 2025 (fattura di Iren Ambiente)
-        url: https://www.comune.parma.it/it/amministrazione/documenti-e-dati/bandi-e-avvisi/avvisi-pubblici/avviso-agevolazione-tari-tcp-2025
+      - titolo: Comune di Parma – Tariffa rifiuti corrispettiva dal 2023
+        url: https://tributientrate.comune.parma.it/it-IT/TARIFFA-RIFIUTI-CORRISPETTIVA-DAL-2023.aspx
       - titolo: Gruppo Iren – La TARI/TCP per il tuo Comune (Parma)
         url: https://www.gruppoiren.it/it/i-nostri-servizi/ambiente/tributi-e-tariffe/la-tari-tcp-per-il-tuo-comune.Parma.Parma.html
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: residenza-anagrafica
     ente: Comune di Parma (servizi demografici)
@@ -28,6 +29,7 @@ override:
     fonti:
       - titolo: Comune di Parma – Cambio di residenza
         url: https://www.comune.parma.it/it/servizi/anagrafe-stato-civile-ed-elettorale/cambio-di-residenza-1
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: imu-abitazione-principale
     ente: Comune di Parma (Sportello Entrate)
@@ -40,15 +42,19 @@ override:
         url: https://www.comune.parma.it/it/amministrazione/enti-e-fondazioni-1/sportello-entrate-del-comune-di-parma
       - titolo: MEF – IMU, regolamenti e aliquote (ricerca per comune)
         url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/Regolamenti-e-aliquote-ricerca/
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: imu-altri-immobili
     ente: Comune di Parma (Sportello Entrate)
     nota_locale: >
-      Le aliquote di Parma sono nella delibera del Comune pubblicata sul sito del Dipartimento delle Finanze.
+      Le aliquote di Parma sono nel prospetto aliquote pubblicato sulla pagina IMU del Comune
+      e sul sito del Dipartimento delle Finanze.
       Il Comune prevede aliquote agevolate, per esempio per le case affittate a canone concordato
-      o date in comodato a un parente stretto. Per averle devi presentare una dichiarazione
+      o date in comodato a un genitore o a un figlio. Per averle devi presentare una dichiarazione
       online con SPID e ripresentarla quando la situazione cambia.
     fonti:
+      - titolo: Comune di Parma – IMU, aliquote
+        url: https://tributientrate.comune.parma.it/it-IT/imu-2024.aspx
       - titolo: Comune di Parma – Dichiarazione IMU per particolari agevolazioni comunali
         url: https://www.comune.parma.it/it/servizi/tributi-finanze-e-contravvenzioni/dichiarazione-imu-per-lapplicazione-di-particolari-agevolazioni-comunali
       - titolo: MEF – IMU, regolamenti e aliquote (ricerca per comune)

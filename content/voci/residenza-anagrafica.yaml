@@ -10,7 +10,7 @@ passi:
   - "Quando vai ad abitare nella nuova casa, tieni pronti i dati catastali dell'immobile: se è tuo, li trovi nell'atto di acquisto."
   - "Entra nel portale dell'Anagrafe nazionale (ANPR) con SPID, CIE o CNS e scegli \"Cambio di residenza\", oppure usa il servizio del tuo Comune: canali e sportelli cambiano da comune a comune."
   - "Indica chi si trasferisce con te: gli altri maggiorenni devono confermare dalla loro area riservata."
-  - Il Comune registra subito la dichiarazione e poi fa un accertamento. Se è positivo, la residenza vale dal giorno in cui l'hai presentata.
+  - Il Comune registra la dichiarazione entro pochi giorni e poi fa un accertamento. Se è positivo, la residenza vale dal giorno in cui l'hai presentata.
   - "Segui la pratica online: ti arrivano avvisi per email e sull'app IO."
   - Patente e libretto dell'auto si aggiornano tramite il Comune.
 ente: Comune (anagrafe)
@@ -21,6 +21,10 @@ fonti:
     url: https://www.anagrafenazionale.interno.it/area-cittadino/cambio-di-residenza/
   - titolo: ACI – Cambio di residenza e documenti del veicolo
     url: https://aci.gov.it/pratica-auto/cambio-di-residenza/
+  - titolo: ANPR – Servizi al cittadino (SPID, CIE, CNS)
+    url: https://www.anagrafenazionale.interno.it/servizi-al-cittadino/
+  - titolo: MIT – Cambio di residenza sulla carta di circolazione e sulla patente
+    url: https://www.mit.gov.it/cambio-di-residenza-sulla-carta-di-circolazione
 scadenze:
   - titolo: Dichiara al Comune il cambio di residenza
     dal: trasferimento
@@ -28,5 +32,6 @@ scadenze:
     fonte:
       titolo: Normattiva – DPR 223/1989, regolamento anagrafico, art. 13
       url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1989-05-30;223:1~art13
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

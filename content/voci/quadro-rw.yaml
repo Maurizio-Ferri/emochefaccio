@@ -2,16 +2,22 @@ id: quadro-rw
 titolo: Conti, investimenti e case all'estero in dichiarazione
 tipo: dovere
 descrizione: >
-  Se hai conti, investimenti, immobili o cripto-attività all'estero devi indicarli nel quadro RW
-  della dichiarazione dei redditi, anche se li hai chiusi durante l'anno, e pagare le imposte
-  sul loro valore (IVIE e IVAFE). Se ometti il quadro rischi sanzioni. Ci sono esoneri, ad esempio
-  per i conti esteri con saldi bassi.
+  Se hai conti, investimenti o immobili all'estero, oppure cripto-attività, devi indicarli nel quadro
+  RW della dichiarazione dei redditi, anche se li hai chiusi durante l'anno, e pagare le imposte sul
+  loro valore (IVIE e IVAFE). Se ometti il quadro rischi sanzioni. Ci sono esoneri, ad esempio per i
+  conti esteri con saldi bassi, ma se devi pagare l'IVAFE il quadro va compilato comunque. Non devi
+  indicare quello che tieni presso un intermediario italiano che applica già le imposte.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
   - titolo: Agenzia delle Entrate – Quadro RW, investimenti e attività finanziarie all'estero
     url: https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-rw
   - titolo: Normattiva – D.L. 167/1990, art. 4 (monitoraggio fiscale)
-    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:1990-06-28;167~art4
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:1990-06-28;167~art4!vig=2026-10-29
+  - titolo: Normattiva – D.L. 167/1990, art. 5 (sanzioni)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:1990-06-28;167~art5!vig=2026-10-29
+  - titolo: Normattiva – D.Lgs. 141/2026, art. 58 (dal 2027)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-08-05;141:1~art58
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

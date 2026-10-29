@@ -2,14 +2,16 @@ id: dichiarazione-redditi
 titolo: Dichiarazione dei redditi precompilata (730)
 tipo: diritto
 descrizione: >
-  Se hai solo il reddito da lavoro dipendente spesso non sei obbligato a presentarla,
-  ma farlo ti permette di recuperare le spese detraibili. In alcuni casi è obbligatoria:
-  verifica sulla fonte.
+  Se hai solo redditi da lavoro dipendente e il datore di lavoro ha già fatto tutti i conti, di solito
+  non sei obbligato a presentarla. Se hai cambiato lavoro nell'anno o le trattenute non sono complete,
+  potresti doverla presentare: verifica sulla fonte. Anche se non sei obbligato, presentarla ti
+  permette di recuperare le spese detraibili.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 quando: [lavoratore_dipendente]
 fonti:
-  - titolo: Agenzia delle Entrate
-    url: https://www.agenziaentrate.gov.it/portale/
+  - titolo: Agenzia delle Entrate – Istruzioni modello 730/2026 (chi è esonerato)
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/documents/d/guest/730_istruzioni_2026.pdf
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

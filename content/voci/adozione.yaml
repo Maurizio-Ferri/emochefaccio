@@ -4,7 +4,7 @@ tipo: diritto
 descrizione: >
   Per adottare un bambino si presenta la dichiarazione di disponibilità al Tribunale per i minorenni.
   L'adozione nazionale è riservata alle coppie sposate. Per quella internazionale, aperta anche alle
-  persone single, dopo l'idoneità bisogna affidarsi a un ente autorizzato dalla Commissione per le
+  persone single residenti in Italia, dopo l'idoneità bisogna affidarsi a un ente autorizzato dalla Commissione per le
   adozioni internazionali. I genitori adottivi hanno gli stessi congedi dei genitori biologici.
 ente: Tribunale per i minorenni / Commissione per le adozioni internazionali
 livello_territoriale: nazionale
@@ -15,5 +15,10 @@ fonti:
     url: https://www.giustizia.it/giustizia/page/it/adozione_internazionale
   - titolo: Commissione per le adozioni internazionali – Per adottare
     url: https://www.commissioneadozioni.it/per-una-famiglia-adottiva/per-adottare/
+  - titolo: Normattiva – Legge 184/1983, art. 29-bis (adozione internazionale)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1983-05-04;184~art29bis
+  - titolo: Normattiva – D.Lgs. 151/2001, art. 26 (congedo per adozione)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2001-03-26;151~art26
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

@@ -8,7 +8,7 @@ passi:
   - Entra nel sito INPS con SPID, CIE o CNS e apri l'estratto conto contributivo.
   - Controlla che ci siano i periodi del vecchio lavoro fino all'ultimo giorno, con il datore giusto e la retribuzione.
   - Dopo qualche mese controlla anche che il nuovo datore versi i contributi.
-  - Se manca qualcosa o c'è un errore, segnalalo online con il servizio di rettifica dell'estratto conto, allegando buste paga o Certificazioni Uniche.
+  - Se manca qualcosa o c'è un errore, segnalalo online con il servizio di rettifica dell'estratto conto, allegando i documenti che lo provano.
   - Puoi farti aiutare da un patronato o chiamare il Contact Center.
   - "Non aspettare la pensione: dopo un certo tempo i contributi non versati si prescrivono e il datore non può più versarli."
 ente: INPS
@@ -17,5 +17,10 @@ quando: [lavoratore_dipendente]
 fonti:
   - titolo: INPS – Consultazione estratto conto contributivo
     url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-estratto-conto-contributivo-previdenziale-50119.consultazione-estratto-conto-contributivo-previdenziale.html
+  - titolo: INPS – Richiedere la rettifica dell'estratto conto contributivo
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva--50582.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva-.html
+  - titolo: Normattiva – Legge 335/1995, art. 3
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1995-08-08;335~art3
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

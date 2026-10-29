@@ -15,6 +15,7 @@ override:
         url: https://finanze.regione.emilia-romagna.it/tributi-regionali/bollo-auto
       - titolo: Regione Emilia-Romagna – Bollo auto, quanto, come, dove e quando si paga
         url: https://finanze.regione.emilia-romagna.it/tributi-regionali/bollo-auto/quanto-come-e-quando-si-paga
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: scelta-medico
     ente: Azienda USL di residenza
@@ -30,6 +31,7 @@ override:
         url: https://salute.regione.emilia-romagna.it/cure-primarie/medici-e-pediatri-di-famiglia
       - titolo: Regione Emilia-Romagna, Salute – Fascicolo Sanitario Elettronico 2.0
         url: https://salute.regione.emilia-romagna.it/fascicolo-sanitario-elettronico-2-0
+    controllato_il: 2026-10-29
     verificato_il: null
   - voce: esenzione-ticket
     ente: Azienda USL di residenza
@@ -40,7 +42,7 @@ override:
       presenti un'autocertificazione all'Azienda USL tramite il Fascicolo.
       Per una malattia cronica l'attestato lo rilascia lo sportello dell'Azienda USL di residenza,
       a cui porti il certificato dello specialista.
-      La Regione prevede anche esenzioni proprie, ad esempio per chi ha perso il lavoro per una crisi aziendale.
+      La Regione prevede anche esenzioni proprie, ad esempio per chi ha perso il lavoro o è in cassa integrazione, con un ISEE basso.
     fonti:
       - titolo: Regione Emilia-Romagna, Salute – Esenzione ticket per reddito
         url: https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito
@@ -48,4 +50,7 @@ override:
         url: https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/le-patologie-croniche-che-danno-diritto-allesenzione
       - titolo: Regione Emilia-Romagna, Salute – Esenzioni dal pagamento del ticket
         url: https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni
+      - titolo: Regione Emilia-Romagna, Salute – Esenzione per i lavoratori colpiti dalla crisi
+        url: https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/lavoratori-colpiti-dalla-crisi-economica
+    controllato_il: 2026-10-29
     verificato_il: null

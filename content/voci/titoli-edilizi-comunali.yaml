@@ -5,7 +5,7 @@ descrizione: >
   Molti lavori in casa richiedono una pratica allo Sportello unico per l'edilizia del Comune: CILA
   firmata da un tecnico, SCIA o permesso di costruire, a seconda dell'intervento. Alcuni lavori sono
   in edilizia libera e non richiedono pratiche, ma vanno rispettate le altre regole, ad esempio su
-  sismica e paesaggio.
+  sismica e paesaggio. Le Regioni possono cambiare in parte queste regole.
 ente: Comune (Sportello unico per l'edilizia)
 livello_territoriale: comunale
 fonti:
@@ -15,5 +15,12 @@ fonti:
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380~art6bis
   - titolo: Gazzetta Ufficiale – Glossario dell'edilizia libera (DM 2 marzo 2018)
     url: https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2018-04-07&atto.codiceRedazionale=18A02406
+  - titolo: Normattiva – Testo unico edilizia (DPR 380/2001), art. 5 (Sportello unico)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380~art5
+  - titolo: Normattiva – Testo unico edilizia (DPR 380/2001), art. 10 (permesso di costruire)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380~art10
+  - titolo: Normattiva – Testo unico edilizia (DPR 380/2001), art. 22 (SCIA)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380~art22
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

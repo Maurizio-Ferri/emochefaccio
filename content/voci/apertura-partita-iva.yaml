@@ -2,10 +2,10 @@ id: apertura-partita-iva
 titolo: Aprire la partita IVA
 tipo: dovere
 descrizione: >
-  Se inizi a lavorare in proprio in modo abituale devi aprire la partita IVA entro un termine dall'inizio.
-  I professionisti presentano il modello AA9/12 all'Agenzia delle Entrate, anche online e gratis con SPID o CIE.
-  Chi avvia un'impresa, ad esempio artigiani e commercianti, la chiede con la Comunicazione Unica
-  alla Camera di Commercio.
+  Se inizi a lavorare in proprio in modo abituale devi aprire la partita IVA entro un termine
+  dall'inizio. I professionisti presentano il modello AA9/12 all'Agenzia delle Entrate, anche online
+  con SPID o CIE. Chi avvia un'impresa, ad esempio artigiani e commercianti, la chiede con la
+  Comunicazione Unica alla Camera di Commercio.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
@@ -13,5 +13,8 @@ fonti:
     url: https://www.agenziaentrate.gov.it/portale/schede/istanze/aa9_11-apertura-variazione-chiusura-pf/quando-utilizzare-professionisti
   - titolo: Agenzia delle Entrate – Partita Iva persone fisiche, imprese
     url: https://www.agenziaentrate.gov.it/portale/schede/istanze/aa9_11-apertura-variazione-chiusura-pf/scheda-informativa-aa9_11-imprese
+  - titolo: Normattiva – DPR 633/1972, art. 5 (esercizio abituale)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:1972-10-26;633~art5
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

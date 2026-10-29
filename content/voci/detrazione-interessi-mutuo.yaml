@@ -5,11 +5,11 @@ descrizione: >
   Gli interessi pagati sul mutuo per l'acquisto dell'abitazione principale
   si possono detrarre in dichiarazione dei redditi, entro certi limiti.
 passi:
-  - "Il mutuo deve essere ipotecario e servire a comprare la casa che diventerà la tua abitazione principale: lo scopo deve risultare dal contratto."
+  - "Il mutuo deve essere ipotecario e servire a comprare la casa che diventerà la tua abitazione principale: lo scopo deve risultare dal contratto di mutuo o di acquisto, o da un documento della banca; altrimenti basta un'autocertificazione."
   - "Firma mutuo e acquisto a poca distanza di tempo: la legge fissa un termine tra i due."
-  - "Vai ad abitare nella casa entro il termine di legge: fanno fede la residenza oppure un'autocertificazione di dimora abituale."
+  - "Vai ad abitare nella casa entro il termine di legge: fanno fede la residenza oppure un'autocertificazione di dimora abituale. Se quando la compri la casa è affittata, il termine parte da quando l'inquilino la lascia."
   - Conserva atto di acquisto, contratto di mutuo, ricevute degli oneri accessori e le quietanze o la certificazione annuale della banca.
-  - Ogni anno inserisci gli interessi nella dichiarazione dei redditi e controlla che nella precompilata ci siano.
+  - Ogni anno inserisci gli interessi nella dichiarazione dei redditi.
   - Se il mutuo è intestato a due persone, ciascuno detrae la propria quota. Con redditi alti e mutui firmati di recente la detrazione può essere ridotta.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
@@ -30,5 +30,6 @@ scadenze:
     fonte:
       titolo: Agenzia delle Entrate – Guida interessi passivi per mutui
       url: https://www.agenziaentrate.gov.it/portale/documents/20143/10186910/Interessi_passivi_per_mutui.pdf/b4f0b550-6579-9447-0c71-9db16ed05cc4
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

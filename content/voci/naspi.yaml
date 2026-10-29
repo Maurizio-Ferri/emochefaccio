@@ -2,9 +2,10 @@ id: naspi
 titolo: NASpI, l'indennità di disoccupazione
 tipo: diritto
 descrizione: >
-  Se perdi il lavoro senza averlo scelto e hai abbastanza contributi puoi chiedere la NASpI all'INPS,
-  online o tramite patronato, entro un termine dalla fine del rapporto: dopo il diritto si perde.
-  Se ti eri dimesso da un altro lavoro poco prima ci sono requisiti in più.
+  Se eri dipendente e perdi il lavoro senza averlo scelto, e hai abbastanza contributi, puoi chiedere
+  la NASpI all'INPS, online, al contact center o tramite patronato, entro un termine dalla fine del
+  rapporto: dopo il diritto si perde. Se poco prima avevi lasciato per scelta un altro lavoro a tempo
+  indeterminato, ci sono requisiti in più.
 ente: INPS
 livello_territoriale: nazionale
 fonti:
@@ -12,5 +13,8 @@ fonti:
     url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50593.naspi-indennit-mensile-di-disoccupazione.html
   - titolo: INPS – NASpI, nuovo requisito contributivo
     url: https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.06.naspi-nuovo-requisito-contributivo.html
+  - titolo: Normattiva – D.Lgs. 22/2015, art. 6
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-03-04;22~art6
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

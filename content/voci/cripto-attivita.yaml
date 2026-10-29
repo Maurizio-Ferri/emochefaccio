@@ -2,10 +2,11 @@ id: cripto-attivita
 titolo: Criptovalute in dichiarazione
 tipo: dovere
 descrizione: >
-  Le cripto-attività vanno indicate nel quadro RW e su di esse si paga un'imposta sul valore,
-  se non lo fa già un intermediario. I guadagni quando le vendi o le converti in euro sono tassati
-  e vanno dichiarati: conserva i documenti con il prezzo di acquisto, altrimenti vale zero.
-  Scambiare una cripto con un'altra simile non conta come guadagno.
+  Se non le tieni presso un intermediario italiano che applica già le imposte, le cripto-attività
+  vanno indicate nel quadro RW e su di esse paghi un'imposta sul valore. I guadagni quando le vendi o
+  le converti in euro sono tassati e vanno dichiarati: conserva i documenti con il prezzo di acquisto,
+  altrimenti vale zero. Scambiare una cripto con un'altra che ha le stesse caratteristiche e funzioni
+  non conta come guadagno.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
@@ -13,5 +14,8 @@ fonti:
     url: https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-estero-e-cripto-attivit%C3%A0
   - titolo: Agenzia delle Entrate – Circolare 30/E del 2023 sulle cripto-attività
     url: https://www.agenziaentrate.gov.it/portale/documents/20143/5589638/Circolare+criptoattivita+del+27+ottobre+2023.pdf
+  - titolo: Normattiva – TUIR, art. 67 (in vigore fino a fine 2026)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art67!vig=2026-10-29
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

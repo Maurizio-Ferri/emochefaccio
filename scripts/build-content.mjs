@@ -32,6 +32,15 @@ function leggi(file) {
   }
 }
 
+function leggiJson(file) {
+  try {
+    return JSON.parse(readFileSync(file, "utf8"));
+  } catch (e) {
+    errore(basename(file), `JSON non valido o mancante: ${e.message}`);
+    return null;
+  }
+}
+
 function caricaCartella(cartella, schemaId) {
   const dir = join(content, cartella);
   if (!existsSync(dir)) return [];
@@ -78,11 +87,11 @@ for (const v of voci) {
   for (const f of v.quando ?? []) {
     if (!flag.has(f)) errore(`voci/${v.id}.yaml`, `flag sconosciuto in "quando": "${f}"`);
   }
-  // in bozza importi, percentuali e termini stanno solo nelle scadenze, che il sito non mostra finché la voce non è verificata
-  if (v.maturita === "bozza") {
+  // finché una persona non verifica la voce, importi, percentuali e termini stanno solo nelle scadenze
+  if (v.maturita === "bozza" || v.maturita === "controllata") {
     for (const testo of [v.descrizione, ...(v.passi ?? [])]) {
       const numero = testo.match(/(€\s*\d|\d[\d.,]*\s*(%|€|euro|per cento|giorn|settiman|mes[ei]|ann[oi]\b))/i);
-      if (numero) errore(`voci/${v.id}.yaml`, `in bozza niente importi, percentuali o termini: "${numero[0]}"`);
+      if (numero) errore(`voci/${v.id}.yaml`, `prima della verifica niente importi, percentuali o termini: "${numero[0]}"`);
     }
   }
   for (const s of v.scadenze ?? []) {
@@ -120,9 +129,30 @@ for (const r of regioni) {
   if (r.livello !== "regione") errore(`locale/regioni/${r.id}.yaml`, `livello deve essere "regione"`);
   if (!idRegioni.has(r.id)) errore(`locale/regioni/${r.id}.yaml`, `regione non presente in profilo.yaml`);
 }
+// elenco ufficiale dei comuni, generato da scripts/aggiorna-comuni.mjs
+const elencoComuni = leggiJson(join(content, "comuni.json"));
+const comuniPerRegione = elencoComuni?.regioni ?? {};
+for (const id of idRegioni) {
+  if (!comuniPerRegione[id]?.length) errore("comuni.json", `nessun comune per la regione "${id}"`);
+}
+for (const [regione, elenco] of Object.entries(comuniPerRegione)) {
+  if (!idRegioni.has(regione)) errore("comuni.json", `regione non presente in profilo.yaml: "${regione}"`);
+  const ids = new Set();
+  for (const voce of elenco) {
+    const [id, nome, sito] = voce;
+    if (typeof id !== "string" || typeof nome !== "string" || (sito !== undefined && !/^https?:\/\//.test(sito))) {
+      errore("comuni.json", `${regione}: voce non valida ${JSON.stringify(voce)}`);
+    }
+    if (ids.has(id)) errore("comuni.json", `${regione}: id ripetuto "${id}"`);
+    ids.add(id);
+  }
+}
 for (const c of comuni) {
   if (c.livello !== "comune") errore(`locale/comuni/${c.id}.yaml`, `livello deve essere "comune"`);
   if (!idRegioni.has(c.regione)) errore(`locale/comuni/${c.id}.yaml`, `regione sconosciuta "${c.regione}"`);
+  else if (!(comuniPerRegione[c.regione] ?? []).some(([id]) => id === c.id)) {
+    errore(`locale/comuni/${c.id}.yaml`, `"${c.id}" non è nell'elenco ISTAT dei comuni di ${c.regione}`);
+  }
 }
 for (const o of [...regioni, ...comuni]) {
   for (const ov of o.override) {
@@ -151,5 +181,7 @@ if (soloControllo) {
 } else {
   mkdirSync(join(root, "src", "generated"), { recursive: true });
   writeFileSync(join(root, "src", "generated", "catalogo.json"), JSON.stringify(catalogo, null, 2));
+  // a parte: l'interfaccia lo carica dopo, tutto intero, così non si rivela quale regione interessa
+  writeFileSync(join(root, "src", "generated", "comuni.json"), JSON.stringify(comuniPerRegione));
   console.log(`✓ Catalogo generato: ${conteggio}`);
 }

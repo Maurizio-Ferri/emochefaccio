@@ -2,9 +2,10 @@ id: dimissioni-telematiche
 titolo: Dimettersi con la procedura online
 tipo: dovere
 descrizione: >
-  Le dimissioni da un lavoro privato valgono solo se presentate online, da solo con SPID o CIE
-  oppure tramite patronato o sindacato; per un breve periodo puoi revocarle. Se ti dimetti di regola
-  non hai la NASpI, salvo giusta causa. Anche le assenze ingiustificate prolungate possono essere
+  Le dimissioni da un lavoro privato valgono solo se presentate online, da solo con SPID o CIE oppure
+  tramite patronato o sindacato, salvo poche eccezioni come il lavoro domestico; per un breve periodo
+  puoi revocarle. Se ti dimetti di regola non hai la NASpI, salvo giusta causa o dimissioni nel
+  periodo tutelato dopo una nascita. Anche le assenze ingiustificate prolungate possono essere
   considerate dimissioni.
 passi:
   - Controlla nel contratto collettivo quanto preavviso devi dare e fissa la data di fine del lavoro.
@@ -12,7 +13,7 @@ passi:
   - In alternativa fatti aiutare da un patronato, un sindacato, un consulente del lavoro o l'Ispettorato del lavoro.
   - Il modulo arriva al datore e all'Ispettorato. Conserva la ricevuta con la data e il codice.
   - Se cambi idea puoi revocare le dimissioni con la stessa procedura, ma solo per pochi giorni.
-  - Se sei incinta o hai un figlio piccolo, le dimissioni devono essere convalidate dall'Ispettorato del lavoro.
+  - "Se sei incinta o hai un figlio piccolo non usi la procedura online: le dimissioni valgono solo dopo la convalida dell'Ispettorato del lavoro."
 ente: Ministero del Lavoro
 livello_territoriale: nazionale
 fonti:
@@ -20,6 +21,10 @@ fonti:
     url: https://www.lavoro.gov.it/strumenti-e-servizi/Dimissioni-volontarie/Pagine/default
   - titolo: Normattiva – D.Lgs. 151/2015, art. 26
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;151~art26
+  - titolo: Normattiva – D.Lgs. 151/2001, art. 55
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2001-03-26;151~art55
+  - titolo: INPS – NASpI, indennità mensile di disoccupazione
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50593.naspi-indennit-mensile-di-disoccupazione.html
 scadenze:
   - titolo: Ultimo giorno per revocare le dimissioni
     dal: dimissioni
@@ -27,5 +32,6 @@ scadenze:
     fonte:
       titolo: Normattiva – D.Lgs. 151/2015, art. 26
       url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;151~art26
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata

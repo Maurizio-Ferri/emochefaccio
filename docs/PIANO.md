@@ -153,7 +153,7 @@ Una voce generica vale ovunque ("se occupi un immobile devi dichiararlo e pagare
 
 | Livello | Contenuto | Etichetta |
 |---|---|---|
-| **1 — Catalogo** | titolo, 1-2 righe, ente, fonte | `bozza` → `verificata` |
+| **1 — Catalogo** | titolo, 1-2 righe, ente, fonte | `bozza` → `controllata` (controllo AI sulle fonti) → `verificata` (persona) |
 | **2 — Guida completa** | passi, scadenze, override locali, `.ics` | `completa` |
 
 Obiettivo MVP: **ampiezza al livello 1**, profondità al livello 2 solo su pochi eventi.
@@ -349,7 +349,9 @@ Tempo disponibile: **~4 ore a settimana**, budget zero.
 - [x] 20-25 eventi e il profilo ricorrente al livello 1 (tutte le voci ancora in `bozza`, da verificare)
 - [x] 3 eventi al livello 2: passi e scadenze scritti, voci ancora in `bozza` da verificare
 - [x] Override per Emilia-Romagna, Lazio e i comuni di prova (Reggio Emilia, Modena, Parma, Roma)
-- [ ] Flusso di lavoro: bozza YAML preparata con l'AI → verifica della fonte → `verificata`
+- [x] Elenco completo dei comuni (ISTAT) con il sito di ciascun Comune (IndicePA)
+- [x] Controllo automatico indipendente sulle fonti: 80 voci su 85 passate a `controllata` (ottobre 2026)
+- [ ] Flusso di lavoro: bozza YAML preparata con l'AI → controllo AI sulle fonti → verifica di una persona → `verificata`
 
 **Fatto quando**: il catalogo è navigabile e tutte le voci pubblicate hanno una fonte primaria.
 

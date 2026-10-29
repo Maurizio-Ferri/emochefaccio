@@ -10,8 +10,8 @@ passi:
   - "Controlla di non possedere altre abitazioni, nemmeno all'estero: fanno eccezione alcune case ereditate."
   - Verifica che la casa non sia di lusso e che diventerà la tua abitazione principale.
   - "Scegli una banca che aderisce al Fondo: l'elenco è sul sito Consap."
-  - Scarica dal sito Consap il modulo di domanda e consegnalo alla banca insieme alla domanda di mutuo, con un documento d'identità. Non va inviato a Consap.
-  - La banca ti comunica l'esito. Se poi non paghi le rate, il Fondo paga la banca ma chiede a te quelle somme.
+  - Scarica dal sito Consap il modulo di domanda e consegnalo alla banca insieme alla domanda di mutuo, con un documento d'identità. Non va inviato a Consap. Per le famiglie numerose c'è un modulo apposito.
+  - Consap comunica l'esito alla banca, che decide se concederti il mutuo. Se poi non paghi le rate, il Fondo paga la banca ma chiede a te quelle somme.
 ente: Consap
 livello_territoriale: nazionale
 fonti:
@@ -19,5 +19,6 @@ fonti:
     url: https://www.consap.it/fondo-prima-casa/
   - titolo: Consap – Fondo prima casa, modulistica
     url: https://www.consap.it/fondo-prima-casa/modulistica/
+controllato_il: 2026-10-29
 verificato_il: null
-maturita: bozza
+maturita: controllata
