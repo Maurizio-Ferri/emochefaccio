@@ -1,0 +1,16 @@
+id: imu-altri-immobili
+titolo: IMU sugli altri immobili
+tipo: dovere
+descrizione: >
+  Su seconde case, terreni, aree edificabili e pertinenze oltre quelle della prima casa paghi l'IMU
+  al Comune dove si trova l'immobile, di solito in due rate. Le aliquote le decide il Comune.
+ente: Comune
+livello_territoriale: comunale
+quando: [possiede_altri_immobili]
+fonti:
+  - titolo: MEF – IMU, presupposto
+    url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/disciplina-del-tributo/presupposto/
+  - titolo: MEF – IMU, versamenti
+    url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/disciplina-del-tributo/versamenti/
+verificato_il: null
+maturita: bozza

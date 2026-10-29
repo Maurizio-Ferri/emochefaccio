@@ -1,0 +1,17 @@
+id: rinnovo-patente
+titolo: Rinnovo della patente
+tipo: dovere
+descrizione: >
+  La patente scade, con intervalli che cambiano con la categoria e l'età. Per rinnovarla fai una visita
+  da un medico abilitato; la nuova patente ti arriva per posta. Guidare con la patente scaduta
+  comporta una multa e il ritiro del documento.
+ente: Ministero delle Infrastrutture e dei Trasporti
+livello_territoriale: nazionale
+quando: [ha_patente]
+fonti:
+  - titolo: MIT – Rinnovo patente
+    url: https://www.mit.gov.it/rinnovo-patente
+  - titolo: Normattiva – Codice della strada, art. 126
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art126
+verificato_il: null
+maturita: bozza

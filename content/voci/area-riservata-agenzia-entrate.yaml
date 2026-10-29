@@ -1,0 +1,15 @@
+id: area-riservata-agenzia-entrate
+titolo: Area riservata e cassetto fiscale
+tipo: diritto
+descrizione: >
+  Con SPID, CIE o CNS entri nell'area riservata dell'Agenzia delle Entrate: trovi il cassetto fiscale
+  con i tuoi dati, la dichiarazione precompilata e puoi consegnare documenti e chiedere certificati
+  senza andare allo sportello.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+quando: []
+fonti:
+  - titolo: Agenzia delle Entrate – Area riservata
+    url: https://www.agenziaentrate.gov.it/portale/area-riservata
+verificato_il: null
+maturita: bozza

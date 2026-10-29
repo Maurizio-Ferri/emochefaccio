@@ -1,0 +1,17 @@
+id: isee
+titolo: ISEE, per le prestazioni agevolate
+tipo: diritto
+descrizione: >
+  L'ISEE misura la situazione economica della famiglia e serve per chiedere prestazioni agevolate,
+  come l'assegno unico per i figli. Lo ottieni presentando la DSU all'INPS, anche precompilata online,
+  o tramite un CAF. Vale per un periodo limitato e va rinnovato.
+ente: INPS
+livello_territoriale: nazionale
+quando: []
+fonti:
+  - titolo: INPS – Portale unico ISEE
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Portale-unico-ISEE.html
+  - titolo: Ministero del Lavoro – ISEE
+    url: https://www.lavoro.gov.it/strumenti-e-servizi/isee/pagine/default
+verificato_il: null
+maturita: bozza

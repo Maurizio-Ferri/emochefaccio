@@ -1,0 +1,16 @@
+id: addizionali-irpef
+titolo: Addizionali regionale e comunale all'IRPEF
+tipo: dovere
+descrizione: >
+  Oltre all'IRPEF paghi un'addizionale alla Regione e una al Comune, con aliquote decise da ciascun ente.
+  Se sei dipendente te le trattiene il datore di lavoro in busta paga, a rate nell'anno successivo.
+ente: Regione e Comune (disciplina MEF)
+livello_territoriale: nazionale
+quando: [lavoratore_dipendente]
+fonti:
+  - titolo: MEF – Addizionale comunale all'IRPEF, aliquote applicabili
+    url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Addizionale-comunale-allIRPEF/aliquote-applicabili/
+  - titolo: MEF – Addizionale regionale all'IRPEF
+    url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Addizionale-regionale-allIRPEF/disciplina-del-tributo/
+verificato_il: null
+maturita: bozza

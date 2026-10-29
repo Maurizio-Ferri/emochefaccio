@@ -1,0 +1,16 @@
+id: domicilio-digitale
+titolo: Domicilio digitale (INAD)
+tipo: diritto
+descrizione: >
+  Se hai una PEC puoi registrarla come tuo domicilio digitale: gli enti pubblici ti manderanno lì
+  le comunicazioni con valore legale invece che per raccomandata. Per i cittadini è facoltativo.
+ente: AgID
+livello_territoriale: nazionale
+quando: []
+fonti:
+  - titolo: Normattiva – Codice dell'amministrazione digitale, art. 3-bis
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82~art3bis
+  - titolo: Dipartimento per la trasformazione digitale – Nasce INAD
+    url: https://innovazione.gov.it/notizie/articoli/nasce-inad-l-indice-nazionale-dei-domicili-digitali/
+verificato_il: null
+maturita: bozza

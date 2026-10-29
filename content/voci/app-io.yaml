@@ -1,0 +1,17 @@
+id: app-io
+titolo: App IO, l'app dei servizi pubblici
+tipo: diritto
+descrizione: >
+  Con l'app IO ricevi messaggi e avvisi dagli enti pubblici, comprese le notifiche con valore legale,
+  paghi con pagoPA e puoi tenere nel telefono documenti come patente e tessera sanitaria.
+  Si accede con SPID o CIE.
+ente: PagoPA S.p.A. / Dipartimento per la trasformazione digitale
+livello_territoriale: nazionale
+quando: []
+fonti:
+  - titolo: Dipartimento per la trasformazione digitale – App IO
+    url: https://innovazione.gov.it/progetti/app-io-cittadinanza-digitale/
+  - titolo: IO, l'app dei servizi pubblici
+    url: https://ioapp.it/
+verificato_il: null
+maturita: bozza

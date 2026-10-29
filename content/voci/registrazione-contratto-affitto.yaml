@@ -1,0 +1,17 @@
+id: registrazione-contratto-affitto
+titolo: Registrazione del contratto d'affitto
+tipo: dovere
+descrizione: >
+  Il contratto d'affitto va registrato all'Agenzia delle Entrate entro un termine. L'obbligo è sia
+  dell'inquilino sia del proprietario, che rispondono insieme dell'imposta di registro.
+  Se il proprietario sceglie la cedolare secca, l'imposta di registro non si paga.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+quando: [occupa_immobile, in_affitto]
+fonti:
+  - titolo: Agenzia delle Entrate – Registrazione di un contratto di locazione (modello RLI)
+    url: https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/registrazione-di-un-nuovo-contratto/schedainfo-regime-ordinario
+  - titolo: Agenzia delle Entrate – Registrazione di un nuovo contratto, quanto si paga
+    url: https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/registrazione-di-un-nuovo-contratto/quanto-si-paga-regime-ordinario
+verificato_il: null
+maturita: bozza

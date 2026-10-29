@@ -21,8 +21,29 @@ describe("domande", () => {
 describe("la mia situazione", () => {
   it("senza risposte mostra solo le voci valide per tutti", () => {
     const s = situazione(catalogo, { risposte: {} });
+    const perTutti = catalogo.voci.filter((v) => v.quando?.length === 0);
     expect(ids(s.devi)).toEqual([]);
-    expect(ids(s.puoi)).toEqual(["identita-digitale"]);
+    expect(ids(s.puoi)).toEqual(ids(perTutti));
+    expect(ids(s.puoi)).toEqual(expect.arrayContaining(["identita-digitale", "isee", "app-io"]));
+  });
+
+  it("la patente si rinnova anche senza un veicolo intestato", () => {
+    const s = situazione(catalogo, { risposte: { ha_patente: true } });
+    expect(ids(s.devi)).toContain("rinnovo-patente");
+    expect(ids(s.devi)).not.toContain("bollo-auto");
+  });
+
+  it("chi possiede altri immobili paga l'IMU e li dichiara, anche se vive con i genitori", () => {
+    const s = situazione(catalogo, { risposte: { occupa_immobile: false, possiede_altri_immobili: true } });
+    expect(ids(s.devi)).toEqual(expect.arrayContaining(["imu-altri-immobili", "redditi-immobili-dichiarazione"]));
+    expect(ids(s.devi)).not.toContain("tributo-rifiuti");
+  });
+
+  it("la registrazione del contratto riguarda solo chi è in affitto", () => {
+    const proprietario = situazione(catalogo, { risposte: { occupa_immobile: true, proprietario_abitazione: true } });
+    expect(ids(proprietario.devi)).not.toContain("registrazione-contratto-affitto");
+    const affitto = situazione(catalogo, { risposte: { occupa_immobile: true, in_affitto: true } });
+    expect(ids(affitto.devi)).toContain("registrazione-contratto-affitto");
   });
 
   it("con un veicolo mostra bollo, RCA e revisione tra i doveri", () => {

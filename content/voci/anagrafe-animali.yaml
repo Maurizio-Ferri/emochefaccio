@@ -1,0 +1,17 @@
+id: anagrafe-animali
+titolo: Microchip e anagrafe degli animali da compagnia
+tipo: dovere
+descrizione: >
+  Cani, gatti e furetti devono avere il microchip ed essere registrati all'anagrafe degli animali
+  da compagnia. Lo fa il veterinario, privato o della ASL. Il passaggio al nuovo sistema nazionale
+  avviene Regione per Regione: verifica cosa vale dove vivi.
+ente: Ministero della Salute (tramite veterinario o ASL)
+livello_territoriale: regionale
+quando: [ha_animale]
+fonti:
+  - titolo: Normattiva – D.Lgs. 134/2022, art. 16
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2022-08-05;134~art16
+  - titolo: Gazzetta Ufficiale – D.M. 2 novembre 2023 sul sistema nazionale SINAC
+    url: https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2023-12-18&atto.codiceRedazionale=23A06843
+verificato_il: null
+maturita: bozza

@@ -1,0 +1,16 @@
+id: fascicolo-sanitario-elettronico
+titolo: Fascicolo sanitario elettronico
+tipo: diritto
+descrizione: >
+  Nel fascicolo sanitario elettronico trovi referti, prescrizioni, vaccinazioni e lettere di dimissione.
+  Lo gestisce la tua Regione: ci entri con SPID, CIE o tessera sanitaria dal portale nazionale.
+ente: Regione (tramite il portale nazionale)
+livello_territoriale: nazionale
+quando: []
+fonti:
+  - titolo: Fascicolo Sanitario Elettronico – Accedi al fascicolo
+    url: https://www.fascicolosanitario.gov.it/portale/accedi-al-fascicolo
+  - titolo: Fascicolo Sanitario Elettronico – Quali documenti trovi
+    url: https://www.fascicolosanitario.gov.it/portale/w/quali-documenti-posso-trovare-sul-mio-fascicolo-sanitario-elettronico-
+verificato_il: null
+maturita: bozza

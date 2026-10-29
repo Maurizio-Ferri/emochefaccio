@@ -3,6 +3,8 @@
 domande:
   - id: lavoratore_dipendente
     testo: Lavori come dipendente?
+  - id: ha_patente
+    testo: Hai la patente di guida?
   - id: possiede_veicolo
     testo: Hai un'auto o una moto intestata a te?
   - id: occupa_immobile
@@ -17,6 +19,11 @@ domande:
   - id: ha_mutuo
     testo: Stai pagando un mutuo per quella casa?
     mostra_se: [proprietario_abitazione]
+  - id: possiede_altri_immobili
+    testo: Possiedi immobili oltre alla casa in cui vivi?
+    aiuto: Per esempio una seconda casa, un box o un terreno, anche ereditati o in comproprietà.
+  - id: ha_animale
+    testo: Hai un cane, un gatto o un altro animale da compagnia?
 
 regioni:
   - { id: abruzzo, nome: Abruzzo }

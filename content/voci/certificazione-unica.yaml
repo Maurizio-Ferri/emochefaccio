@@ -1,0 +1,17 @@
+id: certificazione-unica
+titolo: Certificazione Unica dal datore di lavoro
+tipo: diritto
+descrizione: >
+  Ogni anno il datore di lavoro deve consegnarti la Certificazione Unica, con quanto ti ha pagato
+  e le tasse che ha trattenuto. Controllala: i suoi dati entrano nella dichiarazione precompilata
+  e la trovi anche nel cassetto fiscale.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+quando: [lavoratore_dipendente]
+fonti:
+  - titolo: Agenzia delle Entrate – Certificazione Unica, che cos'è
+    url: https://www.agenziaentrate.gov.it/portale/certificazione-unica-2026/che-cos-
+  - titolo: Agenzia delle Entrate – Non ho la Certificazione Unica, cosa posso fare?
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/w/faq-non-ho-la-certificazione-unica-cosa-posso-fare-
+verificato_il: null
+maturita: bozza
