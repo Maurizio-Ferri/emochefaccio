@@ -1,7 +1,8 @@
-import type { Profilo } from "./types";
+import type { DateEventi, Profilo } from "./types";
 
 const CHIAVE_PROFILO = "emochefaccio:profilo";
 const CHIAVE_FATTI = "emochefaccio:fatti";
+const CHIAVE_DATE = "emochefaccio:date";
 
 function leggi<T>(chiave: string, predefinito: T): T {
   try {
@@ -26,10 +27,14 @@ export const salvaProfilo = (p: Profilo): void => scrivi(CHIAVE_PROFILO, p);
 export const caricaFatti = (): string[] => leggi<string[]>(CHIAVE_FATTI, []);
 export const salvaFatti = (ids: string[]): void => scrivi(CHIAVE_FATTI, ids);
 
+export const caricaDate = (): DateEventi => leggi<DateEventi>(CHIAVE_DATE, {});
+export const salvaDate = (d: DateEventi): void => scrivi(CHIAVE_DATE, d);
+
 export function cancellaTutto(): void {
   try {
     localStorage.removeItem(CHIAVE_PROFILO);
     localStorage.removeItem(CHIAVE_FATTI);
+    localStorage.removeItem(CHIAVE_DATE);
   } catch {
     /* niente da fare */
   }

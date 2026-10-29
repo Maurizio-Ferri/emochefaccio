@@ -4,6 +4,13 @@ tipo: diritto
 descrizione: >
   Con SPID, CIE o CNS puoi vedere sul sito INPS l'estratto conto con i contributi versati per te.
   Se manca qualcosa puoi segnalarlo online: conviene controllare ogni tanto, non solo vicino alla pensione.
+passi:
+  - Entra nel sito INPS con SPID, CIE o CNS e apri l'estratto conto contributivo.
+  - Controlla che ci siano i periodi del vecchio lavoro fino all'ultimo giorno, con il datore giusto e la retribuzione.
+  - Dopo qualche mese controlla anche che il nuovo datore versi i contributi.
+  - Se manca qualcosa o c'è un errore, segnalalo online con il servizio di rettifica dell'estratto conto, allegando buste paga o Certificazioni Uniche.
+  - Puoi farti aiutare da un patronato o chiamare il Contact Center.
+  - "Non aspettare la pensione: dopo un certo tempo i contributi non versati si prescrivono e il datore non può più versarli."
 ente: INPS
 livello_territoriale: nazionale
 quando: [lavoratore_dipendente]

@@ -126,6 +126,12 @@ select {
 .maturita { border: 1px solid currentColor; border-radius: 999px; padding: 0 0.6rem; }
 .maturita.completa { color: var(--diritto); }
 
+.passi { margin: 0 0 0.6rem; max-width: 42rem; }
+.passi > summary { cursor: pointer; color: var(--accento); font-weight: 700; }
+.passi ol { margin: 0.4rem 0 0; padding-left: 1.4rem; }
+.passi li { margin-bottom: 0.25rem; }
+.scadenze { list-style: none; padding: 0.5rem 0.75rem; margin: 0 0 0.6rem; background: var(--carta); border-radius: 4px; }
+
 .fonti { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; font-size: 0.95rem; }
 
 /* eventi */
@@ -147,6 +153,19 @@ select {
 }
 .fase:last-child { border-left-color: transparent; }
 .fase > h3 { margin-bottom: 0.75rem; }
+
+.scadenze-evento { margin-top: 1rem; padding: 1.25rem; background: var(--foglio); border: 1px solid var(--linea); border-radius: 6px; }
+.scadenze-evento input[type="date"] {
+  font: inherit; color: inherit; background: var(--foglio);
+  border: 1px solid var(--linea); border-radius: 6px; padding: 0.4rem 0.6rem; max-width: 100%;
+}
+.elenco-scadenze { padding-left: 1.4rem; margin: 0 0 1rem; }
+.elenco-scadenze time { font-weight: 700; }
+.pulsante {
+  font: inherit; font-weight: 700; color: var(--foglio); background: var(--accento);
+  border: 0; border-radius: 6px; padding: 0.55rem 1rem; cursor: pointer;
+}
+.pulsante:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .piede { border-top: 1px solid var(--linea); padding-top: 1.5rem; padding-bottom: 2.5rem; color: var(--tenue); font-size: 0.92rem; }
 .piede p { max-width: 46rem; }

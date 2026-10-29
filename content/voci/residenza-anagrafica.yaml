@@ -6,6 +6,13 @@ descrizione: >
   anche online dal portale ANPR con SPID, CIE o CNS. Il Comune poi fa un accertamento.
   Alcune agevolazioni, come quelle per la prima casa, possono richiederlo entro un termine.
   Patente e libretto si aggiornano tramite il Comune, senza più l'adesivo.
+passi:
+  - "Quando vai ad abitare nella nuova casa, tieni pronti i dati catastali dell'immobile: se è tuo, li trovi nell'atto di acquisto."
+  - "Entra nel portale dell'Anagrafe nazionale (ANPR) con SPID, CIE o CNS e scegli \"Cambio di residenza\", oppure usa il servizio del tuo Comune: canali e sportelli cambiano da comune a comune."
+  - "Indica chi si trasferisce con te: gli altri maggiorenni devono confermare dalla loro area riservata."
+  - Il Comune registra subito la dichiarazione e poi fa un accertamento. Se è positivo, la residenza vale dal giorno in cui l'hai presentata.
+  - "Segui la pratica online: ti arrivano avvisi per email e sull'app IO."
+  - Patente e libretto dell'auto si aggiornano tramite il Comune.
 ente: Comune (anagrafe)
 livello_territoriale: comunale
 quando: [occupa_immobile]
@@ -14,5 +21,12 @@ fonti:
     url: https://www.anagrafenazionale.interno.it/area-cittadino/cambio-di-residenza/
   - titolo: ACI – Cambio di residenza e documenti del veicolo
     url: https://aci.gov.it/pratica-auto/cambio-di-residenza/
+scadenze:
+  - titolo: Dichiara al Comune il cambio di residenza
+    dal: trasferimento
+    giorni: 20
+    fonte:
+      titolo: Normattiva – DPR 223/1989, regolamento anagrafico, art. 13
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1989-05-30;223:1~art13
 verificato_il: null
 maturita: bozza

@@ -1,0 +1,45 @@
+livello: regione
+id: lazio
+nome: Lazio
+override:
+  - voce: bollo-auto
+    ente: Regione Lazio
+    nota_locale: >
+      Nel Lazio il bollo si paga alla Regione Lazio, solo tramite pagoPA.
+      Puoi pagare online con pagoBollo di ACI, con l'app IO, con l'home banking,
+      alle Poste, nelle delegazioni ACI, nelle agenzie di pratiche auto e nei punti vendita convenzionati.
+      La Regione prevede una riduzione se paghi con la domiciliazione bancaria:
+      la richiesta si fa online dal portale My.ACI, nei termini indicati dalla Regione.
+      Per assistenza puoi rivolgerti alla Regione o agli uffici e alle delegazioni ACI.
+    fonti:
+      - titolo: Regione Lazio – La tassa automobilistica e relativi pagamenti
+        url: https://www.regione.lazio.it/tributi-regionali/tassa-automobilistica/pagamenti
+      - titolo: Regione Lazio – Domiciliazione bancaria tassa automobilistica
+        url: https://www.regione.lazio.it/notizie/tributi-regionali/domiciliazione-bancaria-tassa-automobilistica
+    verificato_il: null
+  - voce: scelta-medico
+    ente: ASL di residenza
+    nota_locale: >
+      Nel Lazio, se scegli il medico di famiglia per la prima volta, vai agli sportelli della tua ASL
+      di residenza o di domicilio. Se vuoi cambiarlo, puoi farlo online dal tuo Fascicolo Sanitario Elettronico
+      sul portale Salute Lazio, oppure allo sportello della ASL.
+      Il pediatra si sceglie agli sportelli della ASL di residenza.
+      Se il medico che vuoi ha già il numero massimo di pazienti ma segue già la tua famiglia,
+      puoi chiedere alla ASL il ricongiungimento familiare.
+    fonti:
+      - titolo: Salute Lazio – Medico di famiglia e pediatra
+        url: https://salutelazio.it/it/servizi/medico-di-famiglia
+    verificato_il: null
+  - voce: esenzione-ticket
+    ente: ASL di residenza
+    nota_locale: >
+      Nel Lazio l'esenzione per reddito puoi chiederla con un'autocertificazione online
+      dal tuo Fascicolo Sanitario Elettronico sul portale Salute Lazio.
+      Per le altre esenzioni, ad esempio per patologia, malattia rara o invalidità,
+      presenti i documenti alla tua ASL di residenza.
+      Le esenzioni già riconosciute le scarichi dal Fascicolo, nel "Profilo della salute".
+      La Regione prevede anche esenzioni proprie, ad esempio per chi chiede protezione internazionale.
+    fonti:
+      - titolo: Salute Lazio – Esenzioni
+        url: https://salutelazio.it/it/servizi/esenzioni
+    verificato_il: null

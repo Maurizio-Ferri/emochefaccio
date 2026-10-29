@@ -2,9 +2,17 @@ id: scelta-destinazione-tfr
 titolo: Scegliere dove va il tuo TFR
 tipo: diritto
 descrizione: >
-  Se lavori come dipendente nel settore privato, entro un termine dall'assunzione scegli se lasciare il TFR
-  in azienda o destinarlo a un fondo pensione. Per chi è assunto dal 1° luglio 2026, se non rinunci
-  il TFR va automaticamente al fondo previsto dal tuo contratto; la scelta si può poi rivedere.
+  Se lavori come dipendente nel settore privato scegli se lasciare il TFR in azienda o destinarlo a un fondo
+  pensione. Dal 1° luglio 2026, se sei alla prima assunzione e non rinunci entro un termine, il TFR va da solo
+  al fondo del tuo contratto; se hai già un fondo scegli solo a quale fondo mandarlo. Se l'hai sempre lasciato
+  in azienda, la scelta resta valida anche con un nuovo datore.
+passi:
+  - "Quando cominci, il datore deve spiegarti per iscritto qual è il fondo pensione previsto dal contratto e cosa succede se non scegli: chiedi questa informativa."
+  - "Dichiara al datore cosa avevi scelto nei lavori precedenti: TFR in azienda o fondo pensione."
+  - "Se è il tuo primo lavoro, o se hai già un fondo pensione alimentato dal TFR, decidi in fretta: se non fai nulla, il TFR va da solo al fondo del contratto."
+  - "Al primo lavoro puoi rinunciare all'adesione automatica: scegli un altro fondo o lascia il TFR in azienda, firmando la dichiarazione che il datore conserva e di cui ti dà copia."
+  - Se nei lavori precedenti avevi sempre lasciato il TFR in azienda, la scelta resta valida anche con il nuovo datore.
+  - Puoi sempre decidere in seguito di passare dal TFR in azienda a un fondo pensione.
 ente: Ministero del Lavoro / COVIP
 livello_territoriale: nazionale
 fonti:
@@ -12,5 +20,12 @@ fonti:
     url: https://lavoro.gov.it/previdenza-complementare/educazione-previdenziale/tfr-e-il-meccanismo-delladesione-automatica
   - titolo: Normattiva – D.Lgs. 252/2005, art. 8
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252~art8
+scadenze:
+  - titolo: Scegli dove va il TFR, altrimenti va al fondo del contratto (prima assunzione o fondo già attivo)
+    dal: assunzione
+    giorni: 60
+    fonte:
+      titolo: Normattiva – D.Lgs. 252/2005, art. 8
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252~art8
 verificato_il: null
 maturita: bozza

@@ -1,0 +1,62 @@
+livello: comune
+id: roma
+nome: Roma
+regione: lazio
+override:
+  - voce: tributo-rifiuti
+    ente: Roma Capitale, con AMA S.p.A.
+    nota_locale: >
+      A Roma paghi la TARI a Roma Capitale, ma la gestione operativa è affidata ad AMA.
+      La dichiarazione di inizio, variazione o fine occupazione si presenta ad AMA:
+      online sul sito di AMA con SPID o CIE, oppure agli sportelli Ta.Ri. su appuntamento.
+      Il cambio di residenza non aggiorna da solo la TARI: devi chiudere la vecchia utenza e aprire la nuova.
+      Nell'area "La mia Ta.Ri." del sito di AMA trovi l'avviso di pagamento e lo stato dei tuoi pagamenti.
+    fonti:
+      - titolo: Roma Capitale – Pagamento e dichiarazione TARI
+        url: "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF656833&pagina=4"
+      - titolo: AMA – TARI, attivazione, variazione, cessazione
+        url: https://www.amaroma.it/it/tari/attivazione-variazione-cessazione
+    verificato_il: null
+  - voce: residenza-anagrafica
+    ente: Roma Capitale (ufficio anagrafico del Municipio)
+    nota_locale: >
+      A Roma le domande di cambio di residenza le gestiscono gli uffici anagrafici dei Municipi.
+      Puoi presentarla online con il servizio "Cambio di Residenza-Abitazione Online" del portale di Roma Capitale,
+      con SPID, CIE o CNS. In alternativa usa la PEC, la raccomandata o lo sportello del tuo Municipio.
+      Le richieste inviate con email normale non sono accettate.
+      L'indirizzo deve risultare nella banca dati della toponomastica di Roma Capitale:
+      se manca, chiedi prima l'assegnazione del numero civico.
+      Se a trasferirsi è solo un minore, la domanda non si può fare online.
+    fonti:
+      - titolo: Roma Capitale – Cambio di Residenza
+        url: https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF141216
+      - titolo: Roma Capitale – Cambio di Residenza-Abitazione Online
+        url: https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF879978
+    verificato_il: null
+  - voce: imu-abitazione-principale
+    ente: Roma Capitale
+    nota_locale: >
+      A Roma vale la regola nazionale: sull'abitazione principale non paghi l'IMU, salvo le case di lusso.
+      Quali immobili sono assimilati all'abitazione principale lo dice il regolamento IMU di Roma Capitale.
+      Le tue dichiarazioni e i tuoi versamenti IMU li trovi nei Servizi Tributari online del Comune,
+      con SPID, CIE o CNS.
+    fonti:
+      - titolo: Roma Capitale – Adempimenti IMU, dichiarazione e versamenti
+        url: "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF737103&pagina=3"
+      - titolo: Roma Capitale – Servizi Tributari
+        url: https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF87037
+    verificato_il: null
+  - voce: imu-altri-immobili
+    ente: Roma Capitale
+    nota_locale: >
+      A Roma l'IMU si paga a Roma Capitale, con modello F24 o bollettino postale.
+      Per alcune aliquote ridotte devi presentare a Roma Capitale un'apposita comunicazione entro il termine fissato:
+      se non la presenti, per quell'anno l'aliquota ridotta non ti spetta.
+      Dichiarazioni e comunicazioni puoi inviarle online dai Servizi Tributari del Comune con SPID, CIE o CNS,
+      oppure via PEC o raccomandata.
+    fonti:
+      - titolo: Roma Capitale – Adempimenti IMU, dichiarazione e versamenti
+        url: "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF737103&pagina=3"
+      - titolo: Roma Capitale – Servizi Tributari
+        url: https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF87037
+    verificato_il: null

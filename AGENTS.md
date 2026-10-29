@@ -12,7 +12,7 @@ Progetto: sito statico che elenca doveri e diritti amministrativi e tributari de
 
 - Ogni voce nuova nasce con `maturita: bozza` e `verificato_il: null`. Non passare mai una voce a `verificata` o `completa`: lo fa solo un umano dopo aver controllato la fonte.
 - Le fonti devono essere pagine di enti pubblici, Normattiva o Gazzetta Ufficiale. Non inventare URL: se non hai trovato la pagina esatta, usa la home dell'ente e segnalalo nella descrizione della PR.
-- In bozza niente importi, soglie, percentuali o termini in giorni.
+- In bozza niente importi, soglie, percentuali o termini in giorni. Unica eccezione: il campo `scadenze` (livello 2), che il sito non mostra finché la voce è in bozza. Ogni scadenza cita la fonte che la fissa.
 - Indica nella PR, per ogni voce, se l'informazione è confermata da una fonte letta o è una tua deduzione.
 
 ## Codice

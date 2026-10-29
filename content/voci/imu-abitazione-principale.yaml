@@ -4,11 +4,17 @@ tipo: diritto
 descrizione: >
   Sulla casa in cui hai residenza e dimora abituale di norma non paghi l'IMU,
   salvo le abitazioni di lusso. Sulle altre case di proprietà l'IMU è dovuta al Comune.
+passi:
+  - "Nell'atto controlla la categoria catastale della casa: se è di lusso (signorile, villa, castello), l'IMU si paga anche se ci abiti."
+  - "Sposta la residenza e vai a vivere nella casa: l'esenzione vale solo se ci hai sia la residenza sia la dimora abituale."
+  - "Se la casa non è ancora la tua abitazione principale, per esempio durante i lavori, per quei mesi l'IMU è dovuta: calcolala con le aliquote del Comune e pagala con F24 o bollettino postale."
+  - Garage, cantina e tettoia sono esenti come la casa, ma solo una pertinenza per ciascun tipo.
+  - "Di solito non devi presentare la dichiarazione IMU: va presentata solo nei casi indicati dal Ministero."
 ente: Comune
 livello_territoriale: comunale
 quando: [proprietario_abitazione]
 fonti:
-  - titolo: MEF – Dipartimento delle Finanze
-    url: https://www.finanze.gov.it
+  - titolo: MEF – IMU, abitazione principale
+    url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/disciplina-del-tributo/abitazione-principale/
 verificato_il: null
 maturita: bozza

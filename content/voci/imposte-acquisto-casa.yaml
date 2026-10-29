@@ -4,10 +4,19 @@ tipo: dovere
 descrizione: >
   Comprando casa paghi imposte diverse se il venditore è un privato o un'impresa
   (imposta di registro oppure IVA, più ipotecaria e catastale). Di solito le versa il notaio al rogito.
+passi:
+  - "Prima di firmare controlla la casa con i servizi dell'Agenzia delle Entrate, consultazione catastale e ispezione ipotecaria: servono a sapere chi è il proprietario e se ci sono ipoteche."
+  - Se firmi un compromesso, va registrato all'Agenzia delle Entrate entro un termine breve. Se c'è un'agenzia immobiliare lo fa lei, altrimenti lo fate voi, anche online con SPID, CIE o CNS.
+  - "Chiedi se il venditore è un privato o un'impresa e se la vendita è con IVA: le imposte cambiano."
+  - "Se compri da un privato puoi chiedere al notaio il sistema del \"prezzo-valore\": paghi le imposte sul valore catastale e non sul prezzo."
+  - Al rogito il notaio calcola e versa imposta di registro, ipotecaria e catastale. Se la vendita è con IVA, l'IVA la paghi al venditore, che ti fa fattura.
+  - Le imposte già pagate sulla caparra del compromesso vengono scalate al rogito. Conserva atto, fatture e ricevute.
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
-  - titolo: Agenzia delle Entrate
-    url: https://www.agenziaentrate.gov.it/portale/
+  - titolo: Agenzia delle Entrate – Acquisto di una casa, le imposte
+    url: https://www.agenziaentrate.gov.it/portale/acquisto-di-una-casa-le-imposte
+  - titolo: Agenzia delle Entrate – Prima dell'acquisto è bene
+    url: https://www.agenziaentrate.gov.it/portale/prima-dell-acquisto-e-bene
 verificato_il: null
 maturita: bozza

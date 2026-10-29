@@ -7,18 +7,37 @@ export interface Fonte {
   url: string;
 }
 
+/** Una scadenza fissa ogni anno (`ogni_anno`, MM-GG) oppure contata da una data chiesta dall'evento (`dal`). */
+export interface Scadenza {
+  titolo: string;
+  ogni_anno?: string;
+  dal?: string;
+  giorni?: number;
+  mesi?: number;
+  fonte: Fonte;
+}
+
 export interface Voce {
   id: string;
   titolo: string;
   tipo: TipoVoce;
   descrizione: string;
-  dettagli?: string;
+  passi?: string[];
   ente: string;
   livello_territoriale: "nazionale" | "regionale" | "comunale";
   quando?: string[];
   fonti: Fonte[];
+  scadenze?: Scadenza[];
   verificato_il?: string | null;
   maturita: Maturita;
+}
+
+export interface DataEvento {
+  id: string;
+  /** etichetta del campo, es. «Data di nascita» */
+  domanda: string;
+  /** es. «dalla nascita», come in «entro 10 giorni dalla nascita» */
+  riferimento: string;
 }
 
 export interface Evento {
@@ -27,6 +46,7 @@ export interface Evento {
   categoria: string;
   descrizione: string;
   fasi: Partial<Record<Fase, string[]>>;
+  date?: DataEvento[];
 }
 
 export interface Domanda {
@@ -60,6 +80,9 @@ export interface Catalogo {
   eventi: Evento[];
   locale: { regioni: FileLocale[]; comuni: FileLocale[] };
 }
+
+/** Date indicate dall'utente, per evento: { "nascita-figlio": { nascita: "2026-11-03" } } */
+export type DateEventi = Record<string, Record<string, string>>;
 
 export interface Profilo {
   risposte: Record<string, boolean>;

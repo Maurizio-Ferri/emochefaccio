@@ -13,7 +13,7 @@ Restano fuori: servizi per aziende, buone pratiche non obbligatorie, comportamen
 ## Regole per scrivere una voce
 
 1. **Almeno una fonte primaria**: enti pubblici, Normattiva, Gazzetta Ufficiale. Niente blog o giornali come unica fonte.
-2. **In bozza niente numeri precisi** (importi, soglie, percentuali, giorni): si dice che la cosa esiste e si rimanda alla fonte.
+2. **In bozza niente numeri precisi** (importi, soglie, percentuali, giorni): si dice che la cosa esiste e si rimanda alla fonte. `npm run validate` blocca importi, percentuali e termini in `descrizione` e `passi`. Fanno eccezione le `scadenze` (vedi sotto).
 3. **Linguaggio semplice**: frasi brevi, seconda persona, nessun termine tecnico non spiegato.
 4. Per passare da `bozza` a `verificata`: apri la fonte, controlla che dica quello che scriviamo e compila `verificato_il` (AAAA-MM-GG).
 5. Se una voce cambia da regione a regione o da comune a comune, scrivi la regola generale nella voce e i dettagli in `content/locale/`.
@@ -24,3 +24,11 @@ Restano fuori: servizi per aziende, buone pratiche non obbligatorie, comportamen
 2. Se deve comparire in "La mia situazione", indica in `quando` i flag di `content/profilo.yaml` che la attivano. `quando: []` = vale per tutti. Senza `quando` compare solo dentro gli eventi.
 3. Se fa parte di un evento, aggiungi l'id nella fase giusta di `content/eventi/<evento>.yaml`.
 4. `npm run validate` e apri una Pull Request.
+
+## Portare una voce al livello 2
+
+- `passi`: cosa fare, in ordine, in frasi brevi. Valgono le stesse regole della descrizione.
+- `scadenze`: ognuna ha un `titolo` (l'azione), una `fonte` (la norma o la pagina che la fissa) e una data:
+  - `ogni_anno: "MM-GG"` per una scadenza fissa ogni anno;
+  - `dal` più `giorni` o `mesi` per una scadenza contata da un fatto (`dal: nascita`, `giorni: 10`). La data di partenza la chiede l'evento, nel suo elenco `date` (`id`, `domanda`, `riferimento`). Negli eventi che non chiedono quella data la scadenza non compare.
+- Le scadenze contengono giorni e date anche in bozza, ma il sito le mostra e le esporta nel calendario (`.ics`) solo quando la voce è `verificata` o `completa`. Verificare una voce di livello 2 significa controllare anche ogni scadenza sulla sua fonte.

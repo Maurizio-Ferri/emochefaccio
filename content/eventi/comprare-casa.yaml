@@ -13,3 +13,10 @@ fasi:
     - tributo-rifiuti
     - imu-abitazione-principale
     - detrazione-interessi-mutuo
+date:
+  - id: rogito
+    domanda: Data del rogito
+    riferimento: dal rogito
+  - id: trasferimento
+    domanda: Giorno in cui vai ad abitare nella casa
+    riferimento: dal trasferimento

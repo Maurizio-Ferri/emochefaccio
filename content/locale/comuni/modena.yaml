@@ -1,0 +1,54 @@
+livello: comune
+id: modena
+nome: Modena
+regione: emilia-romagna
+override:
+  - voce: tributo-rifiuti
+    ente: Hera (gestore del servizio)
+    nota_locale: >
+      A Modena non si paga più la TARI ma la tariffa corrispettiva puntuale (TCP),
+      fatturata direttamente da Hera. Una parte della bolletta dipende da quanti rifiuti
+      indifferenziati conferisci. Quando inizi a occupare una casa, la cambi o la lasci,
+      devi comunicarlo a Hera, non al Comune: allo sportello Hera
+      o con i moduli che trovi sul sito di Hera.
+    fonti:
+      - titolo: Comune di Modena – Rifiuti, Tariffa Corrispettiva Puntuale (TCP)
+        url: https://www.comune.modena.it/servizi/tributi-finanze-e-contravvenzioni/rifiuti-tariffa-corrispettiva-puntuale-tcp
+      - titolo: Gruppo Hera – Tariffa puntuale Modena
+        url: https://www.gruppohera.it/assistenza/casa/ambiente/la-raccolta-nel-tuo-comune/tariffa-puntuale?comune=modena
+    verificato_il: null
+  - voce: residenza-anagrafica
+    ente: Comune di Modena (anagrafe)
+    nota_locale: >
+      A Modena il cambio di residenza o di indirizzo si fa online con il servizio RESIWEB del Comune.
+      Stampi la dichiarazione, la firmano tutti i maggiorenni e la ricarichi con i documenti richiesti.
+      Ricevi via email il numero di protocollo. Se non puoi usare il servizio online,
+      chiedi un appuntamento allo sportello residenze passando dal Punto Informativo dell'anagrafe.
+    fonti:
+      - titolo: Comune di Modena – Cambio di residenza o indirizzo
+        url: https://www.comune.modena.it/servizi/anagrafe-e-stato-civile/cambio-di-residenza-o-indirizzo
+    verificato_il: null
+  - voce: imu-abitazione-principale
+    ente: Comune di Modena (Ufficio IMU)
+    nota_locale: >
+      Se la tua abitazione principale è di lusso e quindi paghi l'IMU, l'aliquota di Modena
+      la trovi nella guida IMU e nel prospetto aliquote sulla pagina IMU del Comune.
+      Lì trovi anche il codice del Comune e i codici tributo per l'F24.
+    fonti:
+      - titolo: Comune di Modena – IMU, informazioni generali
+        url: https://www.comune.modena.it/servizi/tributi-finanze-e-contravvenzioni/imu-imposta-municipale-propria-informazioni-generali
+    verificato_il: null
+  - voce: imu-altri-immobili
+    ente: Comune di Modena (Ufficio IMU)
+    nota_locale: >
+      Le aliquote di Modena sono nel prospetto pubblicato sul sito del Dipartimento delle Finanze
+      e spiegate nella guida IMU del Comune. Paghi con F24 o bollettino postale.
+      Dalla pagina IMU del Comune puoi calcolare l'imposta e stampare l'F24.
+      Per avere un'aliquota agevolata ora serve la dichiarazione IMU ministeriale,
+      non più quella comunale.
+    fonti:
+      - titolo: Comune di Modena – IMU, informazioni generali
+        url: https://www.comune.modena.it/servizi/tributi-finanze-e-contravvenzioni/imu-imposta-municipale-propria-informazioni-generali
+      - titolo: MEF – IMU, regolamenti e aliquote (ricerca per comune)
+        url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/Regolamenti-e-aliquote-ricerca/
+    verificato_il: null

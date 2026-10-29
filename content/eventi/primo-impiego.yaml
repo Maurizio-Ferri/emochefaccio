@@ -14,3 +14,7 @@ fasi:
     - estratto-conto-contributivo
     - dichiarazione-redditi
     - spese-detraibili
+date:
+  - id: assunzione
+    domanda: Primo giorno di lavoro
+    riferimento: dall'assunzione

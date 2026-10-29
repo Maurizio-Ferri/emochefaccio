@@ -6,6 +6,13 @@ descrizione: >
   oppure tramite patronato o sindacato; per un breve periodo puoi revocarle. Se ti dimetti di regola
   non hai la NASpI, salvo giusta causa. Anche le assenze ingiustificate prolungate possono essere
   considerate dimissioni.
+passi:
+  - Controlla nel contratto collettivo quanto preavviso devi dare e fissa la data di fine del lavoro.
+  - "Entra nel servizio \"Dimissioni volontarie\" del Ministero del Lavoro con SPID o CIE e compila il modulo: i dati del rapporto vengono recuperati in automatico."
+  - In alternativa fatti aiutare da un patronato, un sindacato, un consulente del lavoro o l'Ispettorato del lavoro.
+  - Il modulo arriva al datore e all'Ispettorato. Conserva la ricevuta con la data e il codice.
+  - Se cambi idea puoi revocare le dimissioni con la stessa procedura, ma solo per pochi giorni.
+  - Se sei incinta o hai un figlio piccolo, le dimissioni devono essere convalidate dall'Ispettorato del lavoro.
 ente: Ministero del Lavoro
 livello_territoriale: nazionale
 fonti:
@@ -13,5 +20,12 @@ fonti:
     url: https://www.lavoro.gov.it/strumenti-e-servizi/Dimissioni-volontarie/Pagine/default
   - titolo: Normattiva – D.Lgs. 151/2015, art. 26
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;151~art26
+scadenze:
+  - titolo: Ultimo giorno per revocare le dimissioni
+    dal: dimissioni
+    giorni: 7
+    fonte:
+      titolo: Normattiva – D.Lgs. 151/2015, art. 26
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;151~art26
 verificato_il: null
 maturita: bozza

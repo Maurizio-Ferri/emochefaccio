@@ -4,8 +4,48 @@ nome: Emilia-Romagna
 override:
   - voce: bollo-auto
     ente: Regione Emilia-Romagna
-    nota_locale: Il bollo è gestito direttamente dalla Regione, che ne indica scadenze, esenzioni e modalità di pagamento.
+    nota_locale: >
+      Il bollo è gestito dalla Regione, che per controlli e riscossione collabora con ACI.
+      Paghi solo tramite pagoPA: online con il servizio pagoBollo, nelle delegazioni ACI,
+      in tabaccheria, nelle agenzie di pratiche auto, agli sportelli bancomat abilitati e alle Poste.
+      Puoi iscriverti al servizio gratuito "Ricorda la scadenza" di ACI per ricevere un promemoria.
+      Per assistenza c'è un servizio online di ACI, oppure gli uffici e le delegazioni ACI della regione.
     fonti:
-      - titolo: Regione Emilia-Romagna
-        url: https://www.regione.emilia-romagna.it
+      - titolo: Regione Emilia-Romagna – Tassa automobilistica
+        url: https://finanze.regione.emilia-romagna.it/tributi-regionali/bollo-auto
+      - titolo: Regione Emilia-Romagna – Bollo auto, quanto, come, dove e quando si paga
+        url: https://finanze.regione.emilia-romagna.it/tributi-regionali/bollo-auto/quanto-come-e-quando-si-paga
+    verificato_il: null
+  - voce: scelta-medico
+    ente: Azienda USL di residenza
+    nota_locale: >
+      In Emilia-Romagna puoi cambiare o revocare il medico di famiglia online
+      dal Fascicolo Sanitario Elettronico regionale, con SPID, CIE o CNS.
+      Altrimenti ti rivolgi agli sportelli della tua Azienda USL.
+      La scelta si rinnova da sola se non la cambi.
+      Per i bambini più piccoli il pediatra è obbligatorio; per quelli più grandi puoi scegliere
+      tra pediatra e medico di famiglia.
+    fonti:
+      - titolo: Regione Emilia-Romagna, Salute – Medici e pediatri
+        url: https://salute.regione.emilia-romagna.it/cure-primarie/medici-e-pediatri-di-famiglia
+      - titolo: Regione Emilia-Romagna, Salute – Fascicolo Sanitario Elettronico 2.0
+        url: https://salute.regione.emilia-romagna.it/fascicolo-sanitario-elettronico-2-0
+    verificato_il: null
+  - voce: esenzione-ticket
+    ente: Azienda USL di residenza
+    nota_locale: >
+      In Emilia-Romagna l'esenzione per reddito di solito ti viene riconosciuta in automatico
+      con i dati dell'Agenzia delle Entrate, e la trovi nel Fascicolo Sanitario Elettronico.
+      Se non ti è stata riconosciuta ma pensi di averne diritto, o se sei disoccupato,
+      presenti un'autocertificazione all'Azienda USL tramite il Fascicolo.
+      Per una malattia cronica l'attestato lo rilascia lo sportello dell'Azienda USL di residenza,
+      a cui porti il certificato dello specialista.
+      La Regione prevede anche esenzioni proprie, ad esempio per chi ha perso il lavoro per una crisi aziendale.
+    fonti:
+      - titolo: Regione Emilia-Romagna, Salute – Esenzione ticket per reddito
+        url: https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito
+      - titolo: Regione Emilia-Romagna, Salute – Le patologie croniche che danno diritto all'esenzione
+        url: https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/le-patologie-croniche-che-danno-diritto-allesenzione
+      - titolo: Regione Emilia-Romagna, Salute – Esenzioni dal pagamento del ticket
+        url: https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni
     verificato_il: null

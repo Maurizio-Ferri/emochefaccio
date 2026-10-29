@@ -6,6 +6,13 @@ descrizione: >
   A seconda del comune è la TARI (al Comune) o una tariffa corrispettiva (al gestore).
   Se cambia qualcosa, ad esempio quando lasci la casa, va presentata una nuova dichiarazione
   secondo il regolamento del Comune. Esistono riduzioni previste dai regolamenti comunali.
+passi:
+  - Sul sito del tuo Comune scopri se paghi la TARI al Comune o una tariffa al gestore dei rifiuti.
+  - Presenta la dichiarazione di inizio occupazione con il modulo del Comune o del gestore, indicando dati catastali, numero civico e interno.
+  - Se in casa abitate in più persone, basta la dichiarazione di una sola.
+  - Se lasci un'altra casa, presenta anche la dichiarazione di cessazione per quella.
+  - "Chiedi le riduzioni previste, per esempio per il compostaggio domestico: le altre le trovi nel regolamento comunale."
+  - Paga gli avvisi o le fatture alle scadenze fissate dal Comune o dal gestore.
 ente: Comune o gestore del servizio rifiuti
 livello_territoriale: comunale
 quando: [occupa_immobile]
@@ -14,5 +21,12 @@ fonti:
     url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/TARI-Imposta-di-soggiorno-e-altri-tributi-comunali/Tassa-sui-rifiuti-TARI/disciplina-del-tributo/
   - titolo: MEF – Legge 147/2013 (art. 1, commi 684-685)
     url: https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Fiscalita-locale/LEGGE_27_DICEMBRE_2013x_N._147.pdf
+scadenze:
+  - titolo: Dichiara la casa per la tassa sui rifiuti
+    dal: rogito
+    giorni: 90
+    fonte:
+      titolo: Normattiva – D.Lgs. 147/2026, art. 28 (nuovo testo della L. 147/2013, art. 1, comma 684)
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-08-07;147~art28
 verificato_il: null
 maturita: bozza

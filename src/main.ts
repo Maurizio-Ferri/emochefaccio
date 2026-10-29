@@ -1,14 +1,18 @@
 import "./style.css";
 import catalogoJson from "./generated/catalogo.json";
 import type { Catalogo, Evento, Fase, Profilo, VoceRisolta } from "./types";
-import { FASI, comuniDellaRegione, domandeVisibili, situazione, vociEvento } from "./engine";
-import { cancellaTutto, caricaFatti, caricaProfilo, salvaFatti, salvaProfilo } from "./storage";
+import {
+  FASI, calendarioIcs, comuniDellaRegione, dateRichieste, descriviScadenza, domandeVisibili,
+  scadenzeEvento, scadenzeVisibili, situazione, vociEvento,
+} from "./engine";
+import { cancellaTutto, caricaDate, caricaFatti, caricaProfilo, salvaDate, salvaFatti, salvaProfilo } from "./storage";
 
 const catalogo = catalogoJson as Catalogo;
 const app = document.getElementById("app")!;
 
 let profilo: Profilo = caricaProfilo();
 let fatti = new Set(caricaFatti());
+let date = caricaDate();
 
 // --- piccolo helper per creare elementi senza innerHTML ---
 type Figlio = Node | string | null | undefined | false;
@@ -38,7 +42,7 @@ const ETICHETTE_CATEGORIA: Record<string, string> = {
 };
 
 // --- schede voce ---
-function schedaVoce(v: VoceRisolta): HTMLElement {
+function schedaVoce(v: VoceRisolta, evento?: Evento): HTMLElement {
   const idCheckbox = `fatto-${v.id}`;
   const casella = h("input", { type: "checkbox", id: idCheckbox, checked: fatti.has(v.id) });
   casella.addEventListener("change", () => {
@@ -54,12 +58,21 @@ function schedaVoce(v: VoceRisolta): HTMLElement {
         ? "Scadenze e modalità cambiano da regione a regione: verifica sul sito della tua Regione."
         : "Modalità e scadenze cambiano da comune a comune: verifica sul sito del tuo Comune.");
 
+  const scadenze = scadenzeVisibili(v, evento);
+
   const voce = h("li", { class: `voce ${v.tipo}${fatti.has(v.id) ? " fatta" : ""}` },
     h("div", { class: "riga-titolo" },
       casella,
       h("label", { for: idCheckbox }, h("span", { class: "titolo-voce" }, v.titolo)),
     ),
     h("p", { class: "descrizione" }, v.descrizione.trim()),
+    v.passi && h("details", { class: "passi" },
+      h("summary", {}, "Come si fa"),
+      h("ol", {}, ...v.passi.map((p) => h("li", {}, p))),
+    ),
+    scadenze.length > 0 && h("ul", { class: "scadenze" },
+      ...scadenze.map((s) => h("li", {}, h("strong", {}, `${s.titolo}: `), descriviScadenza(s, evento))),
+    ),
     ...v.note_locali.map((n) => h("p", { class: "nota-locale" }, h("strong", {}, `${n.luogo}: `), n.testo)),
     luogoMancante,
     h("p", { class: "meta" },
@@ -78,7 +91,7 @@ function elencoVoci(titolo: string, spiegazione: string, voci: VoceRisolta[], cl
   return h("section", { class: `gruppo ${classe}` },
     h("h3", {}, titolo),
     h("p", { class: "spiegazione" }, spiegazione),
-    h("ul", { class: "voci" }, ...voci.map(schedaVoce)),
+    h("ul", { class: "voci" }, ...voci.map((v) => schedaVoce(v))),
   );
 }
 
@@ -151,7 +164,7 @@ function renderSituazione(): void {
           h("details", { class: "gruppo strumenti" },
             h("summary", {}, h("h3", {}, `Strumenti di base (${s.strumenti.length})`)),
             h("p", { class: "spiegazione" }, "Valgono per tutti: servono per fare quasi tutto il resto online."),
-            h("ul", { class: "voci" }, ...s.strumenti.map(schedaVoce)),
+            h("ul", { class: "voci" }, ...s.strumenti.map((v) => schedaVoce(v))),
           ),
       ),
     ),
@@ -193,10 +206,65 @@ function renderEvento(id: string): void {
         ...FASI.filter((f) => fasi[f]).map((f) =>
           h("li", { class: "fase" },
             h("h3", {}, ETICHETTE_FASE[f]),
-            h("ul", { class: "voci" }, ...fasi[f]!.map(schedaVoce)),
+            h("ul", { class: "voci" }, ...fasi[f]!.map((v) => schedaVoce(v, evento))),
           )),
       ),
+      sezioneScadenze(evento),
     ),
+  );
+}
+
+/** Oggi, AAAA-MM-GG nell'ora locale. */
+function oggi(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+const formattaData = (data: string) =>
+  new Date(`${data}T00:00:00`).toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" });
+
+function scaricaCalendario(evento: Evento, contenuto: string): void {
+  const file = new Blob([contenuto], { type: "text/calendar;charset=utf-8" });
+  const link = h("a", { href: URL.createObjectURL(file), download: `${evento.id}.ics` });
+  link.click();
+  // il download parte in modo asincrono: liberiamo l'URL subito dopo
+  setTimeout(() => URL.revokeObjectURL(link.href), 0);
+}
+
+function sezioneScadenze(evento: Evento): HTMLElement | null {
+  const richieste = dateRichieste(catalogo, evento);
+  const mie = date[evento.id] ?? {};
+  const scadenze = scadenzeEvento(catalogo, evento, mie, oggi());
+  if (!richieste.length && !scadenze.length) return null;
+
+  const campi = richieste.map((d) => {
+    const input = h("input", { type: "date", id: `data-${d.id}`, value: mie[d.id] });
+    input.addEventListener("change", () => {
+      const aggiornate = { ...mie, [d.id]: input.value };
+      if (!input.value) delete aggiornate[d.id];
+      date = { ...date, [evento.id]: aggiornate };
+      salvaDate(date);
+      renderEvento(evento.id);
+      app.querySelector<HTMLElement>(`#data-${d.id}`)?.focus();
+    });
+    return h("div", { class: "campo" }, h("label", { for: input.id }, d.domanda), input);
+  });
+
+  const scarica = h("button", { type: "button", class: "pulsante", disabled: !scadenze.length }, "Aggiungi al calendario (.ics)");
+  scarica.addEventListener("click", () => scaricaCalendario(evento, calendarioIcs(scadenze, new Date())));
+
+  return h("section", { class: "scadenze-evento" },
+    h("h3", {}, "Le scadenze"),
+    h("p", { class: "spiegazione" }, "Indica le date e scarica il file da importare nel tuo calendario. Le date restano in questo browser."),
+    ...campi,
+    scadenze.length > 0 && h("ol", { class: "elenco-scadenze" },
+      ...scadenze.map((s) => h("li", {},
+        h("time", { datetime: s.data }, formattaData(s.data)),
+        ` ${s.titolo}${s.annuale ? " (ogni anno)" : ""}`,
+      )),
+    ),
+    richieste.some((d) => !mie[d.id]) && h("p", { class: "aiuto" }, "Indica le date mancanti per calcolare le altre scadenze."),
+    scarica,
   );
 }
 
@@ -217,6 +285,7 @@ document.getElementById("cancella")!.addEventListener("click", () => {
   cancellaTutto();
   profilo = { risposte: {} };
   fatti = new Set();
+  date = {};
   render();
 });
 

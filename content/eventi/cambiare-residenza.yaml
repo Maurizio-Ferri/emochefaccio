@@ -11,3 +11,7 @@ fasi:
   dopo:
     - scelta-medico
     - canone-rai
+date:
+  - id: trasferimento
+    domanda: Giorno in cui vai ad abitare nella nuova casa
+    riferimento: dal trasferimento

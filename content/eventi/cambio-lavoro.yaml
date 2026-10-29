@@ -12,3 +12,10 @@ fasi:
     - piu-certificazioni-uniche
     - detrazioni-familiari-carico
     - estratto-conto-contributivo
+date:
+  - id: dimissioni
+    domanda: Giorno in cui invii le dimissioni online
+    riferimento: dall'invio delle dimissioni
+  - id: assunzione
+    domanda: Primo giorno nel nuovo lavoro
+    riferimento: dall'assunzione

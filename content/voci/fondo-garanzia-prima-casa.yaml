@@ -3,11 +3,21 @@ titolo: Fondo di garanzia per i mutui prima casa
 tipo: diritto
 descrizione: >
   Lo Stato può garantire una parte del mutuo per l'acquisto della prima casa,
-  rendendolo più facile da ottenere. Per alcune categorie, ad esempio i giovani, la garanzia è maggiore.
+  rendendolo più facile da ottenere. Il Fondo è riservato ad alcune categorie, ad esempio i giovani
+  e le giovani coppie, e la domanda si presenta alla banca insieme a quella di mutuo.
+passi:
+  - Sul sito Consap verifica di rientrare in una delle categorie ammesse, per esempio giovani, giovani coppie, genitori soli con figli minori, inquilini delle case popolari, famiglie numerose, persone con disabilità grave e i loro familiari.
+  - "Controlla di non possedere altre abitazioni, nemmeno all'estero: fanno eccezione alcune case ereditate."
+  - Verifica che la casa non sia di lusso e che diventerà la tua abitazione principale.
+  - "Scegli una banca che aderisce al Fondo: l'elenco è sul sito Consap."
+  - Scarica dal sito Consap il modulo di domanda e consegnalo alla banca insieme alla domanda di mutuo, con un documento d'identità. Non va inviato a Consap.
+  - La banca ti comunica l'esito. Se poi non paghi le rate, il Fondo paga la banca ma chiede a te quelle somme.
 ente: Consap
 livello_territoriale: nazionale
 fonti:
-  - titolo: Consap
-    url: https://www.consap.it
+  - titolo: Consap – Fondo di garanzia per la prima casa
+    url: https://www.consap.it/fondo-prima-casa/
+  - titolo: Consap – Fondo prima casa, modulistica
+    url: https://www.consap.it/fondo-prima-casa/modulistica/
 verificato_il: null
 maturita: bozza

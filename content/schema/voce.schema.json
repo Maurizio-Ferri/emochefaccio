@@ -10,7 +10,12 @@
     "titolo": { "type": "string", "minLength": 3, "maxLength": 90 },
     "tipo": { "enum": ["dovere", "diritto"] },
     "descrizione": { "type": "string", "minLength": 10, "description": "1-2 frasi in linguaggio semplice. Al livello 1 niente importi, soglie o percentuali." },
-    "dettagli": { "type": "string", "description": "Solo livello 2: passi e spiegazione completa." },
+    "passi": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Solo livello 2: cosa fare, in ordine. Come nella descrizione, in bozza niente numeri.",
+      "items": { "type": "string", "minLength": 5 }
+    },
     "ente": { "type": "string" },
     "livello_territoriale": { "enum": ["nazionale", "regionale", "comunale"] },
     "quando": {
@@ -23,6 +28,12 @@
       "type": "array",
       "minItems": 1,
       "items": { "$ref": "#/definitions/fonte" }
+    },
+    "scadenze": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Solo livello 2. Qui giorni e date sono ammessi anche in bozza: il sito li mostra solo quando la voce non è più in bozza.",
+      "items": { "$ref": "#/definitions/scadenza" }
     },
     "verificato_il": { "type": ["string", "null"], "format": "date" },
     "maturita": { "enum": ["bozza", "verificata", "completa"] }
@@ -38,6 +49,23 @@
         "titolo": { "type": "string" },
         "url": { "type": "string", "format": "uri", "pattern": "^https://" }
       }
+    },
+    "scadenza": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["titolo", "fonte"],
+      "properties": {
+        "titolo": { "type": "string", "minLength": 3 },
+        "ogni_anno": { "type": "string", "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$", "description": "Scadenza fissa ogni anno, MM-GG." },
+        "dal": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Id della data, chiesta dall'evento, da cui si conta (es. nascita, rogito)." },
+        "giorni": { "type": "integer", "minimum": 1 },
+        "mesi": { "type": "integer", "minimum": 1 },
+        "fonte": { "$ref": "#/definitions/fonte" }
+      },
+      "oneOf": [
+        { "required": ["ogni_anno"], "not": { "anyOf": [{ "required": ["dal"] }, { "required": ["giorni"] }, { "required": ["mesi"] }] } },
+        { "required": ["dal"], "not": { "required": ["ogni_anno"] }, "oneOf": [{ "required": ["giorni"] }, { "required": ["mesi"] }] }
+      ]
     }
   }
 }

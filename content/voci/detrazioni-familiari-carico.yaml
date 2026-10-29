@@ -5,11 +5,19 @@ descrizione: >
   Le detrazioni per lavoro dipendente le applica il datore da solo. Per avere in busta paga quelle per
   i familiari a carico devi invece dichiarargli di averne diritto, e poi comunicare le variazioni:
   se non lo fai rischi una sanzione. Per i figli più piccoli al posto della detrazione c'è l'assegno unico.
+passi:
+  - "Quando entri nel nuovo lavoro compila il modulo del datore per le detrazioni: dichiara di averne diritto, per chi, e il codice fiscale di ciascuno."
+  - "La dichiarazione fatta al vecchio datore non passa al nuovo: rifalla."
+  - "Per i figli più piccoli al posto della detrazione c'è l'assegno unico: indica solo i familiari per cui la detrazione spetta davvero."
+  - Comunica subito al datore ogni cambiamento, per esempio una nascita, un familiare che comincia a guadagnare o una separazione.
+  - Se in busta paga le detrazioni mancano o sono sbagliate, le sistemi con la dichiarazione dei redditi.
 ente: Agenzia delle Entrate (tramite il datore di lavoro)
 livello_territoriale: nazionale
 fonti:
   - titolo: Normattiva – DPR 600/1973, art. 23
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1973-09-29;600~art23
+  - titolo: Normattiva – D.Lgs. 33/2025, allegato, art. 33 (sostituisce l'art. 23 dal 2027)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2025-03-24;33:1~art33
   - titolo: Agenzia delle Entrate – Istruzioni modello 730/2026
     url: https://infoprecompilata.agenziaentrate.gov.it/portale/documents/d/guest/730_istruzioni_2026.pdf
 verificato_il: null

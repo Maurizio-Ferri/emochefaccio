@@ -4,10 +4,23 @@ tipo: diritto
 descrizione: >
   Per ogni figlio nato o adottato puoi chiedere all'INPS un bonus una tantum, se l'ISEE del bambino
   rientra nel limite. La domanda va fatta entro un termine dalla nascita: dopo il diritto si perde.
+passi:
+  - "Fai l'ISEE con il bambino incluso: il bonus spetta solo se l'ISEE rientra nel limite."
+  - Fai la domanda all'INPS online con il servizio "Bonus nuovi nati", tramite il Contact Center o un patronato.
+  - Fai una domanda per ogni figlio, anche in caso di gemelli.
+  - Se adotti o hai un affido preadottivo, il termine parte dal giorno in cui il bambino entra in famiglia.
+  - "Non aspettare: dopo il termine il diritto si perde."
 ente: INPS
 livello_territoriale: nazionale
 fonti:
   - titolo: INPS – Bonus nuovi nati
     url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.bonus-nuovi-nati.html
+scadenze:
+  - titolo: Domanda del bonus nuovi nati (dopo si perde il diritto)
+    dal: nascita
+    giorni: 120
+    fonte:
+      titolo: INPS – Bonus nuovi nati
+      url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.bonus-nuovi-nati.html
 verificato_il: null
 maturita: bozza

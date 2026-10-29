@@ -303,13 +303,13 @@ Temi da trasformare in voci di livello 1. Le singole voci elencate sono **spunti
 
 ### 11.4 Proposta per il livello 2
 
-Tre eventi da portare a guida completa nell'MVP (da confermare):
+Tre eventi da portare a guida completa nell'MVP (confermati):
 
 1. **Comprare casa**: primo evento di prova dello schema
 2. **Nascita di un figlio**
 3. **Cambio lavoro**
 
-Override locali iniziali: **Regione Emilia-Romagna**, **Comune di Reggio Emilia** e un secondo comune per testare il meccanismo.
+Override locali iniziali: **Regione Emilia-Romagna** con i comuni di **Reggio Emilia**, **Modena** e **Parma**, più **Regione Lazio** e **Roma** per provare il meccanismo fuori regione.
 
 ---
 
@@ -347,15 +347,15 @@ Tempo disponibile: **~4 ore a settimana**, budget zero.
 ### Fase 3 — Catalogo (settimane 8-16)
 
 - [x] 20-25 eventi e il profilo ricorrente al livello 1 (tutte le voci ancora in `bozza`, da verificare)
-- [ ] 3 eventi al livello 2
-- [ ] Override per Emilia-Romagna e comuni di prova
+- [x] 3 eventi al livello 2: passi e scadenze scritti, voci ancora in `bozza` da verificare
+- [x] Override per Emilia-Romagna, Lazio e i comuni di prova (Reggio Emilia, Modena, Parma, Roma)
 - [ ] Flusso di lavoro: bozza YAML preparata con l'AI → verifica della fonte → `verificata`
 
 **Fatto quando**: il catalogo è navigabile e tutte le voci pubblicate hanno una fonte primaria.
 
 ### Fase 4 — Rifinitura (settimane 17-18)
 
-- [ ] Export `.ics`
+- [x] Export `.ics` (attivo sulle voci verificate)
 - [ ] PWA installabile e offline
 - [ ] Controllo da mobile e accessibilità di base
 - [x] Template issue: "segnala un errore", "proponi una voce"
@@ -401,6 +401,6 @@ Tempo disponibile: **~4 ore a settimana**, budget zero.
 - [x] Framework front-end: Vite + TypeScript senza framework UI
 - [x] Nome: "E mo' che faccio?" (repo `emochefaccio`)
 - [ ] Dominio proprio (per ora `maurizio-ferri.github.io/emochefaccio`)
-- [ ] Conferma dei tre eventi di livello 2
-- [ ] Secondo comune per testare gli override
+- [x] Conferma dei tre eventi di livello 2: comprare casa, nascita di un figlio, cambio lavoro
+- [x] Comuni per testare gli override: Modena, Parma e Roma
 - [ ] Statistiche d'uso sì/no

@@ -5,10 +5,37 @@ descrizione: >
   Se nello stesso anno hai avuto più datori di lavoro, consegna al nuovo la Certificazione Unica
   del precedente perché faccia il conguaglio. Se il conguaglio non c'è stato, di solito devi presentare
   la dichiarazione dei redditi.
+passi:
+  - "Quando lasci il lavoro, chiedi al vecchio datore la Certificazione Unica: deve dartela poco dopo la richiesta."
+  - Consegnala al nuovo datore all'inizio dell'anno successivo e chiedigli di tenerne conto nel conguaglio di fine anno.
+  - Quando ricevi la Certificazione Unica del nuovo datore, controlla che comprenda anche i redditi del lavoro precedente.
+  - "Se il conguaglio non c'è stato, di solito devi presentare la dichiarazione dei redditi: il 730, anche precompilato, sul sito dell'Agenzia delle Entrate o tramite CAF, oppure il modello Redditi."
+  - "Nella dichiarazione precompilata trovi già le Certificazioni Uniche: controlla che ci siano tutte."
 ente: Agenzia delle Entrate
 livello_territoriale: nazionale
 fonti:
   - titolo: Agenzia delle Entrate – Istruzioni modello 730/2026 (chi è esonerato)
     url: https://infoprecompilata.agenziaentrate.gov.it/portale/documents/d/guest/730_istruzioni_2026.pdf
+scadenze:
+  - titolo: Consegna al nuovo datore la Certificazione Unica del lavoro precedente
+    ogni_anno: "01-12"
+    fonte:
+      titolo: Normattiva – D.Lgs. 33/2025, allegato, art. 33 (dal 2027; prima DPR 600/1973, art. 23)
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2025-03-24;33:1~art33
+  - titolo: I datori di lavoro ti consegnano la Certificazione Unica
+    ogni_anno: "03-16"
+    fonte:
+      titolo: Normattiva – DPR 322/1998, art. 4
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1998-07-22;322~art4
+  - titolo: Presenta il 730
+    ogni_anno: "09-30"
+    fonte:
+      titolo: Normattiva – DM 164/1999, art. 13
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.finanze:decreto:1999-05-31;164~art13
+  - titolo: Presenta il modello Redditi online, se non usi il 730
+    ogni_anno: "10-31"
+    fonte:
+      titolo: Normattiva – DPR 322/1998, art. 2
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1998-07-22;322~art2
 verificato_il: null
 maturita: bozza

@@ -19,6 +19,21 @@
         "durante": { "$ref": "#/definitions/elenco" },
         "dopo": { "$ref": "#/definitions/elenco" }
       }
+    },
+    "date": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Date che l'evento chiede all'utente per calcolare le scadenze delle sue voci (campo `dal`).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "domanda", "riferimento"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "domanda": { "type": "string", "description": "Etichetta del campo, es. «Data di nascita»." },
+          "riferimento": { "type": "string", "description": "Come si legge dopo «entro tot giorni», es. «dalla nascita»." }
+        }
+      }
     }
   },
   "definitions": {

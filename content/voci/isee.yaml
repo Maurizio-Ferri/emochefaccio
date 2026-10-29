@@ -5,6 +5,12 @@ descrizione: >
   L'ISEE misura la situazione economica della famiglia e serve per chiedere prestazioni agevolate,
   come l'assegno unico per i figli. Lo ottieni presentando la DSU all'INPS, anche precompilata online,
   o tramite un CAF. Vale per un periodo limitato e va rinnovato.
+passi:
+  - Entra nel Portale unico ISEE dell'INPS con SPID, CIE o CNS e scegli la DSU precompilata. In alternativa rivolgiti a un CAF o al Comune.
+  - "Controlla i dati precompilati e completa quelli che ti chiede, come il nucleo familiare e la casa: rispondi di quello che dichiari."
+  - "Quando cambia la famiglia, per esempio con una nascita, presenta una nuova DSU: così l'ISEE è aggiornato per le prestazioni che chiedi."
+  - Quando arriva l'attestazione, controlla che valga per le prestazioni che vuoi chiedere.
+  - "A inizio anno presenta una nuova DSU: quella dell'anno prima scade."
 ente: INPS
 livello_territoriale: nazionale
 quando: []
@@ -13,5 +19,11 @@ fonti:
     url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Portale-unico-ISEE.html
   - titolo: Ministero del Lavoro – ISEE
     url: https://www.lavoro.gov.it/strumenti-e-servizi/isee/pagine/default
+scadenze:
+  - titolo: "Scade la DSU: rinnova l'ISEE per l'anno nuovo"
+    ogni_anno: "12-31"
+    fonte:
+      titolo: Normattiva – DPCM 159/2013, art. 10
+      url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.consiglio.ministri:decreto:2013-12-05;159~art10
 verificato_il: null
 maturita: bozza

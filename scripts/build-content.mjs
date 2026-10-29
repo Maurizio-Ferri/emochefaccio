@@ -78,6 +78,21 @@ for (const v of voci) {
   for (const f of v.quando ?? []) {
     if (!flag.has(f)) errore(`voci/${v.id}.yaml`, `flag sconosciuto in "quando": "${f}"`);
   }
+  // in bozza importi, percentuali e termini stanno solo nelle scadenze, che il sito non mostra finché la voce non è verificata
+  if (v.maturita === "bozza") {
+    for (const testo of [v.descrizione, ...(v.passi ?? [])]) {
+      const numero = testo.match(/(€\s*\d|\d[\d.,]*\s*(%|€|euro|per cento|giorn|settiman|mes[ei]|ann[oi]\b))/i);
+      if (numero) errore(`voci/${v.id}.yaml`, `in bozza niente importi, percentuali o termini: "${numero[0]}"`);
+    }
+  }
+  for (const s of v.scadenze ?? []) {
+    if (!s.ogni_anno) continue;
+    const [mese, giorno] = s.ogni_anno.split("-").map(Number);
+    // un anno non bisestile: il 29 febbraio non è una scadenza annuale
+    if (new Date(Date.UTC(2025, mese - 1, giorno)).getUTCDate() !== giorno) {
+      errore(`voci/${v.id}.yaml`, `scadenza "${s.titolo}": "${s.ogni_anno}" non è una data valida ogni anno`);
+    }
+  }
 }
 for (const e of eventi) {
   // una voce compare una sola volta per evento: la pagina usa l'id della voce per la casella "fatto"
@@ -87,6 +102,17 @@ for (const e of eventi) {
       if (!idVoci.has(id)) errore(`eventi/${e.id}.yaml`, `fase "${fase}": voce inesistente "${id}"`);
       if (viste.has(id)) errore(`eventi/${e.id}.yaml`, `fase "${fase}": la voce "${id}" compare già in un'altra fase`);
       viste.add(id);
+    }
+  }
+  const idDate = (e.date ?? []).map((d) => d.id);
+  if (new Set(idDate).size !== idDate.length) errore(`eventi/${e.id}.yaml`, `id ripetuto in "date"`);
+}
+// una scadenza "dal" si calcola solo negli eventi che chiedono quella data: almeno uno deve farlo
+for (const v of voci) {
+  const eventiConVoce = eventi.filter((e) => Object.values(e.fasi).some((elenco) => elenco.includes(v.id)));
+  for (const s of v.scadenze ?? []) {
+    if (s.dal && !eventiConVoce.some((e) => (e.date ?? []).some((d) => d.id === s.dal))) {
+      errore(`voci/${v.id}.yaml`, `scadenza "${s.titolo}": nessun evento che contiene la voce chiede la data "${s.dal}"`);
     }
   }
 }

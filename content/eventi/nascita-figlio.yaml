@@ -12,3 +12,7 @@ fasi:
   dopo:
     - scelta-medico
     - bonus-nuovi-nati
+date:
+  - id: nascita
+    domanda: Data di nascita
+    riferimento: dalla nascita
