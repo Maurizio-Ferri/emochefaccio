@@ -1,0 +1,13 @@
+id: tfr-fine-rapporto
+titolo: TFR alla fine del rapporto di lavoro
+tipo: diritto
+descrizione: >
+  Quando il rapporto di lavoro finisce il datore deve pagarti il TFR. Se è fallito o non può pagare,
+  puoi chiedere l'intervento del Fondo di garanzia dell'INPS, con una domanda online.
+ente: INPS
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – Fondo di garanzia del TFR e dei crediti di lavoro
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50186.fondo-di-garanzia-del-tfr-e-dei-crediti-di-lavoro.html
+verificato_il: null
+maturita: bozza

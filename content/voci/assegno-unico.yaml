@@ -1,0 +1,14 @@
+id: assegno-unico
+titolo: Assegno unico per i figli
+tipo: diritto
+descrizione: >
+  Per ogni figlio a carico puoi chiedere all'INPS l'assegno unico, già dal settimo mese di gravidanza.
+  L'importo dipende dall'ISEE: senza ISEE ricevi il minimo. Una volta fatta la domanda continua negli anni,
+  ma devi comunicare le variazioni e rinnovare l'ISEE ogni anno.
+ente: INPS
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – Assegno unico e universale per i figli a carico
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-unico-e-universale-per-i-figli-a-carico-55984.assegno-unico-e-universale-per-i-figli-a-carico.html
+verificato_il: null
+maturita: bozza

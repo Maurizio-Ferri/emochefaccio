@@ -1,0 +1,16 @@
+id: scelta-destinazione-tfr
+titolo: Scegliere dove va il tuo TFR
+tipo: diritto
+descrizione: >
+  Se lavori come dipendente nel settore privato, entro un termine dall'assunzione scegli se lasciare il TFR
+  in azienda o destinarlo a un fondo pensione. Per chi è assunto dal 1° luglio 2026, se non rinunci
+  il TFR va automaticamente al fondo previsto dal tuo contratto; la scelta si può poi rivedere.
+ente: Ministero del Lavoro / COVIP
+livello_territoriale: nazionale
+fonti:
+  - titolo: Ministero del Lavoro – TFR e il meccanismo dell'adesione automatica
+    url: https://lavoro.gov.it/previdenza-complementare/educazione-previdenziale/tfr-e-il-meccanismo-delladesione-automatica
+  - titolo: Normattiva – D.Lgs. 252/2005, art. 8
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252~art8
+verificato_il: null
+maturita: bozza

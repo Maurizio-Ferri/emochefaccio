@@ -1,0 +1,11 @@
+id: comprare-auto
+titolo: Comprare un'auto o una moto
+categoria: mobilita
+descrizione: Come intestarti il veicolo e cosa devi fare da proprietario.
+fasi:
+  durante:
+    - passaggio-proprieta-veicolo
+    - rca-obbligatoria
+  dopo:
+    - bollo-auto
+    - revisione-veicolo

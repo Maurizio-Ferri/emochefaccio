@@ -1,0 +1,7 @@
+id: vendere-auto
+titolo: Vendere un'auto o una moto
+categoria: mobilita
+descrizione: Come non restare responsabile di bollo e multe dopo la vendita.
+fasi:
+  durante:
+    - vendita-veicolo

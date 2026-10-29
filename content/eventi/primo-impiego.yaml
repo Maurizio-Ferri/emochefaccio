@@ -1,0 +1,16 @@
+id: primo-impiego
+titolo: Il primo lavoro da dipendente
+categoria: lavoro
+descrizione: Gli strumenti da attivare, le scelte da fare all'assunzione e cosa controllare ogni anno.
+fasi:
+  prima:
+    - identita-digitale
+    - area-riservata-agenzia-entrate
+  durante:
+    - scelta-destinazione-tfr
+    - detrazioni-familiari-carico
+  dopo:
+    - certificazione-unica
+    - estratto-conto-contributivo
+    - dichiarazione-redditi
+    - spese-detraibili

@@ -4,12 +4,15 @@ tipo: dovere
 descrizione: >
   Quando inizi a occupare un immobile devi dichiararlo e pagare il prelievo sui rifiuti.
   A seconda del comune è la TARI (al Comune) o una tariffa corrispettiva (al gestore).
-  Esistono riduzioni previste dai regolamenti comunali.
+  Se cambia qualcosa, ad esempio quando lasci la casa, va presentata una nuova dichiarazione
+  secondo il regolamento del Comune. Esistono riduzioni previste dai regolamenti comunali.
 ente: Comune o gestore del servizio rifiuti
 livello_territoriale: comunale
 quando: [occupa_immobile]
 fonti:
-  - titolo: MEF – Dipartimento delle Finanze
-    url: https://www.finanze.gov.it
+  - titolo: MEF – TARI, disciplina del tributo
+    url: https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/TARI-Imposta-di-soggiorno-e-altri-tributi-comunali/Tassa-sui-rifiuti-TARI/disciplina-del-tributo/
+  - titolo: MEF – Legge 147/2013 (art. 1, commi 684-685)
+    url: https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Fiscalita-locale/LEGGE_27_DICEMBRE_2013x_N._147.pdf
 verificato_il: null
 maturita: bozza

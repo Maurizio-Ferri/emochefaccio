@@ -1,0 +1,16 @@
+id: dichiarazione-nascita
+titolo: Dichiarare la nascita
+tipo: dovere
+descrizione: >
+  La nascita va dichiarata entro un termine, più breve se lo fai in ospedale, più lungo se vai
+  al Comune dove è nato il bambino o a quello di residenza dei genitori. Con la dichiarazione il Comune
+  attribuisce il codice fiscale; la prima tessera sanitaria arriva poi a casa.
+ente: Comune (stato civile)
+livello_territoriale: nazionale
+fonti:
+  - titolo: Normattiva – DPR 396/2000, art. 30 (dichiarazione di nascita)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2000-11-03;396~art30
+  - titolo: Agenzia delle Entrate – La tessera sanitaria per i neonati
+    url: https://www.agenziaentrate.gov.it/portale/la-tessera-sanitaria-per-i-neonati
+verificato_il: null
+maturita: bozza

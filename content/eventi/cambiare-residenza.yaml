@@ -1,0 +1,13 @@
+id: cambiare-residenza
+titolo: Cambiare casa o città
+categoria: casa
+descrizione: Cosa dichiarare quando ti trasferisci e cosa aggiornare nella nuova casa.
+fasi:
+  prima:
+    - registrazione-contratto-affitto
+  durante:
+    - residenza-anagrafica
+    - tributo-rifiuti
+  dopo:
+    - scelta-medico
+    - canone-rai

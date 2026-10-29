@@ -1,0 +1,14 @@
+id: cambio-lavoro
+titolo: Cambiare lavoro
+categoria: lavoro
+descrizione: Come dimettersi, cosa ti spetta quando esci e cosa sistemare con il nuovo datore.
+fasi:
+  prima:
+    - dimissioni-telematiche
+  durante:
+    - tfr-fine-rapporto
+    - scelta-destinazione-tfr
+  dopo:
+    - piu-certificazioni-uniche
+    - detrazioni-familiari-carico
+    - estratto-conto-contributivo

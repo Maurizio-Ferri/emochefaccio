@@ -1,0 +1,17 @@
+id: dimissioni-telematiche
+titolo: Dimettersi con la procedura online
+tipo: dovere
+descrizione: >
+  Le dimissioni da un lavoro privato valgono solo se presentate online, da solo con SPID o CIE
+  oppure tramite patronato o sindacato; per un breve periodo puoi revocarle. Se ti dimetti di regola
+  non hai la NASpI, salvo giusta causa. Anche le assenze ingiustificate prolungate possono essere
+  considerate dimissioni.
+ente: Ministero del Lavoro
+livello_territoriale: nazionale
+fonti:
+  - titolo: Ministero del Lavoro – Dimissioni volontarie
+    url: https://www.lavoro.gov.it/strumenti-e-servizi/Dimissioni-volontarie/Pagine/default
+  - titolo: Normattiva – D.Lgs. 151/2015, art. 26
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;151~art26
+verificato_il: null
+maturita: bozza

@@ -1,0 +1,16 @@
+id: vendita-veicolo
+titolo: Vendere un veicolo in sicurezza
+tipo: dovere
+descrizione: >
+  Chi vende deve autenticare la propria firma sull'atto di vendita. Finché il passaggio non è registrato
+  al PRA resti tu l'intestatario e puoi rispondere di bollo e multe: se non l'hai fatto allo sportello STA,
+  controlla con una visura che sia stato trascritto, o chiedi tu la trascrizione.
+ente: ACI (PRA)
+livello_territoriale: nazionale
+fonti:
+  - titolo: ACI – Vendita di un veicolo, consigli e cautele
+    url: https://aci.gov.it/pratica-auto/vendita-di-un-veicolo-consigli-e-cautele/
+  - titolo: ACI – Passaggio di proprietà a tutela del venditore
+    url: https://aci.gov.it/pratica-auto/passaggio-di-proprieta-a-tutela-del-venditore/
+verificato_il: null
+maturita: bozza

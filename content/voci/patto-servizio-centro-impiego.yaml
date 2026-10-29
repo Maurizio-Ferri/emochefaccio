@@ -1,0 +1,16 @@
+id: patto-servizio-centro-impiego
+titolo: Patto di servizio con il centro per l'impiego
+tipo: dovere
+descrizione: >
+  La domanda di NASpI vale anche come dichiarazione di disponibilità al lavoro. Dopo devi presentarti
+  al centro per l'impiego per firmare il patto di servizio. Se non partecipi alle attività che ti propone,
+  l'indennità può essere ridotta o persa.
+ente: Centro per l'impiego / INPS
+livello_territoriale: regionale
+fonti:
+  - titolo: INPS – NASpI, indennità mensile di disoccupazione
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50593.naspi-indennit-mensile-di-disoccupazione.html
+  - titolo: INPS – NASpI e DIS-COLL ti sostengono se ne hai bisogno
+    url: https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.naspi-e-dis-coll-ti-sostengono-se-ne-hai-bisogno.html
+verificato_il: null
+maturita: bozza

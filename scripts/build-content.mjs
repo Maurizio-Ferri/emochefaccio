@@ -80,9 +80,13 @@ for (const v of voci) {
   }
 }
 for (const e of eventi) {
+  // una voce compare una sola volta per evento: la pagina usa l'id della voce per la casella "fatto"
+  const viste = new Set();
   for (const [fase, elenco] of Object.entries(e.fasi)) {
     for (const id of elenco) {
       if (!idVoci.has(id)) errore(`eventi/${e.id}.yaml`, `fase "${fase}": voce inesistente "${id}"`);
+      if (viste.has(id)) errore(`eventi/${e.id}.yaml`, `fase "${fase}": la voce "${id}" compare già in un'altra fase`);
+      viste.add(id);
     }
   }
 }

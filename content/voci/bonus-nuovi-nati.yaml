@@ -1,0 +1,13 @@
+id: bonus-nuovi-nati
+titolo: Bonus nuovi nati
+tipo: diritto
+descrizione: >
+  Per ogni figlio nato o adottato puoi chiedere all'INPS un bonus una tantum, se l'ISEE del bambino
+  rientra nel limite. La domanda va fatta entro un termine dalla nascita: dopo il diritto si perde.
+ente: INPS
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – Bonus nuovi nati
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.bonus-nuovi-nati.html
+verificato_il: null
+maturita: bozza

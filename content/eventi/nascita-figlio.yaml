@@ -1,0 +1,14 @@
+id: nascita-figlio
+titolo: Nascita di un figlio
+categoria: famiglia
+descrizione: Cosa chiedere già in gravidanza, cosa dichiarare alla nascita e cosa fare nei primi mesi.
+fasi:
+  prima:
+    - congedi-genitoriali
+    - isee
+    - assegno-unico
+  durante:
+    - dichiarazione-nascita
+  dopo:
+    - scelta-medico
+    - bonus-nuovi-nati

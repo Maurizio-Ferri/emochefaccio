@@ -1,0 +1,16 @@
+id: scelta-medico
+titolo: Scegliere il medico di base o il pediatra
+tipo: diritto
+descrizione: >
+  Ogni iscritto al Servizio sanitario nazionale sceglie un medico di base, o un pediatra per i bambini,
+  tra quelli della ASL della zona in cui vive, e può cambiarlo quando vuole. Se ti trasferisci in un'altra
+  zona devi sceglierne uno nuovo. Come si fa, anche online, dipende dalla Regione.
+ente: ASL
+livello_territoriale: regionale
+fonti:
+  - titolo: Normattiva – Legge 833/1978, art. 25
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-12-23;833~art25
+  - titolo: Agenzia delle Entrate – La tessera sanitaria per i neonati
+    url: https://www.agenziaentrate.gov.it/portale/la-tessera-sanitaria-per-i-neonati
+verificato_il: null
+maturita: bozza

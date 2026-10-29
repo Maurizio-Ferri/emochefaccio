@@ -1,0 +1,12 @@
+id: perdere-lavoro
+titolo: Perdere il lavoro
+categoria: lavoro
+descrizione: Cosa ti spetta se il rapporto finisce senza che tu l'abbia scelto, e cosa devi fare per non perderlo.
+fasi:
+  durante:
+    - tfr-fine-rapporto
+    - naspi
+  dopo:
+    - patto-servizio-centro-impiego
+    - isee
+    - piu-certificazioni-uniche

@@ -1,0 +1,18 @@
+id: congedi-genitoriali
+titolo: Congedi di maternità, paternità e parentale
+tipo: diritto
+descrizione: >
+  Se sei dipendente, la madre ha un congedo di maternità obbligatorio e il padre un congedo di paternità
+  obbligatorio, da comunicare al datore di lavoro. Poi entrambi possono usare il congedo parentale facoltativo,
+  chiedendolo all'INPS prima di iniziare. Le regole sono diverse per autonomi e dipendenti pubblici.
+ente: INPS
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – Indennità per congedo di maternità
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50586.indennit-per-congedo-di-maternit-e-di-paternit-alternativo-per-lavoratrici-e-lavoratori-dipendenti.html
+  - titolo: INPS – Congedo di paternità obbligatorio
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.congedo-di-paternit-obbligatorio-58988.congedo-di-paternit-obbligatorio.html
+  - titolo: INPS – Congedo parentale per lavoratori dipendenti
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50583.indennit-di-congedo-parentale-per-lavoratrici-e-lavoratori-dipendenti.html
+verificato_il: null
+maturita: bozza

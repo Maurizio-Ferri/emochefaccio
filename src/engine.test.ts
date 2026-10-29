@@ -94,4 +94,26 @@ describe("eventi", () => {
     expect(Object.keys(fasi)).toEqual(["prima", "durante", "dopo"]);
     expect(ids(fasi.dopo!)).toContain("tributo-rifiuti");
   });
+
+  it("ogni evento risolve tutte le sue voci, senza doppioni tra le fasi", () => {
+    for (const evento of catalogo.eventi) {
+      const tutte = Object.values(vociEvento(catalogo, evento, { risposte: {} })).flat();
+      expect(tutte.every((v) => v?.id)).toBe(true);
+      expect(new Set(ids(tutte)).size).toBe(tutte.length);
+    }
+  });
+
+  it("comprare casa applica gli override in un comune mappato e avvisa in uno non mappato", () => {
+    const evento = catalogo.eventi.find((e) => e.id === "comprare-casa")!;
+    const rifiuti = (profilo: { regione?: string; comune?: string }) =>
+      vociEvento(catalogo, evento, { risposte: {}, ...profilo }).dopo!.find((v) => v.id === "tributo-rifiuti")!;
+
+    const mappato = rifiuti({ regione: "emilia-romagna", comune: "reggio-emilia" });
+    expect(mappato.ente).toMatch(/Iren/);
+    expect(mappato.dettaglio_locale_mancante).toBe(false);
+
+    const nonMappato = rifiuti({ regione: "emilia-romagna" });
+    expect(nonMappato.note_locali).toEqual([]);
+    expect(nonMappato.dettaglio_locale_mancante).toBe(true);
+  });
 });

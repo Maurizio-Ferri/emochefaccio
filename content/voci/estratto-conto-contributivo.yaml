@@ -1,0 +1,14 @@
+id: estratto-conto-contributivo
+titolo: Controllare i tuoi contributi INPS
+tipo: diritto
+descrizione: >
+  Con SPID, CIE o CNS puoi vedere sul sito INPS l'estratto conto con i contributi versati per te.
+  Se manca qualcosa puoi segnalarlo online: conviene controllare ogni tanto, non solo vicino alla pensione.
+ente: INPS
+livello_territoriale: nazionale
+quando: [lavoratore_dipendente]
+fonti:
+  - titolo: INPS – Consultazione estratto conto contributivo
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-estratto-conto-contributivo-previdenziale-50119.consultazione-estratto-conto-contributivo-previdenziale.html
+verificato_il: null
+maturita: bozza

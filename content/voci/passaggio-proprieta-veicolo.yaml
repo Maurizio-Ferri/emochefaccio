@@ -1,0 +1,19 @@
+id: passaggio-proprieta-veicolo
+titolo: Intestare a te il veicolo che compri
+tipo: dovere
+descrizione: >
+  Se compri un veicolo usato devi chiedere il Documento Unico a tuo nome entro un termine dall'autentica
+  della firma del venditore, presso uno sportello STA (ACI-PRA, Motorizzazione o agenzia di pratiche auto).
+  Senza trascrizione rischi sanzioni e il ritiro del documento. Per un veicolo nuovo di solito
+  se ne occupa il concessionario.
+ente: ACI (PRA) e Motorizzazione civile
+livello_territoriale: nazionale
+fonti:
+  - titolo: ACI – Passaggio di proprietà, informazioni utili
+    url: https://aci.gov.it/pratica-auto/passaggio-di-proprieta-informazioni-utili/
+  - titolo: ACI – Passaggio di proprietà, mancata trascrizione
+    url: https://aci.gov.it/pratica-auto/passaggio-di-proprieta-mancata-trascrizione/
+  - titolo: ACI – Acquisto veicolo nuovo, cosa fare
+    url: https://aci.gov.it/pratica-auto/acquisto-veicolo-nuovo-cosa-fare/
+verificato_il: null
+maturita: bozza
