@@ -1,0 +1,7 @@
+id: lavoro-occasionale
+titolo: Fare un lavoro occasionale
+categoria: lavoro
+descrizione: Quando non serve la partita IVA e cosa devi comunque dichiarare.
+fasi:
+  durante:
+    - prestazione-occasionale

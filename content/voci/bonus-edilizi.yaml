@@ -1,0 +1,19 @@
+id: bonus-edilizi
+titolo: Detrazioni per ristrutturazione e risparmio energetico
+tipo: diritto
+descrizione: >
+  Per i lavori di ristrutturazione, risparmio energetico e antisismici puoi detrarre parte della spesa
+  dalle tasse, di più se si tratta dell'abitazione principale. Devi pagare con un bonifico apposito,
+  che riporti causale e codici fiscali, e conservare fatture e titoli edilizi; per il risparmio energetico
+  serve anche la comunicazione all'ENEA.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Ristrutturazioni edilizie, che cos'è
+    url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/detrristredil36/schinfodetrristredil36
+  - titolo: Agenzia delle Entrate – Ristrutturazioni edilizie, come e quando
+    url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/detrristredil36/comequando-detrristredil36
+  - titolo: Agenzia delle Entrate – Riqualificazione energetica (ecobonus)
+    url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/detrazione-riqualificazione-energetica-55-2016/cosa-riqualificazione-55-2016-cittadini
+verificato_il: null
+maturita: bozza

@@ -1,0 +1,17 @@
+id: apertura-partita-iva
+titolo: Aprire la partita IVA
+tipo: dovere
+descrizione: >
+  Se inizi a lavorare in proprio in modo abituale devi aprire la partita IVA entro un termine dall'inizio.
+  I professionisti presentano il modello AA9/12 all'Agenzia delle Entrate, anche online e gratis con SPID o CIE.
+  Chi avvia un'impresa, ad esempio artigiani e commercianti, la chiede con la Comunicazione Unica
+  alla Camera di Commercio.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Come aprire una Partita Iva
+    url: https://www.agenziaentrate.gov.it/portale/schede/istanze/aa9_11-apertura-variazione-chiusura-pf/quando-utilizzare-professionisti
+  - titolo: Agenzia delle Entrate – Partita Iva persone fisiche, imprese
+    url: https://www.agenziaentrate.gov.it/portale/schede/istanze/aa9_11-apertura-variazione-chiusura-pf/scheda-informativa-aa9_11-imprese
+verificato_il: null
+maturita: bozza

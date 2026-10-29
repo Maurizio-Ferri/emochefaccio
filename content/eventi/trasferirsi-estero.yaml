@@ -1,0 +1,7 @@
+id: trasferirsi-estero
+titolo: Trasferirsi all'estero
+categoria: mobilita
+descrizione: Cosa comunicare quando vai a vivere fuori dall'Italia.
+fasi:
+  dopo:
+    - iscrizione-aire

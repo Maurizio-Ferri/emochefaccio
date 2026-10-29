@@ -147,6 +147,12 @@ function renderSituazione(): void {
         h("h2", {}, "Cosa ti riguarda"),
         elencoVoci("Devi", "Obblighi: se non li rispetti rischi sanzioni.", s.devi, "doveri"),
         elencoVoci("Puoi", "Diritti e agevolazioni: se non li chiedi, li perdi.", s.puoi, "diritti"),
+        s.strumenti.length > 0 &&
+          h("details", { class: "gruppo strumenti" },
+            h("summary", {}, h("h3", {}, `Strumenti di base (${s.strumenti.length})`)),
+            h("p", { class: "spiegazione" }, "Valgono per tutti: servono per fare quasi tutto il resto online."),
+            h("ul", { class: "voci" }, ...s.strumenti.map(schedaVoce)),
+          ),
       ),
     ),
   );

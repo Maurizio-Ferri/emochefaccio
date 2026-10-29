@@ -1,0 +1,7 @@
+id: rottamare-veicolo
+titolo: Rottamare un'auto o una moto
+categoria: mobilita
+descrizione: A chi consegnarla e come smettere di pagare il bollo.
+fasi:
+  durante:
+    - demolizione-veicolo

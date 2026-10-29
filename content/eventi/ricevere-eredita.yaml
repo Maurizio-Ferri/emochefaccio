@@ -1,0 +1,10 @@
+id: ricevere-eredita
+titolo: Ricevere un'eredità
+categoria: patrimonio
+descrizione: Cosa dichiarare quando erediti beni e cosa cambia se tra questi ci sono immobili.
+fasi:
+  durante:
+    - dichiarazione-successione
+  dopo:
+    - imu-altri-immobili
+    - redditi-immobili-dichiarazione

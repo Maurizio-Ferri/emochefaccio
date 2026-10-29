@@ -1,0 +1,9 @@
+id: vendere-casa
+titolo: Vendere casa
+categoria: casa
+descrizione: Quando il guadagno si tassa e come non perdere le agevolazioni prima casa.
+fasi:
+  durante:
+    - plusvalenza-vendita-immobile
+  dopo:
+    - credito-imposta-riacquisto-prima-casa

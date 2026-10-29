@@ -1,0 +1,7 @@
+id: chiudere-partita-iva
+titolo: Chiudere una partita IVA
+categoria: lavoro
+descrizione: Come comunicare la fine dell'attività.
+fasi:
+  durante:
+    - chiusura-partita-iva

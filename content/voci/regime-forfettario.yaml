@@ -1,0 +1,15 @@
+id: regime-forfettario
+titolo: Regime forfettario
+tipo: diritto
+descrizione: >
+  Se rispetti i requisiti puoi usare il regime forfettario: paghi un'unica imposta al posto di IRPEF
+  e addizionali, non addebiti l'IVA in fattura e non devi tenere la contabilità. Per le nuove attività
+  l'imposta è ridotta nei primi anni. Alcune situazioni, ad esempio lavorare soprattutto per l'ex datore
+  di lavoro, lo escludono.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Regime forfetario, che cos'è
+    url: https://www.agenziaentrate.gov.it/portale/regime-forfetario-le-regole-2020-/infogen-regime-forfetario-le-regole-2020-professionisti
+verificato_il: null
+maturita: bozza

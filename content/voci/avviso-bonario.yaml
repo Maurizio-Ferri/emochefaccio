@@ -1,0 +1,16 @@
+id: avviso-bonario
+titolo: Comunicazione di irregolarità (avviso bonario)
+tipo: diritto
+descrizione: >
+  Se dal controllo della tua dichiarazione risulta qualcosa da pagare, l'Agenzia delle Entrate ti manda
+  una comunicazione di irregolarità. Puoi pagare con una sanzione ridotta entro un termine, anche a rate,
+  oppure segnalare che è sbagliata con CIVIS o in ufficio. Se non fai nulla arriva la cartella.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Cosa fare se si riceve una comunicazione di irregolarità
+    url: https://www.agenziaentrate.gov.it/portale/schede/accertamenti/comunicazione-irregolarita/cosa_fare_se
+  - titolo: Agenzia delle Entrate – Comunicazioni di irregolarità, che cos'è
+    url: https://www.agenziaentrate.gov.it/portale/schede/accertamenti/comunicazione-irregolarita/scheda-info-comunicazione-irregolarita
+verificato_il: null
+maturita: bozza

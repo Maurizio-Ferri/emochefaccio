@@ -47,6 +47,8 @@ export function risolviVoce(voce: Voce, catalogo: Catalogo, profilo: Profilo): V
 export interface Situazione {
   devi: VoceRisolta[];
   puoi: VoceRisolta[];
+  /** diritti che valgono per tutti (`quando: []`): strumenti di base come SPID o ISEE */
+  strumenti: VoceRisolta[];
 }
 
 /** Voci attive per il profilo: quelle con `quando` i cui flag sono tutti veri. */
@@ -55,9 +57,11 @@ export function situazione(catalogo: Catalogo, profilo: Profilo): Situazione {
   const voci = catalogo.voci
     .filter((v) => v.quando !== undefined && v.quando.every((f) => attivi.has(f)))
     .map((v) => risolviVoce(v, catalogo, profilo));
+  const perTutti = (v: VoceRisolta) => v.quando!.length === 0;
   return {
     devi: voci.filter((v) => v.tipo === "dovere"),
-    puoi: voci.filter((v) => v.tipo === "diritto"),
+    puoi: voci.filter((v) => v.tipo === "diritto" && !perTutti(v)),
+    strumenti: voci.filter((v) => v.tipo === "diritto" && perTutti(v)),
   };
 }
 

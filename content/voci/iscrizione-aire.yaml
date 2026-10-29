@@ -1,0 +1,18 @@
+id: iscrizione-aire
+titolo: Iscriversi all'AIRE se vai a vivere all'estero
+tipo: dovere
+descrizione: >
+  Se ti trasferisci all'estero per più di un anno devi iscriverti all'AIRE, l'anagrafe degli italiani
+  residenti all'estero, tramite il consolato, anche online con Fast It. Se non lo fai il Comune può darti
+  una sanzione. L'iscrizione non basta da sola a cambiare la residenza fiscale: conta anche dove vivi davvero.
+ente: Consolato (Ministero degli Esteri) e Comune
+livello_territoriale: nazionale
+fonti:
+  - titolo: Ambasciata d'Italia a Berlino – Iscrizione all'AIRE
+    url: https://ambberlino.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-italiano/anagrafe-degli-italiani-residenti-allestero-aire/
+  - titolo: Consolato Generale a Parigi – Come iscriversi all'AIRE con Fast It
+    url: https://consparigi.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-italiano/anagrafe-degli-italiani-residenti-allestero-aire/come-iscriversi-allaire-fast-it/
+  - titolo: Agenzia delle Entrate – Comunicato sulla residenza fiscale (circolare 20/E del 2024)
+    url: https://www.agenziaentrate.gov.it/portale/cs-4-novembre-2024
+verificato_il: null
+maturita: bozza

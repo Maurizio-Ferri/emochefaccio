@@ -1,0 +1,18 @@
+id: multe-pagamento-ricorso
+titolo: Multa stradale, pagare o fare ricorso
+tipo: diritto
+descrizione: >
+  Se paghi la multa entro un termine paghi un importo ridotto, ancora più basso se paghi subito.
+  Se pensi che sia sbagliata puoi fare ricorso al Prefetto o al giudice, ma solo se non hai pagato.
+  Se l'auto è tua ma non guidavi devi comunicare chi era al volante, altrimenti scatta un'altra sanzione.
+ente: Organo che ha fatto la multa (Codice della strada)
+livello_territoriale: nazionale
+fonti:
+  - titolo: Normattiva – Codice della strada, art. 202 (pagamento in misura ridotta)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art202
+  - titolo: Normattiva – Codice della strada, art. 203 (ricorso al prefetto)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art203
+  - titolo: Normattiva – Codice della strada, art. 126-bis (patente a punti)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art126bis
+verificato_il: null
+maturita: bozza

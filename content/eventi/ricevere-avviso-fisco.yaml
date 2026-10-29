@@ -1,0 +1,9 @@
+id: ricevere-avviso-fisco
+titolo: Ricevere un avviso o una cartella dal fisco
+categoria: fisco
+descrizione: Cosa puoi fare quando ti chiedono di pagare imposte arretrate, prima che la cosa si complichi.
+fasi:
+  durante:
+    - avviso-bonario
+  dopo:
+    - cartella-rateizzazione

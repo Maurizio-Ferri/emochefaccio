@@ -1,0 +1,10 @@
+id: andare-a-convivere
+titolo: Andare a convivere
+categoria: famiglia
+descrizione: Cosa dichiarare al Comune quando vai a vivere con il partner e quali diritti ti dà.
+fasi:
+  durante:
+    - residenza-anagrafica
+    - convivenza-di-fatto
+  dopo:
+    - tributo-rifiuti

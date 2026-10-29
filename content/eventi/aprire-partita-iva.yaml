@@ -1,0 +1,13 @@
+id: aprire-partita-iva
+titolo: Aprire una partita IVA
+categoria: lavoro
+descrizione: Che regime scegliere, come aprirla, a chi versare i contributi e come fatturare.
+fasi:
+  prima:
+    - regime-forfettario
+  durante:
+    - apertura-partita-iva
+    - contributi-inps-autonomi
+  dopo:
+    - fatturazione-elettronica
+    - dichiarazione-redditi

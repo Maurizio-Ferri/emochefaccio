@@ -1,0 +1,18 @@
+id: fatturazione-elettronica
+titolo: Fattura elettronica
+tipo: dovere
+descrizione: >
+  Con la partita IVA, anche nel regime forfettario, le fatture vanno emesse in formato elettronico
+  tramite il Sistema di Interscambio. L'Agenzia delle Entrate offre gratis gli strumenti per prepararle,
+  inviarle e conservarle. Fanno eccezione le prestazioni sanitarie ai privati.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Soggetti obbligati alla fattura elettronica ed esonerati
+    url: https://www.agenziaentrate.gov.it/portale/aree-tematiche/fatturazione-elettronica/guida-fatturazione-elettronica/la-fattura-elettronica/chi-e-esonerato-fe
+  - titolo: Agenzia delle Entrate – Fattura elettronica per i forfettari
+    url: https://www.agenziaentrate.gov.it/portale/fattura-elettronica-per-i-forfettari
+  - titolo: Agenzia delle Entrate – Servizi gratuiti per le fatture elettroniche
+    url: https://www.agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica/fatturazione-elettronica-site-area/servizi-consultazione-e-conservaz-fatture-elettroniche
+verificato_il: null
+maturita: bozza

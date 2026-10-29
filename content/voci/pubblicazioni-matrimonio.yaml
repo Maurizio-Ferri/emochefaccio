@@ -1,0 +1,18 @@
+id: pubblicazioni-matrimonio
+titolo: Pubblicazioni di matrimonio e richiesta di unione civile
+tipo: dovere
+descrizione: >
+  Prima del matrimonio, civile o religioso con effetti civili, il Comune deve fare le pubblicazioni.
+  Le coppie dello stesso sesso costituiscono l'unione civile con una richiesta allo stato civile e poi
+  una dichiarazione davanti all'ufficiale. Se non scegliete diversamente, il regime è la comunione dei beni.
+ente: Comune (stato civile)
+livello_territoriale: nazionale
+fonti:
+  - titolo: Normattiva – Codice civile, art. 93 (pubblicazione)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art93
+  - titolo: Normattiva – DPR 396/2000, art. 70-bis (richiesta di unione civile)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:2000-11-03;396~art70bis
+  - titolo: Normattiva – Codice civile, art. 159 (regime patrimoniale legale)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art159
+verificato_il: null
+maturita: bozza

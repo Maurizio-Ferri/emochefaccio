@@ -1,0 +1,12 @@
+id: affittare-casa
+titolo: Dare in affitto una casa
+categoria: casa
+descrizione: Come scegliere la tassazione, registrare il contratto e dichiarare l'affitto.
+fasi:
+  prima:
+    - cedolare-secca
+  durante:
+    - registrazione-contratto-affitto
+  dopo:
+    - redditi-immobili-dichiarazione
+    - imu-altri-immobili

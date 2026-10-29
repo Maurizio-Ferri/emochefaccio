@@ -1,0 +1,10 @@
+id: lutto-in-famiglia
+titolo: Un lutto in famiglia
+categoria: lutto
+descrizione: Le pratiche da fare dopo la morte di un familiare e cosa può spettarti.
+fasi:
+  durante:
+    - dichiarazione-morte
+  dopo:
+    - dichiarazione-successione
+    - pensione-reversibilita

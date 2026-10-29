@@ -23,8 +23,16 @@ describe("la mia situazione", () => {
     const s = situazione(catalogo, { risposte: {} });
     const perTutti = catalogo.voci.filter((v) => v.quando?.length === 0);
     expect(ids(s.devi)).toEqual([]);
-    expect(ids(s.puoi)).toEqual(ids(perTutti));
-    expect(ids(s.puoi)).toEqual(expect.arrayContaining(["identita-digitale", "isee", "app-io"]));
+    expect(ids(s.puoi)).toEqual([]);
+    expect(ids(s.strumenti)).toEqual(ids(perTutti));
+    expect(ids(s.strumenti)).toEqual(expect.arrayContaining(["identita-digitale", "isee", "app-io"]));
+  });
+
+  it("gli strumenti per tutti restano separati dai diritti legati alle risposte", () => {
+    const s = situazione(catalogo, { risposte: { occupa_immobile: true, in_affitto: true } });
+    expect(ids(s.puoi)).toContain("detrazioni-inquilini");
+    expect(ids(s.puoi)).not.toContain("identita-digitale");
+    expect(ids(s.strumenti)).toContain("identita-digitale");
   });
 
   it("la patente si rinnova anche senza un veicolo intestato", () => {

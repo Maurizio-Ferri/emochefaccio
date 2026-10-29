@@ -1,0 +1,18 @@
+id: contributi-inps-autonomi
+titolo: Contributi previdenziali per chi lavora in proprio
+tipo: dovere
+descrizione: >
+  Con la partita IVA devi versare i contributi per la pensione. I professionisti senza una cassa propria
+  si iscrivono online alla Gestione separata INPS; artigiani e commercianti si iscrivono alla loro gestione
+  INPS con la Comunicazione Unica. I professionisti con albo e cassa versano alla propria cassa.
+ente: INPS o cassa professionale
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – Iscrizione liberi professionisti (Gestione separata)
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.iscrizione-liberi-professionisti-50169.iscrizione-liberi-professionisti.html
+  - titolo: INPS – Iscrizione Gestione Commercianti
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50172.iscrizione-gestione-commercianti.html
+  - titolo: INPS – Iscrizione Gestione Artigiani
+    url: https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.iscrizione-gestione-artigiani.html
+verificato_il: null
+maturita: bozza

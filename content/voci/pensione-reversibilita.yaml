@@ -1,0 +1,14 @@
+id: pensione-reversibilita
+titolo: Pensione ai superstiti (reversibilità)
+tipo: diritto
+descrizione: >
+  Quando muore un pensionato, o un lavoratore con abbastanza contributi, il coniuge o l'unito civilmente
+  e i figli a carico possono chiedere all'INPS la pensione ai superstiti; in mancanza, a certe condizioni,
+  anche genitori o fratelli. La domanda si fa online o tramite patronato.
+ente: INPS
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – Pensione ai superstiti indiretta e di reversibilità
+    url: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-ai-superstiti-indiretta-e-di-reversibilit--50605.pensione-ai-superstiti-indiretta-e-di-reversibilit-.html
+verificato_il: null
+maturita: bozza

@@ -1,0 +1,17 @@
+id: prestazione-occasionale
+titolo: Lavoro autonomo occasionale
+tipo: dovere
+descrizione: >
+  Se lavori in proprio solo ogni tanto, senza abitualità, puoi farlo senza partita IVA: rilasci una ricevuta
+  e, se il committente è un'impresa o un professionista, ti trattiene una ritenuta. Il compenso va dichiarato
+  nella dichiarazione dei redditi. Oltre una certa cifra all'anno devi iscriverti alla Gestione separata INPS
+  e avvisare i committenti.
+ente: Agenzia delle Entrate / INPS
+livello_territoriale: nazionale
+fonti:
+  - titolo: INPS – I contributi dei lavoratori autonomi occasionali
+    url: https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49893.i-contributi-dei-lavoratori-autonomi-occasionali.html
+  - titolo: Agenzia delle Entrate – Dichiarazione precompilata, quadro D altri redditi
+    url: https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-d-altri-redditi
+verificato_il: null
+maturita: bozza

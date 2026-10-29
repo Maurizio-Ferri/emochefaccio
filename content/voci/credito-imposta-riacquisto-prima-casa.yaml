@@ -1,0 +1,16 @@
+id: credito-imposta-riacquisto-prima-casa
+titolo: Vendere la prima casa senza perdere le agevolazioni
+tipo: diritto
+descrizione: >
+  Se vendi la casa comprata con le agevolazioni prima casa e ne ricompri un'altra entro un termine,
+  hai un credito d'imposta pari a quanto pagato sul primo acquisto. Se invece la vendi troppo presto
+  senza ricomprare, perdi le agevolazioni e devi restituire la differenza.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Guida all'acquisto della casa
+    url: https://www.agenziaentrate.gov.it/portale/l-acquisto-con-i-benefici-prima-casa
+  - titolo: Agenzia delle Entrate – Prima casa, quando si decade dall'agevolazione
+    url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/scheda-acquisto-prima-casa/acquisto-prima-casa-quando-si-decade-cittadini
+verificato_il: null
+maturita: bozza

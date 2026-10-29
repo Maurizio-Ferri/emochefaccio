@@ -1,0 +1,17 @@
+id: cedolare-secca
+titolo: Cedolare secca sugli affitti
+tipo: diritto
+descrizione: >
+  Se affitti una casa come privato puoi scegliere la cedolare secca: paghi un'imposta fissa al posto
+  di IRPEF e addizionali, e sul contratto non paghi imposta di registro e bollo. In cambio rinunci
+  ad aumentare il canone, anche per l'inflazione. Oggi la legge chiede di avvisare prima l'inquilino
+  con raccomandata.
+ente: Agenzia delle Entrate
+livello_territoriale: nazionale
+fonti:
+  - titolo: Agenzia delle Entrate – Cedolare secca, scheda informativa
+    url: https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/cedolare-secca/scheda-informativa-cedolare-secca-cittadini
+  - titolo: Normattiva – D.Lgs. 23/2011, art. 3
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art3
+verificato_il: null
+maturita: bozza

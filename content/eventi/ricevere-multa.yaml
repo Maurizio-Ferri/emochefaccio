@@ -1,0 +1,7 @@
+id: ricevere-multa
+titolo: Ricevere una multa stradale
+categoria: fisco
+descrizione: Pagare con lo sconto, fare ricorso o comunicare chi guidava.
+fasi:
+  durante:
+    - multe-pagamento-ricorso

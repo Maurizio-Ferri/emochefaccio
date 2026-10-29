@@ -1,0 +1,14 @@
+id: dichiarazione-morte
+titolo: Dichiarare il decesso
+tipo: dovere
+descrizione: >
+  La morte va dichiarata entro breve allo stato civile del Comune in cui è avvenuta, da un familiare,
+  un convivente o una persona da loro delegata. Se il decesso avviene in ospedale o in una struttura,
+  è la struttura a mandare l'avviso al Comune.
+ente: Comune (stato civile)
+livello_territoriale: nazionale
+fonti:
+  - titolo: Normattiva – DPR 396/2000, art. 72 (dichiarazione di morte)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:2000-11-03;396~art72
+verificato_il: null
+maturita: bozza

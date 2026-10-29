@@ -1,0 +1,9 @@
+id: ristrutturare-casa
+titolo: Ristrutturare casa
+categoria: casa
+descrizione: Le pratiche da fare al Comune e come non perdere le detrazioni.
+fasi:
+  prima:
+    - titoli-edilizi-comunali
+  durante:
+    - bonus-edilizi

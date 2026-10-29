@@ -1,0 +1,16 @@
+id: demolizione-veicolo
+titolo: Rottamare un veicolo
+tipo: dovere
+descrizione: >
+  Per rottamare un veicolo devi consegnarlo a un centro di raccolta autorizzato o a un concessionario,
+  che ti dà il certificato di rottamazione: conservalo. Dopo la cancellazione dal PRA non paghi più il bollo.
+  Se sul veicolo c'è un fermo amministrativo servono documenti in più.
+ente: ACI (PRA)
+livello_territoriale: nazionale
+fonti:
+  - titolo: ACI – Demolizione di un veicolo, consegna a un demolitore autorizzato
+    url: https://aci.gov.it/approfondimento/demolizione-di-un-veicolo-consegna-di-un-veicolo-ad-un-demolitore-autorizzato/
+  - titolo: ACI – Demolizione di un veicolo con fermo amministrativo
+    url: https://aci.gov.it/pratica-auto/demolizione-di-un-veicolo-fermo-amministrativo/
+verificato_il: null
+maturita: bozza
