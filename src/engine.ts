@@ -85,6 +85,22 @@ export function comuniDellaRegione(catalogo: Catalogo, regione?: string): FileLo
   return catalogo.locale.comuni.filter((c) => c.regione === regione);
 }
 
+const normalizza = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+/**
+ * Eventi che contengono tutte le parole cercate, senza badare ad accenti e maiuscole.
+ * Si cerca nel titolo, nella descrizione, nella categoria e nei titoli delle voci dell'evento.
+ */
+export function cercaEventi(catalogo: Catalogo, testo: string, etichetteCategoria: Record<string, string> = {}): Evento[] {
+  const parole = normalizza(testo).split(/\s+/).filter(Boolean);
+  if (!parole.length) return catalogo.eventi;
+  return catalogo.eventi.filter((e) => {
+    const voci = vociDellEvento(catalogo, e).map((v) => v.titolo);
+    const dove = normalizza([e.titolo, e.descrizione, etichetteCategoria[e.categoria] ?? e.categoria, ...voci].join(" "));
+    return parole.every((p) => dove.includes(p));
+  });
+}
+
 /** Il comune del profilo nell'elenco ufficiale, se c'è. */
 export function comuneDelProfilo(elenco: ElencoComuni, profilo: Profilo): ComuneElenco | undefined {
   if (!profilo.regione || !profilo.comune) return undefined;

@@ -3,7 +3,7 @@ import catalogoJson from "./generated/catalogo.json";
 import comuniJson from "./generated/comuni.json";
 import type { Catalogo, ElencoComuni, Evento, Voce } from "./types";
 import {
-  aggiungi, calendarioIcs, comuneDelProfilo, dateRichieste, descriviScadenza, domandeVisibili, flagAttivi,
+  aggiungi, calendarioIcs, cercaEventi, comuneDelProfilo, dateRichieste, descriviScadenza, domandeVisibili, flagAttivi,
   scadenzeEvento, scadenzeVisibili, situazione, vociEvento,
 } from "./engine";
 
@@ -129,6 +129,16 @@ describe("elenco dei comuni", () => {
 });
 
 describe("eventi", () => {
+  it("la ricerca ignora accenti e maiuscole e guarda anche le voci dell'evento", () => {
+    expect(cercaEventi(catalogo, "")).toHaveLength(catalogo.eventi.length);
+    expect(cercaEventi(catalogo, "  ")).toHaveLength(catalogo.eventi.length);
+    const mutuo = cercaEventi(catalogo, "MUTUO").map((e) => e.id);
+    expect(mutuo).toEqual(expect.arrayContaining(["comprare-casa", "accendere-mutuo"]));
+    expect(cercaEventi(catalogo, "mobilità", { mobilita: "Mobilità" }).map((e) => e.id)).toContain("comprare-auto");
+    expect(cercaEventi(catalogo, "casa mutuo").every((e) => mutuo.includes(e.id))).toBe(true);
+    expect(cercaEventi(catalogo, "parolachenonesiste")).toEqual([]);
+  });
+
   it("comprare casa ha tutte e tre le fasi", () => {
     const evento = catalogo.eventi.find((e) => e.id === "comprare-casa")!;
     const fasi = vociEvento(catalogo, evento, { risposte: {} });

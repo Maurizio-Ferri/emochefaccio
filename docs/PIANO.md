@@ -400,7 +400,7 @@ Tempo disponibile: **~4 ore a settimana**, budget zero.
 
 ## 14. Decisioni aperte
 
-- [x] Framework front-end: Vite + TypeScript senza framework UI
+- [x] Framework front-end: Vite + TypeScript senza framework UI, stili con Tailwind CSS 4 (mobile first), font servito dal sito e non da Google Fonts
 - [x] Nome: "E mo' che faccio?" (repo `emochefaccio`)
 - [ ] Dominio proprio (per ora `maurizio-ferri.github.io/emochefaccio`)
 - [x] Conferma dei tre eventi di livello 2: comprare casa, nascita di un figlio, cambio lavoro
