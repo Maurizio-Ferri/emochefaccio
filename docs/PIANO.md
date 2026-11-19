@@ -142,7 +142,7 @@ override:
 
 ### Pattern "obbligo nazionale + override locale"
 
-Una voce generica vale ovunque ("se occupi un immobile devi dichiararlo e pagare il prelievo sui rifiuti"). Se il comune dell'utente è mappato, l'override aggiunge ente, modalità e scadenze locali. Altrimenti l'utente vede la voce generica con l'invito a verificare sul sito del proprio comune. Lo stesso pattern vale per bollo auto (regionale), IMU, addizionali IRPEF, TARI.
+Una voce generica vale ovunque ("se occupi un immobile devi dichiararlo e pagare il prelievo sui rifiuti"). Se il comune dell'utente è mappato, l'override aggiunge ente, modalità e scadenze locali. Altrimenti l'utente vede la voce generica con l'invito a verificare sul sito del proprio comune. Lo stesso pattern vale per bollo auto (regionale), IMU, TARI.
 
 ## 7. Modalità d'uso
 
@@ -205,7 +205,6 @@ Temi da trasformare in voci di livello 1. Le singole voci elencate sono **spunti
 - Certificazione Unica dal datore di lavoro
 - Dichiarazione precompilata / modello 730
 - Spese detraibili e deducibili da conservare
-- Addizionali regionali e comunali
 
 **Possiedo un'auto o una moto**
 - Bollo (regionale)
